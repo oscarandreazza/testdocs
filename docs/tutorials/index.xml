@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Tutorials</title>
-    <link>http://docs.devritchiecli.io/tutorials/</link>
+    <link>https://oscarandreazza.github.io/testdocs/tutorials/</link>
     <description>Recent content in Tutorials on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Tutorials: What are these tutorials?</title>
-      <link>http://docs.devritchiecli.io/tutorials/what-are-these-tutorials/</link>
+      <link>https://oscarandreazza.github.io/testdocs/tutorials/what-are-these-tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/tutorials/what-are-these-tutorials/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/tutorials/what-are-these-tutorials/</guid>
       <description>
         
         
@@ -26,26 +26,26 @@
 &lt;h3 id=&#34;prerequisites&#34;&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;To perform the tutorials here, you will need to know more about the following concepts:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/run-formula/&#34;&gt;&lt;strong&gt;How to run formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/create-formulas/&#34;&gt;&lt;strong&gt;How to create formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/build-formulas/&#34;&gt;&lt;strong&gt;How to build formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/group-formulas/&#34;&gt;&lt;strong&gt;How to group formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/run-formula/&#34;&gt;&lt;strong&gt;How to run formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/create-formulas/&#34;&gt;&lt;strong&gt;How to create formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/build-formulas/&#34;&gt;&lt;strong&gt;How to build formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/group-formulas/&#34;&gt;&lt;strong&gt;How to group formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 1:&lt;/strong&gt; Basic level: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/manipulate-inputs/&#34;&gt;&lt;strong&gt;How to manipulate basic inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 2:&lt;/strong&gt; Basic level 2: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/use-github-credentials/&#34;&gt;&lt;strong&gt;How to manipulate GitHub credentials inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 3:&lt;/strong&gt; Intermediate: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/conditional-inputs/&#34;&gt;&lt;strong&gt;How to manipulate conditional inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 4:&lt;/strong&gt; Advanced: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/group-a-formula/&#34;&gt;&lt;strong&gt;How to apply the formula aggregation concept?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 1:&lt;/strong&gt; Basic level: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/tutorials/manipulate-inputs/&#34;&gt;&lt;strong&gt;How to manipulate basic inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 2:&lt;/strong&gt; Basic level 2: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/tutorials/use-github-credentials/&#34;&gt;&lt;strong&gt;How to manipulate GitHub credentials inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 3:&lt;/strong&gt; Intermediate: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/tutorials/conditional-inputs/&#34;&gt;&lt;strong&gt;How to manipulate conditional inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 4:&lt;/strong&gt; Advanced: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/tutorials/group-a-formula/&#34;&gt;&lt;strong&gt;How to apply the formula aggregation concept?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutorials: How to manipulate inputs</title>
-      <link>http://docs.devritchiecli.io/tutorials/manipulate-inputs/</link>
+      <link>https://oscarandreazza.github.io/testdocs/tutorials/manipulate-inputs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/tutorials/manipulate-inputs/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/tutorials/manipulate-inputs/</guid>
       <description>
         
         
@@ -261,22 +261,22 @@ The sum is 3
 &lt;/div&gt;
 
 &lt;h2 id=&#34;next-steps&#34;&gt;&lt;strong&gt;Next steps&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;👉 If you&amp;rsquo;ve completed this first tutorial, let&amp;rsquo;s go to the second one &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/use-github-credentials/&#34;&gt;&lt;strong&gt;How to use GitHub crendentials&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 If you&amp;rsquo;ve completed this first tutorial, let&amp;rsquo;s go to the second one &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/tutorials/use-github-credentials/&#34;&gt;&lt;strong&gt;How to use GitHub crendentials&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutorials: How to use GitHub credentials</title>
-      <link>http://docs.devritchiecli.io/tutorials/use-github-credentials/</link>
+      <link>https://oscarandreazza.github.io/testdocs/tutorials/use-github-credentials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/tutorials/use-github-credentials/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/tutorials/use-github-credentials/</guid>
       <description>
         
         
         &lt;p&gt;In this tutorial you will learn how to create a formula on Ritchie that will return a JSON with Github credentials.&lt;/p&gt;
-&lt;p&gt;The tutorial configures the inputs inside the &lt;strong&gt;config.json&lt;/strong&gt; file, but run the formula without informing them as &lt;code&gt;prompt&lt;/code&gt; or &lt;code&gt;stdin&lt;/code&gt; (they will be extracted automatically). You&amp;rsquo;ll find more information in the &lt;a href=&#34;http://docs.devritchiecli.io/formulas/configure-inputs/&#34;&gt;&lt;strong&gt;input configuration&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;The tutorial configures the inputs inside the &lt;strong&gt;config.json&lt;/strong&gt; file, but run the formula without informing them as &lt;code&gt;prompt&lt;/code&gt; or &lt;code&gt;stdin&lt;/code&gt; (they will be extracted automatically). You&amp;rsquo;ll find more information in the &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/configure-inputs/&#34;&gt;&lt;strong&gt;input configuration&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
@@ -546,23 +546,23 @@ Depending on the language, it can be necessary add some dependencies in the rela
 &lt;/div&gt;
 
 &lt;h2 id=&#34;next-steps&#34;&gt;&lt;strong&gt;Next steps&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;👉 If you&amp;rsquo;ve completed the second tutorial, go to the third &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/conditional-inputs/&#34;&gt;&lt;strong&gt;How to use conditional inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 If you&amp;rsquo;ve completed the second tutorial, go to the third &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/tutorials/conditional-inputs/&#34;&gt;&lt;strong&gt;How to use conditional inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutorials: How to use conditional inputs</title>
-      <link>http://docs.devritchiecli.io/tutorials/conditional-inputs/</link>
+      <link>https://oscarandreazza.github.io/testdocs/tutorials/conditional-inputs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/tutorials/conditional-inputs/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/tutorials/conditional-inputs/</guid>
       <description>
         
         
         &lt;p&gt;Here, the idea is to create a formula on Ritchie that will return the tool selected by the user according to its profile.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;You&amp;rsquo;ll find more information about the &lt;strong&gt;conditional field&lt;/strong&gt; on the &lt;a href=&#34;http://docs.devritchiecli.io/formulas/configure-inputs/&#34;&gt;&lt;strong&gt;config.json inputs&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll find more information about the &lt;strong&gt;conditional field&lt;/strong&gt; on the &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/configure-inputs/&#34;&gt;&lt;strong&gt;config.json inputs&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 
@@ -579,7 +579,7 @@ Command suggestion: &lt;strong&gt;&lt;code&gt;rit get tools&lt;/code&gt;&lt;/str
 &lt;li&gt;Profile tool (&lt;code&gt;RIT_TOOL&lt;/code&gt;).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The formula inputs must follow the diagram below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/ritchie-conditional-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/ritchie-conditional-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-can-you-do-that&#34;&gt;How can you do that?&lt;/h2&gt;
 
 
@@ -812,23 +812,23 @@ Ritchie will install DOCKER for him automatically.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;next-step&#34;&gt;&lt;strong&gt;Next step&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;👉 If you&amp;rsquo;ve completed the second tutorial, go to the fourth &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/group-a-formula/&#34;&gt;&lt;strong&gt;How to group formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 If you&amp;rsquo;ve completed the second tutorial, go to the fourth &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/tutorials/group-a-formula/&#34;&gt;&lt;strong&gt;How to group formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutorials: How to group a formula</title>
-      <link>http://docs.devritchiecli.io/tutorials/group-a-formula/</link>
+      <link>https://oscarandreazza.github.io/testdocs/tutorials/group-a-formula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/tutorials/group-a-formula/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/tutorials/group-a-formula/</guid>
       <description>
         
         
         &lt;p&gt;In this tutorial, the idea is to create a formula to execute another formula inside it.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;See more information on how to run formula inside other on &lt;a href=&#34;http://docs.devritchiecli.io/formulas/group-formulas/&#34;&gt;&lt;strong&gt;groups formulas&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;See more information on how to run formula inside other on &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/group-formulas/&#34;&gt;&lt;strong&gt;groups formulas&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Here, we will group at least two formulas:&lt;/p&gt;
 &lt;ul&gt;
@@ -1069,10 +1069,10 @@ The sum is 3
     
     <item>
       <title>Tutorials: How to test formulas outputs</title>
-      <link>http://docs.devritchiecli.io/tutorials/how-to-test-formulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/tutorials/how-to-test-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/tutorials/how-to-test-formulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/tutorials/how-to-test-formulas/</guid>
       <description>
         
         
@@ -1114,9 +1114,9 @@ jobs:
           expected_result: PASSED
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; After you commit and push your code, go to the &lt;strong&gt;Actions&lt;/strong&gt; tab’s repository:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/actions-tab.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/actions-tab.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;You will see the &lt;strong&gt;workflow run&lt;/strong&gt; being executed (or the result of its execution), see below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/formula-sum-numbers.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/formula-sum-numbers.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;That’s it, &lt;strong&gt;each push&lt;/strong&gt; to the repository will now trigger this workflow and you can also check if the formula is behaving correctly.&lt;/p&gt;
 &lt;p&gt;You are able to update the workflow implementation to trigger only when the formula’s root directory is updated, or to test more scenarios according to the formula&amp;rsquo;s inputs.&lt;/p&gt;
 &lt;p&gt;For more information about workflow syntax, check out &lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.0/actions/reference/workflow-syntax-for-github-actions&#34;&gt;&lt;strong&gt;Github Documentation&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;

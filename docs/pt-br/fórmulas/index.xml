@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Fórmulas</title>
-    <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/</link>
+    <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/</link>
     <description>Recent content in Fórmulas on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Fórmulas: Executar fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -31,7 +31,7 @@
 &lt;/ol&gt;
 &lt;p&gt;O &lt;strong&gt;método de execução de fórmulas padrão&lt;/strong&gt; é escolhido durante a etapa de inicialização do Ritchie com o comando &lt;strong&gt;&lt;code&gt;rit init&lt;/code&gt;&lt;/strong&gt;. Você pode alterar essa configuração executando o comando abaixo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set formula-runner
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-run-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-run-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;1-execução-local&#34;&gt;&lt;strong&gt;1. Execução local&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Para executar uma fórmula localmente, é necessário ter instalada no computador a linguagem de programação que foi usada para desenvolver a fórmula.&lt;/p&gt;
 &lt;ul&gt;
@@ -43,7 +43,7 @@
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-Para mais informações sobre como essa execução funciona na prática, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;seção fórmula hello world&lt;/strong&gt; &lt;/a&gt;.
+Para mais informações sobre como essa execução funciona na prática, veja a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;seção fórmula hello world&lt;/strong&gt; &lt;/a&gt;.
 &lt;/div&gt;
 
 
@@ -55,7 +55,7 @@ Acesse no Docker:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Preferences &amp;gt; Command Line&amp;gt; Enable cloud experience.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/ios-docker.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/ios-docker.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
@@ -75,18 +75,18 @@ Todos os templates de fórmulas contém um arquivo &lt;strong&gt;DockerFile&lt;/
 
 &lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Para continuar aprendendo mais sobre fórmulas:&lt;/p&gt;
-&lt;p&gt;👉 Vá para página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;Fórmula Hello World&lt;/strong&gt;&lt;/a&gt; e descubra as diferentes maneiras de executar uma fórmula no Ritchie.&lt;/p&gt;
-&lt;p&gt;👉 Vá para página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como criar fórmulas&lt;/strong&gt;&lt;/a&gt; para entender o passo a passo para criar sua primeira automação usando o Ritchie.&lt;/p&gt;
+&lt;p&gt;👉 Vá para página &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;Fórmula Hello World&lt;/strong&gt;&lt;/a&gt; e descubra as diferentes maneiras de executar uma fórmula no Ritchie.&lt;/p&gt;
+&lt;p&gt;👉 Vá para página &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como criar fórmulas&lt;/strong&gt;&lt;/a&gt; para entender o passo a passo para criar sua primeira automação usando o Ritchie.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Fórmulas: Executar uma fórmula &#34;Hello World&#34;</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</guid>
       <description>
         
         
@@ -134,7 +134,7 @@ Como essa fórmula foi desenvolvida usando Golang, é preciso ter Golang instala
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo hello-world
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selecione uma opção para cada parâmetro de entrada e veja a mágica acontecer:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-helloworld-prompt.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-helloworld-prompt.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Essa é a execução padrão de linhas de comando no Ritchie, executando fórmulas localmente através de &lt;strong&gt;prompt&lt;/strong&gt; (interagindo com o CLI no terminal) para informar os parâmetros de entrada.&lt;/p&gt;
 &lt;h3 id=&#34;opção-2-usando-prompt--docker&#34;&gt;&lt;strong&gt;Opção 2: Usando Prompt &amp;amp; Docker&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Você pode rodar o mesmo comando usando a flag &lt;strong&gt;&amp;ndash;docker&lt;/strong&gt; para executar a fórmula remotamente (em um container), mas ainda informando os parâmetros de entrada via &lt;strong&gt;prompt&lt;/strong&gt;:&lt;/p&gt;
@@ -176,7 +176,7 @@ A maioria das fórmulas tem um arquivo &lt;a href=&#34;https://github.com/ZupIT/
 
 &lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Veja como &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;criar suas fórmulas&lt;/strong&gt; &lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Veja como &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;criar suas fórmulas&lt;/strong&gt; &lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -184,10 +184,10 @@ A maioria das fórmulas tem um arquivo &lt;a href=&#34;https://github.com/ZupIT/
     
     <item>
       <title>Fórmulas: Criar fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -198,16 +198,16 @@ A maioria das fórmulas tem um arquivo &lt;a href=&#34;https://github.com/ZupIT/
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit create formula
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Você deverá informar alguns parâmetros de entrada antes da sua execução:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;O &lt;strong&gt;comando&lt;/strong&gt; (de preferência, com o &lt;strong&gt;padrão &lt;code&gt;rit + grupo + verbo + substantivo&lt;/code&gt;&lt;/strong&gt; para respeitar a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/gloss%C3%A1rio/&#34;&gt;&lt;strong&gt;árvore de comando&lt;/strong&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;O &lt;strong&gt;comando&lt;/strong&gt; (de preferência, com o &lt;strong&gt;padrão &lt;code&gt;rit + grupo + verbo + substantivo&lt;/code&gt;&lt;/strong&gt; para respeitar a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/gloss%C3%A1rio/&#34;&gt;&lt;strong&gt;árvore de comando&lt;/strong&gt;&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;A &lt;strong&gt;linguagem de programação&lt;/strong&gt; da fórmula.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;O caminho (path)&lt;/strong&gt; para salvar os arquivos da fórmula.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Exemplo: &lt;code&gt;rit demo create formula&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit_create_formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit_create_formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;passo-2-teste-sua-fórmula&#34;&gt;&lt;strong&gt;Passo 2: Teste sua fórmula&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Você pode testar diretamente a fórmula depois de sua criação. Isso é possível porque o comando &lt;strong&gt;&lt;code&gt;rit create formula&lt;/code&gt;&lt;/strong&gt; também constrói a fórmula automaticamente (ela gera os arquivos executáveis da fórmula e adiciona-os no &lt;strong&gt;.rit folder&lt;/strong&gt;).&lt;/p&gt;
 &lt;p&gt;Nesse caso, o template da formula &lt;strong&gt;&amp;ldquo;Hello World&amp;rdquo;&lt;/strong&gt; será executado como você pode ver abaixo:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit_demo_hello-world.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit_demo_hello-world.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Este template é composto por &lt;strong&gt;3 parâmetros de entrada&lt;/strong&gt;, que representam os tipos de inputs atualmente disponíveis para serem usados no Ritchie:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Uma amostra das &lt;strong&gt;&lt;code&gt;variáveis de texto&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
@@ -234,7 +234,7 @@ A maioria das fórmulas tem um arquivo &lt;a href=&#34;https://github.com/ZupIT/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Continue configurando a sua fórmula:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Vá para a seção de como &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;organizar uma pasta de fórmula&lt;/strong&gt;&lt;/a&gt; para entender como editar os arquivos que o Ritchie cria depois da criação de uma fórmula.&lt;/li&gt;
+&lt;li&gt;Vá para a seção de como &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;organizar uma pasta de fórmula&lt;/strong&gt;&lt;/a&gt; para entender como editar os arquivos que o Ritchie cria depois da criação de uma fórmula.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -242,10 +242,10 @@ A maioria das fórmulas tem um arquivo &lt;a href=&#34;https://github.com/ZupIT/
     
     <item>
       <title>Fórmulas: Organizar a pasta de fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -322,7 +322,7 @@ A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é r
 		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t-4&#34; role=&#34;tab&#34; aria-controls=&#34;t-4&#34;&gt;Shell&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 &lt;div class=&#34;tab-content&#34; id=&#34;t&#34;&gt;&lt;div id=&#34;t-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-0&#34;&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/go.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/go.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
@@ -333,7 +333,7 @@ A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é r
 &lt;/div&gt;
   &lt;div id=&#34;t-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-1&#34;&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/java.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/java.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
@@ -344,7 +344,7 @@ A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é r
 &lt;/div&gt;
   &lt;div id=&#34;t-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-2&#34;&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/node.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/node.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
@@ -355,7 +355,7 @@ A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é r
 &lt;/div&gt;
   &lt;div id=&#34;t-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-3&#34;&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/python.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/python.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
@@ -366,7 +366,7 @@ A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é r
 &lt;/div&gt;
   &lt;div id=&#34;t-4&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-4&#34;&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/shell.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/shell.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
@@ -381,10 +381,10 @@ A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é r
     
     <item>
       <title>Fórmulas: Configurar inputs</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-config/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-config/</guid>
       <description>
         
         
@@ -439,7 +439,7 @@ A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é r
 &lt;li&gt;&lt;strong&gt;bool&lt;/strong&gt; &lt;em&gt;(boolean)&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;password&lt;/strong&gt; &lt;em&gt;(string escondida no CLI)&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;multiselect&lt;/strong&gt; lista valores predefinidos, é possível selecionar vários valores &lt;em&gt;(string)&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;credentials&lt;/strong&gt; &lt;em&gt;(tipo específico, veja mais sobre &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/usar-inputs-condicionais/&#34;&gt;&lt;strong&gt;nesse tutorial&lt;/strong&gt;&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;credentials&lt;/strong&gt; &lt;em&gt;(tipo específico, veja mais sobre &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-inputs-condicionais/&#34;&gt;&lt;strong&gt;nesse tutorial&lt;/strong&gt;&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;dynamic&lt;/strong&gt; &lt;em&gt;(associado ao campo opcional&lt;code&gt;request_info&lt;/code&gt;)&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;path:&lt;/strong&gt; habilita o &lt;code&gt;autocomplete&lt;/code&gt; para o usuário informar o passo para uma pasta ou um arquivo &lt;em&gt;(string)&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -682,10 +682,10 @@ Uma vez que o valor de um parâmetro de entrada é informado no Ritchie CLI, ele
     
     <item>
       <title>Fórmulas: Extrair input variables em uma fórmula</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-main/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-main/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-main/</guid>
       <description>
         
         
@@ -777,10 +777,10 @@ runFormula &#39;$SAMPLE_TEXT&#39; $SAMPLE_LIST &#39;$SAMPLE_BOOL&#39;&#39;$SAMPL
     
     <item>
       <title>Fórmulas: Adicionar as dependências de fórmula</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</guid>
       <description>
         
         
@@ -929,10 +929,10 @@ require (
     
     <item>
       <title>Fórmulas: Buildar fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -947,7 +947,7 @@ require (
 &lt;/div&gt;
 
 &lt;h2 id=&#34;como-buildar&#34;&gt;&lt;strong&gt;Como &amp;ldquo;buildar&amp;rdquo;?&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Depois de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;criar uma fórmula&lt;/strong&gt;&lt;/a&gt;, e se você quiser editar o código dela, será necessário fazer o build dessas alterações para testar o comando com a nova implementação.&lt;/p&gt;
+&lt;p&gt;Depois de &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;criar uma fórmula&lt;/strong&gt;&lt;/a&gt;, e se você quiser editar o código dela, será necessário fazer o build dessas alterações para testar o comando com a nova implementação.&lt;/p&gt;
 &lt;p&gt;Para isso, execute o comando:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit build formula
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Você deverá informar:&lt;/p&gt;
@@ -963,10 +963,10 @@ require (
     
     <item>
       <title>Fórmulas: Workspaces</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/workspaces/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/workspaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/workspaces/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/workspaces/</guid>
       <description>
         
         
@@ -982,10 +982,10 @@ require (
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;Veja um exemplo de adição de repositório na página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;Executar uma fórmula Hello World&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Veja um exemplo de adição de repositório na página &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;Executar uma fórmula Hello World&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Os comandos para repos e workspaces são similares, eles permitem que o CLI &amp;lsquo;veja&amp;rsquo; as fórmulas disponíveis. Os workspaces possuem &lt;strong&gt;prioridade mais alta&lt;/strong&gt; que os Repos, se você usar, por exemplo, os dois comandos para os mesmos repositórios de fórmulas, os workspaces serão executados.&lt;/p&gt;
-&lt;p&gt;Para mais informações sobre os comandos de workspace e repositórios, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos e flags&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para mais informações sobre os comandos de workspace e repositórios, veja a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos e flags&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;como-adicionar&#34;&gt;&lt;strong&gt;Como adicionar?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Siga os passos para adicionar:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Execute o comando abaixo para adicionar um novo workspace:&lt;/p&gt;
@@ -995,27 +995,27 @@ require (
 &lt;li&gt;1: Informe o nome do workspace (não use espaços ou caracteres especiais).&lt;/li&gt;
 &lt;li&gt;2: Informe o caminho (path) do workspace na sua máquina local.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-add-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-add-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;como-listar&#34;&gt;&lt;strong&gt;Como listar?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Execute o comando abaixo para listar os workspaces da máquina:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list workspace
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-list-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-list-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;como-atualizar&#34;&gt;&lt;strong&gt;Como atualizar?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Se você não é a única pessoa trabalhando em um workspace (por exemplo: se for um repositório clonado do Git), é necessário atualizar o workspace para permitir que a CLI &amp;ldquo;veja&amp;rdquo; as novas fórmulas ou atualizações disponíveis na sua máquina local, após fazer o &lt;em&gt;pull&lt;/em&gt; o código.&lt;/p&gt;
 &lt;p&gt;Para atualizar um espaço de trabalho, execute o comando abaixo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update workspace
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Depois disso, selecione o nome do workspace e aguarde a mensagem de saída do CLI:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-update-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-update-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;como-apagar&#34;&gt;&lt;strong&gt;Como apagar?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Para excluir um workspace, execute o comando:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete workspace
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Depois disso, siga os passos:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Selecione o workspace;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Confirme que você deseja excluir o workspace:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-delete-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-delete-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Conheça a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/li&gt;
+&lt;li&gt;Conheça a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -1023,10 +1023,10 @@ require (
     
     <item>
       <title>Fórmulas: Renomear fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -1050,7 +1050,7 @@ Somente fórmulas locais podem ser renomeadas.
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Exemplo:&lt;/strong&gt; &lt;code&gt;rit group old&lt;/code&gt; &amp;gt; &lt;code&gt;rit group new&lt;/code&gt; &amp;gt; &lt;code&gt;Default&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-rename-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-rename-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
@@ -1060,7 +1060,7 @@ Somente fórmulas locais podem ser renomeadas.
 &lt;li&gt;Se o CLI identificar mais de um workspace com a fórmula informada, um passo extra necessário (&lt;em&gt;quando for usada a execução via prompt&lt;/em&gt;) será pedido pelo Ritchie, para escolher o workspace que deve ter a fórmula renomeada.&lt;/li&gt;
 &lt;li&gt;Essa fórmula possui entrada via &lt;em&gt;flags&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Para mais informações, veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmula&lt;/strong&gt;&lt;/a&gt;.
+&lt;p&gt;Para mais informações, veja a seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmula&lt;/strong&gt;&lt;/a&gt;.
 .
 &lt;/div&gt;
 
@@ -1075,17 +1075,17 @@ Somente fórmulas locais podem ser renomeadas.
 &lt;/ol&gt;
 &lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Continue configurando a sua fórmula:&lt;/p&gt;
-&lt;p&gt;👉 Veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como compartilhar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 Veja a seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como compartilhar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Fórmulas: Publicar fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -1124,7 +1124,7 @@ Além disso, se o repositório já existir, a fórmula irá fazer o commit de um
 &lt;li&gt;O &lt;strong&gt;&lt;code&gt;caminho local do repositório&lt;/code&gt;&lt;/strong&gt; que você quer publicar.&lt;/li&gt;
 &lt;li&gt;A &lt;strong&gt;&lt;code&gt;versão da release&lt;/code&gt;&lt;/strong&gt; para ser gerada.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-publish-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-publish-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
@@ -1142,17 +1142,17 @@ Você pode checar se a publicação deu certo usando o comando &lt;strong&gt;&lt
 &lt;/ol&gt;
 &lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Continue configurando a sua fórmula:&lt;/p&gt;
-&lt;p&gt;👉 Veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como compartilhar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 Veja a seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como compartilhar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Fórmulas: Compartilhar fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -1163,7 +1163,7 @@ Você pode checar se a publicação deu certo usando o comando &lt;strong&gt;&lt
 &lt;p&gt;Para adicionar um novo repositório no Ritchie, é necessário rodar o comando abaixo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add repo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Uma vez que o repositório for adicionado, o Ritchie irá usar a versão da release selecionada do repositório para acessar as fórmulas disponíveis.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-share-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-share-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
@@ -1233,18 +1233,18 @@ There are 6 formulas
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update repo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Nesta seção, você viu como compartilhar uma fórmula no Ritchie. Para continuar configurando sua fórmula:&lt;/p&gt;
-&lt;p&gt;👉 Vá para página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/credenciais/definir-credenciais/&#34;&gt;&lt;strong&gt;definir credenciais&lt;/strong&gt;&lt;/a&gt; e veja como rodar esse comando com suas fórmulas.&lt;/p&gt;
-&lt;p&gt;👉 Vá para página de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; para ver as automações disponíveis no repositório da nossa comunidade.&lt;/p&gt;
+&lt;p&gt;👉 Vá para página &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/credenciais/definir-credenciais/&#34;&gt;&lt;strong&gt;definir credenciais&lt;/strong&gt;&lt;/a&gt; e veja como rodar esse comando com suas fórmulas.&lt;/p&gt;
+&lt;p&gt;👉 Vá para página de &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; para ver as automações disponíveis no repositório da nossa comunidade.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Fórmulas: Apagar fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -1256,14 +1256,14 @@ There are 6 formulas
 &lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Selecione o workspace em que está a fórmula que deseja apagar.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Selecione a fórmula que será apagada.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; O Ritchie fará uma pergunta para você confirmar se deseja seguir com a operação de apagar a fórmula. Basta selecionar &amp;ldquo;sim&amp;rdquo; (yes).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/delete-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/delete-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Veja &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como encapsular fórmulas&lt;/strong&gt;&lt;/a&gt; para descobrir como se executa uma fórmula dentro de outra fórmula.&lt;/p&gt;
+&lt;p&gt;Veja &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como encapsular fórmulas&lt;/strong&gt;&lt;/a&gt; para descobrir como se executa uma fórmula dentro de outra fórmula.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Conheça a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/p&gt;
+&lt;p&gt;Conheça a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1272,10 +1272,10 @@ There are 6 formulas
     
     <item>
       <title>Fórmulas: Encapsular fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</guid>
       <description>
         
         
@@ -1286,9 +1286,9 @@ There are 6 formulas
 &lt;p&gt;A seguir, veja como você pode fazer esse processo de encapsulamento:&lt;/p&gt;
 &lt;h2 id=&#34;como-encapsular&#34;&gt;&lt;strong&gt;Como encapsular?&lt;/strong&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;1-premissa&#34;&gt;&lt;strong&gt;1. Premissa&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Para realizar um encapsulamento de fórmula, é necessário usar &lt;strong&gt;Standard Inputs&lt;/strong&gt;. Para mais informações, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/&#34;&gt;&lt;strong&gt;seção de Standard Inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para realizar um encapsulamento de fórmula, é necessário usar &lt;strong&gt;Standard Inputs&lt;/strong&gt;. Para mais informações, veja a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/&#34;&gt;&lt;strong&gt;seção de Standard Inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;2-execução&#34;&gt;&lt;strong&gt;2. Execução&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Ao &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;implementar uma fórmula&lt;/strong&gt;&lt;/a&gt;, você precisa pegar o arquivo onde a operação está codificada e executar a linha de comando associada à fórmula encapsulada.&lt;/p&gt;
+&lt;p&gt;Ao &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;implementar uma fórmula&lt;/strong&gt;&lt;/a&gt;, você precisa pegar o arquivo onde a operação está codificada e executar a linha de comando associada à fórmula encapsulada.&lt;/p&gt;
 &lt;p&gt;A linha de comando da fórmula encapsulada deve ser executada utilizando &lt;strong&gt;Standard Inputs&lt;/strong&gt; e informando os seus parâmetros de entradas diretamente no código.&lt;/p&gt;
 &lt;h3 id=&#34;3-exemplo&#34;&gt;3. Exemplo&lt;/h3&gt;
 &lt;p&gt;A fórmula &lt;strong&gt;&lt;code&gt;rit publish repo&lt;/code&gt;&lt;/strong&gt; foi implementada usando o encapsulamento de fórmula. Inclusive, você pode encontrar no Github a &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas/tree/master/publish/repo&#34;&gt;&lt;strong&gt;implementação dessa fórmula&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1325,8 +1325,8 @@ There are 6 formulas
 &lt;p&gt;Dependendo da operação, os &lt;strong&gt;&lt;code&gt;inputs flags&lt;/code&gt;&lt;/strong&gt; do comando podem ser gerados de acordo com outras operações realizadas durante a execução da fórmula principal, antes de executar a linha de comando da fórmula encapsulada.&lt;/p&gt;
 &lt;h3 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Veja os &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/&#34;&gt;&lt;strong&gt;tutoriais&lt;/strong&gt;&lt;/a&gt; que criamos para você praticar as diversas funcionalidades do Ritchie.&lt;/li&gt;
-&lt;li&gt;Veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; para ver as automações disponíveis no repositório da nossa comunidade.&lt;/li&gt;
+&lt;li&gt;Veja os &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/&#34;&gt;&lt;strong&gt;tutoriais&lt;/strong&gt;&lt;/a&gt; que criamos para você praticar as diversas funcionalidades do Ritchie.&lt;/li&gt;
+&lt;li&gt;Veja a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; para ver as automações disponíveis no repositório da nossa comunidade.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -1334,10 +1334,10 @@ There are 6 formulas
     
     <item>
       <title>Fórmulas: Testar formulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/testar-formulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/testar-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/testar-formulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/testar-formulas/</guid>
       <description>
         
         
@@ -1351,9 +1351,9 @@ There are 6 formulas
 &lt;p&gt;O time do Ritchie desenvolveu um Github action para testar comandos de output da CLI. Veja o repositório &lt;a href=&#34;https://github.com/GuillaumeFalourd/test-cli-commands-action&#34;&gt;&lt;strong&gt;test-cli-commands-action&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ritchie CLI utiliza essa ação para ter certeza, que os comandos core da CLI se comportem como esperado, depois que os arquivos relacionados são atualizados.&lt;/p&gt;
 &lt;h3 id=&#34;como-essa-ação-funciona&#34;&gt;&lt;strong&gt;Como essa ação funciona?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/githubactions.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/githubactions.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Quando você usa essa ação, você consegue checar diferentes cenários da implementação por meio de outputs de fórmulas, de acordo com os inputs das fórmulas. Você pode testar somente quando o arquivo do diretório de fórmulas estiver atualizado.&lt;/p&gt;
-&lt;p&gt;Para mais informações sobre actions, veja a página do &lt;a href=&#34;https://github.com/marketplace/actions/test-cli-commands-action&#34;&gt;&lt;strong&gt;Github Marketplace&lt;/strong&gt;&lt;/a&gt; ou o tutorial &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/como-testar-formulas/&#34;&gt;&lt;strong&gt;Como testar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para mais informações sobre actions, veja a página do &lt;a href=&#34;https://github.com/marketplace/actions/test-cli-commands-action&#34;&gt;&lt;strong&gt;Github Marketplace&lt;/strong&gt;&lt;/a&gt; ou o tutorial &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/como-testar-formulas/&#34;&gt;&lt;strong&gt;Como testar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

@@ -2,173 +2,173 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/cheat-sheet/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/cheat-sheet/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/vis%C3%A3o-geral/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/vis%C3%A3o-geral/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/guia-de-come%C3%A7o-r%C3%A1pido/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/guia-de-come%C3%A7o-r%C3%A1pido/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://docs.devritchiecli.io/"
+                href="https://oscarandreazza.github.io/testdocs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://docs.devritchiecli.io/pt-br/"
+                href="https://oscarandreazza.github.io/testdocs/pt-br/"
                 />
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/primeiros-passos/linux/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/linux/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/release-notes/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/release-notes/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/primeiros-passos/macos/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/macos/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/primeiros-passos/windows/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/windows/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/primeiros-passos/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/primeiros-passos/inicializa%C3%A7%C3%A3o-do-cli/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/inicializa%C3%A7%C3%A3o-do-cli/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/primeiros-passos/upgrade-do-cli/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/upgrade-do-cli/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-config/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-main/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-main/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/workspaces/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/workspaces/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/testar-formulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/testar-formulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/credenciais/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/credenciais/definir-credenciais/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/definir-credenciais/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/credenciais/apagar-credenciais/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/apagar-credenciais/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/credenciais/adicionar-provedores/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/adicionar-provedores/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/flag-stdin/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/flag-stdin/visao-geral/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/visao-geral/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/standard-inputs/visao-geral/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/visao-geral/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-core/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-core/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/input-flag/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://docs.devritchiecli.io/standard-inputs/input-flag/"
+                href="https://oscarandreazza.github.io/testdocs/standard-inputs/input-flag/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/"
+                href="https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/input-flag/"
                 />
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/standard-inputs/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://docs.devritchiecli.io/standard-inputs/"
+                href="https://oscarandreazza.github.io/testdocs/standard-inputs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://docs.devritchiecli.io/pt-br/standard-inputs/"
+                href="https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/"
                 />
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-core/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-core/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/tutoriais/o-que-sao-tutoriais/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/o-que-sao-tutoriais/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/tutoriais/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/tutoriais/manipular-inputs/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/manipular-inputs/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/tutoriais/usar-credenciais/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-credenciais/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/tutoriais/usar-inputs-condicionais/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-inputs-condicionais/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/tutoriais/agrupar-uma-formula/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/agrupar-uma-formula/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/tutoriais/como-testar-formulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/como-testar-formulas/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/migracao/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/migracao/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/resources/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/resources/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/sobre-ritchie/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/sobre-ritchie/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/gloss%C3%A1rio/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/gloss%C3%A1rio/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/faq/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/faq/</loc>
   </url><url>
-    <loc>http://docs.devritchiecli.io/pt-br/contribua/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/pt-br/contribua/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url>
 </urlset>

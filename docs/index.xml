@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Documentation</title>
-    <link>http://docs.devritchiecli.io/</link>
+    <link>https://oscarandreazza.github.io/testdocs/</link>
     <description>Recent content in Documentation on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/index.xml" rel="self" type="application/rss+xml" />
     
     
       

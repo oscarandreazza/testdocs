@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Reference</title>
-    <link>http://docs.devritchiecli.io/reference/</link>
+    <link>https://oscarandreazza.github.io/testdocs/reference/</link>
     <description>Recent content in Reference on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/reference/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/reference/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,25 +15,25 @@
     
     <item>
       <title>Reference: Cheat Sheet</title>
-      <link>http://docs.devritchiecli.io/reference/cheatsheet/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/cheatsheet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/cheatsheet/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/cheatsheet/</guid>
       <description>
         
         
         &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/cheatsheet.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/cheatsheet.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Reference: Release Notes</title>
-      <link>http://docs.devritchiecli.io/reference/release-notes/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/release-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/release-notes/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/release-notes/</guid>
       <description>
         
         
@@ -98,10 +98,10 @@
     
     <item>
       <title>Reference: List of commands and flags</title>
-      <link>http://docs.devritchiecli.io/reference/list-of-commands-and-flags/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/list-of-commands-and-flags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/list-of-commands-and-flags/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/list-of-commands-and-flags/</guid>
       <description>
         
         
@@ -337,10 +337,10 @@ The rit build formula command was deprecated from Ritchie&amp;rsquo;s version 2.
     
     <item>
       <title>Reference: Version Migration</title>
-      <link>http://docs.devritchiecli.io/reference/version-migration/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/version-migration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/version-migration/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/version-migration/</guid>
       <description>
         
         
@@ -394,10 +394,10 @@ If you have any question, feel free to contact our team at &lt;strong&gt;&lt;a h
     
     <item>
       <title>Reference: Resources</title>
-      <link>http://docs.devritchiecli.io/reference/resources/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/resources/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/resources/</guid>
       <description>
         
         
@@ -419,10 +419,10 @@ The Youtube channel, for now, has only Portuguese content.
     
     <item>
       <title>Reference: About Ritchie</title>
-      <link>http://docs.devritchiecli.io/reference/about-ritchie/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/about-ritchie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/about-ritchie/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/about-ritchie/</guid>
       <description>
         
         
@@ -441,7 +441,7 @@ The Youtube channel, for now, has only Portuguese content.
 &lt;/div&gt;
 
 &lt;p&gt;In that way, professionals - on all fronts - gain time to work on more complex and relevant tasks to generate value for their projects.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-demo-deploy-project.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-demo-deploy-project.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-makes-ritchie-different&#34;&gt;&lt;strong&gt;What makes Ritchie different?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;As a CLI tool, Ritchie seeks to improve the operational &lt;strong&gt;developers&#39;&lt;/strong&gt; &lt;strong&gt;experience and brings beneficial such as:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -455,17 +455,17 @@ The Youtube channel, for now, has only Portuguese content.
 &lt;/ul&gt;
 &lt;p&gt;In the example below, you will see the execution of a scaffold command with the coffee formula.
 When the user signals which formula he wants to use, the system automatically passes, line by line, asking which specific parameters must be considered to perform the desired action.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-scaffold-generate-coffee-go.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-scaffold-generate-coffee-go.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Reference: Glossary</title>
-      <link>http://docs.devritchiecli.io/reference/glossary/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/glossary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/glossary/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/glossary/</guid>
       <description>
         
         
@@ -497,7 +497,7 @@ It is important to know this concept in order to actually understand the structu
 &lt;p&gt;To allow more options and freedom for users, it is also allowed to follow the pattern below in the construction of formula commands:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;RIT + GROUP + VERB + NOUN&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The app name is Ritchie, so we use the name &lt;strong&gt;&lt;code&gt;rit&lt;/code&gt;&lt;/strong&gt; to start our command tree.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/arvore-rit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/arvore-rit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
@@ -536,7 +536,7 @@ All commands and sub-commands are mapped in a tree &lt;strong&gt;dynamically&lt;
 &lt;li&gt;When typing the command on the terminal (via &lt;strong&gt;stdin&lt;/strong&gt; or &lt;strong&gt;input flags&lt;/strong&gt;).&lt;/li&gt;
 &lt;li&gt;During the execution of the formula (if coded using &lt;strong&gt;prompt&lt;/strong&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/start-end-ritchie.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/start-end-ritchie.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;json&#34;&gt;&lt;strong&gt;JSON&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;JavaScript Object Notation (JSON), it is a standard text based format used to structure data created with JavaScript programming language.&lt;/p&gt;
 &lt;h2 id=&#34;repository&#34;&gt;&lt;strong&gt;Repository&lt;/strong&gt;&lt;/h2&gt;
@@ -554,17 +554,17 @@ All commands and sub-commands are mapped in a tree &lt;strong&gt;dynamically&lt;
     
     <item>
       <title>Reference: FAQ</title>
-      <link>http://docs.devritchiecli.io/reference/faq/</link>
+      <link>https://oscarandreazza.github.io/testdocs/reference/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/reference/faq/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/reference/faq/</guid>
       <description>
         
         
         &lt;hr&gt;
 &lt;h1 id=&#34;about-ritchie&#34;&gt;&lt;strong&gt;About Ritchie&lt;/strong&gt;&lt;/h1&gt;
 &lt;h3 id=&#34;what-is-ritchie&#34;&gt;&lt;strong&gt;What is Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Ritchie is an &lt;strong&gt;open source framework&lt;/strong&gt; that creates and tweaks a CLI for your team. It allows you to easily create, build and share &lt;a href=&#34;http://docs.devritchiecli.io/reference/glossary/#formula&#34;&gt;&lt;strong&gt;formulas&lt;/strong&gt;&lt;/a&gt;. For more information, check out &lt;a href=&#34;http://docs.devritchiecli.io/reference/about-ritchie/&#34;&gt;&lt;strong&gt;about Ritchie section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ritchie is an &lt;strong&gt;open source framework&lt;/strong&gt; that creates and tweaks a CLI for your team. It allows you to easily create, build and share &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/reference/glossary/#formula&#34;&gt;&lt;strong&gt;formulas&lt;/strong&gt;&lt;/a&gt;. For more information, check out &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/reference/about-ritchie/&#34;&gt;&lt;strong&gt;about Ritchie section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;what-does-ritchie-do&#34;&gt;&lt;strong&gt;What does Ritchie do?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Ritchie creates automation commands to improve the operational &lt;strong&gt;developers&#39; experience and brings beneficial such as:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -574,9 +574,9 @@ All commands and sub-commands are mapped in a tree &lt;strong&gt;dynamically&lt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;installation-and-use&#34;&gt;&lt;strong&gt;Installation and Use&lt;/strong&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;how-to-install-ritchie&#34;&gt;&lt;strong&gt;How to install Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;You can follow the installation step by step according do the operational system you&amp;rsquo;re using. For more information, check out the &lt;a href=&#34;http://docs.devritchiecli.io/getting-started/&#34;&gt;&lt;strong&gt;installation section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can follow the installation step by step according do the operational system you&amp;rsquo;re using. For more information, check out the &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/getting-started/&#34;&gt;&lt;strong&gt;installation section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;how-to-create-a-new-formula-on-ritchie&#34;&gt;&lt;strong&gt;How to create a new formula on Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Using the command &lt;code&gt;rit create formula&lt;/code&gt; , you can create formulas using any programming language. Check out more in &lt;a href=&#34;http://docs.devritchiecli.io/formulas/create-formulas/&#34;&gt;&lt;strong&gt;create a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Using the command &lt;code&gt;rit create formula&lt;/code&gt; , you can create formulas using any programming language. Check out more in &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/create-formulas/&#34;&gt;&lt;strong&gt;create a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;how-to-create-formulas-on-an-existing-repository&#34;&gt;&lt;strong&gt;How to create formulas on an existing repository?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Follow the next steps:&lt;/p&gt;
 &lt;ol&gt;
@@ -585,7 +585,7 @@ All commands and sub-commands are mapped in a tree &lt;strong&gt;dynamically&lt;
 &lt;li&gt;Add the new formula with &lt;code&gt;rit create formula&lt;/code&gt; command and implement it.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;how-to-run-formulas&#34;&gt;&lt;strong&gt;How to run formulas?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;You can execute your formulas locally or through Docker. For more information, check out &lt;a href=&#34;http://docs.devritchiecli.io/formulas/run-formula/&#34;&gt;&lt;strong&gt;how to run a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can execute your formulas locally or through Docker. For more information, check out &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/run-formula/&#34;&gt;&lt;strong&gt;how to run a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;how-to-build-formulas-on-ritchie&#34;&gt;&lt;strong&gt;How to build formulas on Ritchie?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;When you run a formula, a build is automatically made, you don&amp;rsquo;t need a command to do that.&lt;/p&gt;
 &lt;h3 id=&#34;how-to-update-a-formula-from-a-repository&#34;&gt;&lt;strong&gt;How to update a formula from a repository?&lt;/strong&gt;&lt;/h3&gt;
@@ -598,7 +598,7 @@ All commands and sub-commands are mapped in a tree &lt;strong&gt;dynamically&lt;
 &lt;h3 id=&#34;how-to-execute-a-formula-from-a-repository&#34;&gt;&lt;strong&gt;How to execute a formula from a repository?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Use &lt;code&gt;rit add repo &lt;/code&gt; command to add the repository.&lt;/p&gt;
 &lt;h3 id=&#34;how-to-publish-formulas-on-ritchie&#34;&gt;&lt;strong&gt;How to publish formulas on Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;You can publish a formula by creating a Github&amp;rsquo;s, Gitlab&amp;rsquo;s or Bitbucket&amp;rsquo;s repository and adding a release version of this formula. For more information, check out how to &lt;a href=&#34;http://docs.devritchiecli.io/formulas/publish-formulas/&#34;&gt;&lt;strong&gt;publish a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can publish a formula by creating a Github&amp;rsquo;s, Gitlab&amp;rsquo;s or Bitbucket&amp;rsquo;s repository and adding a release version of this formula. For more information, check out how to &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/publish-formulas/&#34;&gt;&lt;strong&gt;publish a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;community&#34;&gt;&lt;strong&gt;Community&lt;/strong&gt;&lt;/h1&gt;
 &lt;h3 id=&#34;how-to-submit-my-formula-on-communitys-repo&#34;&gt;How to submit my formula on community&amp;rsquo;s repo?&lt;/h3&gt;
 &lt;p&gt;You just have to open a pull request on &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;ritchie-formula&amp;rsquo;s repository&lt;/strong&gt; &lt;/a&gt; with your formula suggestion.&lt;/p&gt;

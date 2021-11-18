@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Primeiros Passos</title>
-    <link>http://docs.devritchiecli.io/pt-br/primeiros-passos/</link>
+    <link>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/</link>
     <description>Recent content in Primeiros Passos on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/pt-br/primeiros-passos/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Primeiros Passos: Instalação do CLI para Linux</title>
-      <link>http://docs.devritchiecli.io/pt-br/primeiros-passos/linux/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/primeiros-passos/linux/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/linux/</guid>
       <description>
         
         
@@ -44,7 +44,7 @@
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-Se preferir, você também pode instalar com a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/&#34;&gt;&lt;strong&gt;instalação manual&lt;/strong&gt;&lt;/a&gt;.
+Se preferir, você também pode instalar com a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/&#34;&gt;&lt;strong&gt;instalação manual&lt;/strong&gt;&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h3 id=&#34;pacotes&#34;&gt;Pacotes&lt;/h3&gt;
@@ -83,10 +83,10 @@ Se preferir, você também pode instalar com a &lt;a href=&#34;http://docs.devri
     
     <item>
       <title>Primeiros Passos: Instalação do CLI para Macos</title>
-      <link>http://docs.devritchiecli.io/pt-br/primeiros-passos/macos/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/macos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/primeiros-passos/macos/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/macos/</guid>
       <description>
         
         
@@ -122,7 +122,7 @@ Se preferir, você também pode instalar com a &lt;a href=&#34;http://docs.devri
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-Se preferir, você também pode seguir com a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/&#34;&gt;&lt;strong&gt;instalação manual&lt;/strong&gt;&lt;/a&gt;.
+Se preferir, você também pode seguir com a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/&#34;&gt;&lt;strong&gt;instalação manual&lt;/strong&gt;&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h3 id=&#34;segunda-opção&#34;&gt;Segunda opção&lt;/h3&gt;
@@ -138,10 +138,10 @@ Se preferir, você também pode seguir com a &lt;a href=&#34;http://docs.devritc
     
     <item>
       <title>Primeiros Passos: Instalação do CLI para Windows</title>
-      <link>http://docs.devritchiecli.io/pt-br/primeiros-passos/windows/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/primeiros-passos/windows/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/windows/</guid>
       <description>
         
         
@@ -173,7 +173,7 @@ Se preferir, você também pode seguir com a &lt;a href=&#34;http://docs.devritc
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-Se preferir, você também pode seguir com a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/&#34;&gt;&lt;strong&gt;instalação manual&lt;/strong&gt;.&lt;/a&gt;.
+Se preferir, você também pode seguir com a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/&#34;&gt;&lt;strong&gt;instalação manual&lt;/strong&gt;.&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;passo-2-verifique-a-instalação&#34;&gt;&lt;strong&gt;Passo 2: Verifique a instalação&lt;/strong&gt;&lt;/h2&gt;
@@ -186,10 +186,10 @@ Se preferir, você também pode seguir com a &lt;a href=&#34;http://docs.devritc
     
     <item>
       <title>Primeiros Passos: Instalação Manual</title>
-      <link>http://docs.devritchiecli.io/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/instala%C3%A7%C3%A3o-manual/</guid>
       <description>
         
         
@@ -285,10 +285,10 @@ source ~/.rit_completion​
     
     <item>
       <title>Primeiros Passos: Inicialização do CLI</title>
-      <link>http://docs.devritchiecli.io/pt-br/primeiros-passos/inicializa%C3%A7%C3%A3o-do-cli/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/inicializa%C3%A7%C3%A3o-do-cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/primeiros-passos/inicializa%C3%A7%C3%A3o-do-cli/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/inicializa%C3%A7%C3%A3o-do-cli/</guid>
       <description>
         
         
@@ -301,16 +301,16 @@ source ~/.rit_completion​
 &lt;ol&gt;
 &lt;li&gt;Se o usuário &lt;strong&gt;quer contribuir anonimamente&lt;/strong&gt; as métricas do produto.&lt;/li&gt;
 &lt;li&gt;Se o usuário &lt;strong&gt;quer adicionar as fórmulas&lt;/strong&gt; da comunidade localmente.&lt;/li&gt;
-&lt;li&gt;Qual &lt;strong&gt;método de execução&lt;/strong&gt; o usuário deseja usar por &lt;strong&gt;padrão&lt;/strong&gt; (local ou docker). &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;método de execução de fórmulas&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;local ou via docker&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Qual &lt;strong&gt;método de execução&lt;/strong&gt; o usuário deseja usar por &lt;strong&gt;padrão&lt;/strong&gt; (local ou docker). &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;método de execução de fórmulas&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;local ou via docker&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-init.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-init.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Depois disso, todos os arquivos de configuração para a máquina funcionar serão criados.&lt;/p&gt;
 &lt;h2 id=&#34;passo-2-verifique-a-inicialização&#34;&gt;&lt;strong&gt;Passo 2: Verifique a inicialização&lt;/strong&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;1-repositório-da-comunidade&#34;&gt;1. Repositório da comunidade&lt;/h3&gt;
 &lt;p&gt;Se você adicionou o repositório da comunidade, é possível verificar a importação com o comando:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list repo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Esse comando retorna todos os repositórios de fórmulas que o usuário tem acesso localmente.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-list-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-list-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2-pasta-ritchie&#34;&gt;2. Pasta Ritchie&lt;/h3&gt;
 &lt;p&gt;Você pode verificar se a pasta &lt;strong&gt;&lt;code&gt;.rit&lt;/code&gt;&lt;/strong&gt; foi criada no diretório &lt;strong&gt;&lt;code&gt;$HOME&lt;/code&gt;&lt;/strong&gt; da máquina.&lt;/p&gt;
 
@@ -326,10 +326,10 @@ Todas as operações realizadas usando o Ritchie são salvas nessa pasta &lt;str
     
     <item>
       <title>Primeiros Passos: Upgrade do CLI</title>
-      <link>http://docs.devritchiecli.io/pt-br/primeiros-passos/upgrade-do-cli/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/upgrade-do-cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/primeiros-passos/upgrade-do-cli/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/upgrade-do-cli/</guid>
       <description>
         
         

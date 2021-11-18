@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Standard Inputs</title>
-    <link>http://docs.devritchiecli.io/pt-br/standard-inputs/</link>
+    <link>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/</link>
     <description>Recent content in Standard Inputs on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/pt-br/standard-inputs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,17 +15,17 @@
     
     <item>
       <title>Standard Inputs: Visão Geral</title>
-      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/visao-geral/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/visao-geral/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/visao-geral/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/visao-geral/</guid>
       <description>
         
         
         &lt;hr&gt;
 &lt;p&gt;Informar os parâmetros de entrada por meio de &lt;strong&gt;argumentos&lt;/strong&gt; ou &lt;strong&gt;flags&lt;/strong&gt; permite que você automatize workflows.&lt;/p&gt;
 &lt;p&gt;Isso é útil quando você manipular outras ferramentas dentro do script, assim você automatiza operações sem precisar interagir com o terminal.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/standard-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/standard-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;como-informar-os-parâmetros-de-entrada&#34;&gt;&lt;strong&gt;Como informar os parâmetros de entrada?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Há duas formas de informar os parâmetros de entrada diretamente na linha de comando:&lt;/p&gt;
 &lt;ol&gt;
@@ -34,8 +34,8 @@
 &lt;/ol&gt;
 &lt;p&gt;Para mais informações sobre cada um deles, veja as seguintes seções:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/&#34;&gt;&lt;strong&gt;Input flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/flag-stdin/&#34;&gt;&lt;strong&gt;STDIN flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/input-flag/&#34;&gt;&lt;strong&gt;Input flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/&#34;&gt;&lt;strong&gt;STDIN flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -43,10 +43,10 @@
     
     <item>
       <title>Standard Inputs: Input Flags</title>
-      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/input-flag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/input-flag/</guid>
       <description>
         
         
@@ -61,17 +61,17 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Para mais informações sobre &lt;strong&gt;Inputs flags&lt;/strong&gt;, veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para mais informações sobre &lt;strong&gt;Inputs flags&lt;/strong&gt;, veja a seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Standard Inputs: Comandos Core</title>
-      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-core/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-core/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-core/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-core/</guid>
       <description>
         
         
@@ -156,10 +156,10 @@ A flag de token é obrigatória quando o comando é usado para adicionar um repo
     
     <item>
       <title>Standard Inputs: Comandos de fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</guid>
       <description>
         
         

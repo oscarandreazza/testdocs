@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Tutoriais</title>
-    <link>http://docs.devritchiecli.io/pt-br/tutoriais/</link>
+    <link>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/</link>
     <description>Recent content in Tutoriais on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/pt-br/tutoriais/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Tutoriais: O que são os tutoriais?</title>
-      <link>http://docs.devritchiecli.io/pt-br/tutoriais/o-que-sao-tutoriais/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/o-que-sao-tutoriais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/tutoriais/o-que-sao-tutoriais/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/o-que-sao-tutoriais/</guid>
       <description>
         
         
@@ -26,26 +26,26 @@
 &lt;h3 id=&#34;pré-requisitos&#34;&gt;&lt;strong&gt;Pré-requisitos&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Para realizar os tutoriais, você precisa entender os alguns conceitos:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como executar fórmulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como criar fórmulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como &amp;ldquo;buildar&amp;rdquo; fórmulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como encapsular formulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como executar fórmulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como criar fórmulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como &amp;ldquo;buildar&amp;rdquo; fórmulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Como encapsular formulas&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;tutoriais&#34;&gt;&lt;strong&gt;Tutoriais&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 1:&lt;/strong&gt; Nível básico: &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/manipular-inputs/&#34;&gt;&lt;strong&gt;Como manipular inputs básicos?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 2:&lt;/strong&gt; Nível básico 2: &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/usar-credenciais/&#34;&gt;&lt;strong&gt;Como manipular inputs de credenciais do Github?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 3:&lt;/strong&gt; Nível intermediário: &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/usar-inputs-condicionais/&#34;&gt;&lt;strong&gt;Como manipular os inputs condicionais?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tutorial 4:&lt;/strong&gt; Nível avançado: &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/agrupar-uma-formula/&#34;&gt;&lt;strong&gt;Como aplicar o conceito de agrupamento de fórmulas?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 1:&lt;/strong&gt; Nível básico: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/manipular-inputs/&#34;&gt;&lt;strong&gt;Como manipular inputs básicos?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 2:&lt;/strong&gt; Nível básico 2: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-credenciais/&#34;&gt;&lt;strong&gt;Como manipular inputs de credenciais do Github?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 3:&lt;/strong&gt; Nível intermediário: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-inputs-condicionais/&#34;&gt;&lt;strong&gt;Como manipular os inputs condicionais?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 4:&lt;/strong&gt; Nível avançado: &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/agrupar-uma-formula/&#34;&gt;&lt;strong&gt;Como aplicar o conceito de agrupamento de fórmulas?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutoriais: Como manipular inputs</title>
-      <link>http://docs.devritchiecli.io/pt-br/tutoriais/manipular-inputs/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/manipular-inputs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/tutoriais/manipular-inputs/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/manipular-inputs/</guid>
       <description>
         
         
@@ -261,22 +261,22 @@ The sum is 3
 &lt;/div&gt;
 
 &lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;👉 Se você completou o primeiro tutorial, vá para o segundo &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/usar-credenciais/&#34;&gt;&lt;strong&gt;Como usar credenciais do GitHub?&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 Se você completou o primeiro tutorial, vá para o segundo &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-credenciais/&#34;&gt;&lt;strong&gt;Como usar credenciais do GitHub?&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutoriais: Como usar credenciais do GitHub</title>
-      <link>http://docs.devritchiecli.io/pt-br/tutoriais/usar-credenciais/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-credenciais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/tutoriais/usar-credenciais/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-credenciais/</guid>
       <description>
         
         
         &lt;p&gt;Neste tutorial, a ideia é criar uma fórmula que vai retornar um JSON contendo as credenciais do Github.&lt;/p&gt;
-&lt;p&gt;O tutorial configura os parâmetros de entrada dentro do arquivo &lt;strong&gt;config.json&lt;/strong&gt;, mas executar a fórmula sem informá-los usando &lt;code&gt;prompt&lt;/code&gt; ou &lt;code&gt;stdin&lt;/code&gt;(serão extraídos automaticamente). Você encontrará todas as informações necessárias na seção de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;configurar inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O tutorial configura os parâmetros de entrada dentro do arquivo &lt;strong&gt;config.json&lt;/strong&gt;, mas executar a fórmula sem informá-los usando &lt;code&gt;prompt&lt;/code&gt; ou &lt;code&gt;stdin&lt;/code&gt;(serão extraídos automaticamente). Você encontrará todas as informações necessárias na seção de &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;configurar inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
@@ -546,23 +546,23 @@ Dependendo da linguagem, pode ser necessário adicionar algumas dependências no
 &lt;/div&gt;
 
 &lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;👉 Se você completou o segundo tutorial, vá para o terceiro &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/usar-inputs-condicionais/&#34;&gt;&lt;strong&gt;Como usar os inputs condicionais?&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 Se você completou o segundo tutorial, vá para o terceiro &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-inputs-condicionais/&#34;&gt;&lt;strong&gt;Como usar os inputs condicionais?&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutoriais: Como usar inputs condicionais</title>
-      <link>http://docs.devritchiecli.io/pt-br/tutoriais/usar-inputs-condicionais/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-inputs-condicionais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/tutoriais/usar-inputs-condicionais/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/usar-inputs-condicionais/</guid>
       <description>
         
         
         &lt;p&gt;Neste tutorial, a ideia é criar uma fórmula que vai retornar a ferramenta selecionada pelo usuário de acordo com seu perfil.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Veja mais informações na seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;sobre o arquivo config.json&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Veja mais informações na seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;sobre o arquivo config.json&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 
@@ -579,7 +579,7 @@ Sugestão de comando: &lt;strong&gt;&lt;code&gt;rit get tools&lt;/code&gt;&lt;/s
 &lt;li&gt;Profile tool (&lt;code&gt;RIT_TOOL&lt;/code&gt;).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Os parâmetros de entrada da fórmula precisam seguir o diagrama abaixo:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/ritchie-conditional-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/ritchie-conditional-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;como-fazer-isso&#34;&gt;&lt;strong&gt;Como fazer isso?&lt;/strong&gt;&lt;/h2&gt;
 
 
@@ -812,23 +812,23 @@ Ritchie will install DOCKER for him automatically.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;👉 Se você completou o terceiro tutorial, vamos para o quarto &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/agrupar-uma-formula/&#34;&gt;&lt;strong&gt;Como agrupar uma fórmula?&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 Se você completou o terceiro tutorial, vamos para o quarto &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/agrupar-uma-formula/&#34;&gt;&lt;strong&gt;Como agrupar uma fórmula?&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Tutoriais: Como agrupar uma fórmula</title>
-      <link>http://docs.devritchiecli.io/pt-br/tutoriais/agrupar-uma-formula/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/agrupar-uma-formula/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/tutoriais/agrupar-uma-formula/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/agrupar-uma-formula/</guid>
       <description>
         
         
         &lt;p&gt;Neste tutorial, a ideia é criar uma fórmula que irá agrupar uma outra fórmula dentro dela.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Para mais informações sobre agrupamento de fórmulas, veja a seção de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;encapsular fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para mais informações sobre agrupamento de fórmulas, veja a seção de &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;encapsular fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Vamos agrupar pelo menos duas fórmulas:&lt;/p&gt;
 &lt;ul&gt;
@@ -1069,10 +1069,10 @@ The sum is 3
     
     <item>
       <title>Tutoriais: Como testar outputs de formulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/tutoriais/como-testar-formulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/como-testar-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/tutoriais/como-testar-formulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/tutoriais/como-testar-formulas/</guid>
       <description>
         
         
@@ -1114,9 +1114,9 @@ jobs:
           expected_result: PASSED
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; Depois de comitar e dar o push no seu código, acesse a aba &lt;strong&gt;Actions&lt;/strong&gt; do repositório:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/actions-tab.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/actions-tab.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Você verá o &lt;strong&gt;workflow run&lt;/strong&gt; sendo executado (ou o resultado da execução), veja abaixo:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/formula-sum-numbers.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/formula-sum-numbers.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Cada push&lt;/strong&gt; no repositório irá agora iniciar esse workflow e você pode checar se a fórmula está comportando corretamente.&lt;/p&gt;
 &lt;p&gt;Você pode atualizar a implementação do workflow para ser iniciado apenas quando a raiz do diretório da fórmula estiver atualizado, ou testar mais cenários de acordo com os inputs da fórmula.&lt;/p&gt;
 &lt;p&gt;Para mais informações sobre sintaxe de workflow, acesse a &lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.0/actions/reference/workflow-syntax-for-github-actions&#34;&gt;&lt;strong&gt;documentação do Github&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;

@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Flag stdin</title>
-    <link>http://docs.devritchiecli.io/pt-br/flag-stdin/</link>
+    <link>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/</link>
     <description>Recent content in Flag stdin on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/pt-br/flag-stdin/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Flag Stdin: Visão Geral</title>
-      <link>http://docs.devritchiecli.io/pt-br/flag-stdin/visao-geral/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/visao-geral/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/flag-stdin/visao-geral/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/visao-geral/</guid>
       <description>
         
         
@@ -27,25 +27,25 @@
 
 &lt;div class=&#34;alert alert-danger&#34; role=&#34;alert&#34;&gt;
 
-A flag &lt;strong&gt;&amp;ndash;stdin&lt;/strong&gt; será descontinuada no início de 2021, sendo substituída pelos &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/&#34;&gt;&lt;strong&gt;input flags&lt;/strong&gt;&lt;/a&gt;.
+A flag &lt;strong&gt;&amp;ndash;stdin&lt;/strong&gt; será descontinuada no início de 2021, sendo substituída pelos &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/&#34;&gt;&lt;strong&gt;input flags&lt;/strong&gt;&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;p&gt;A flag &lt;strong&gt;&lt;code&gt;--stdin&lt;/code&gt;&lt;/strong&gt; no Ritchie foram desenvolvidas para oferecer mais uma opção para quem usa os parâmetros de entrada por meio de linha de comando.&lt;/p&gt;
 &lt;p&gt;Nesse caso, os parâmetros de entrada devem ser informados em um &lt;strong&gt;formato JSON&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;echo&lt;/code&gt;&lt;/strong&gt;&lt;code&gt;&#39;{&amp;quot;key&amp;quot;:&amp;quot;value&amp;quot;}&#39;&lt;/code&gt;&lt;strong&gt;&lt;code&gt;|&lt;/code&gt;&lt;/strong&gt;&lt;code&gt;RIT (GROUP) VERB NOUN&lt;/code&gt; &lt;strong&gt;&lt;code&gt;--stdin&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Você pode usar essas regras da flag stdin em:&lt;/p&gt;
-&lt;p&gt;👉 &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-core/&#34;&gt;&lt;strong&gt;Comandos Core&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;👉 &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-core/&#34;&gt;&lt;strong&gt;Comandos Core&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Flag Stdin: Comandos Core</title>
-      <link>http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-core/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-core/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-core/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-core/</guid>
       <description>
         
         
@@ -108,10 +108,10 @@ Sem suporte ainda
     
     <item>
       <title>Flag Stdin: Comandos de fórmulas</title>
-      <link>http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/flag-stdin/comandos-de-f%C3%B3rmulas/</guid>
       <description>
         
         

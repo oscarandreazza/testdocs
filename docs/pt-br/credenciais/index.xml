@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Credenciais</title>
-    <link>http://docs.devritchiecli.io/pt-br/credenciais/</link>
+    <link>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/</link>
     <description>Recent content in Credenciais on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/pt-br/credenciais/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/pt-br/credenciais/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Credenciais: Definir credenciais</title>
-      <link>http://docs.devritchiecli.io/pt-br/credenciais/definir-credenciais/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/definir-credenciais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/credenciais/definir-credenciais/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/definir-credenciais/</guid>
       <description>
         
         
@@ -45,7 +45,7 @@
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-Para saber mais sobre os arquivos editáveis das fórmulas e como &lt;strong&gt;manipular as credenciais definidas na sessão como parâmetros de input&lt;/strong&gt; das fórmulas (no caso, inputs no config.json), veja a seção de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;Fórmulas&lt;/strong&gt;&lt;/a&gt;.
+Para saber mais sobre os arquivos editáveis das fórmulas e como &lt;strong&gt;manipular as credenciais definidas na sessão como parâmetros de input&lt;/strong&gt; das fórmulas (no caso, inputs no config.json), veja a seção de &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;Fórmulas&lt;/strong&gt;&lt;/a&gt;.
 &lt;/div&gt;
 
 
@@ -54,10 +54,10 @@ Para saber mais sobre os arquivos editáveis das fórmulas e como &lt;strong&gt;
     
     <item>
       <title>Credenciais: Apagar credenciais</title>
-      <link>http://docs.devritchiecli.io/pt-br/credenciais/apagar-credenciais/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/apagar-credenciais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/credenciais/apagar-credenciais/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/apagar-credenciais/</guid>
       <description>
         
         
@@ -66,14 +66,14 @@ Para saber mais sobre os arquivos editáveis das fórmulas e como &lt;strong&gt;
 &lt;p&gt;Para deletar uma credencial, você precisa rodar o seguinte comando:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete credential
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Veja abaixo como o processo funciona:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/delete-credentials.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/delete-credentials.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;leia-mais&#34;&gt;&lt;strong&gt;Leia mais&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/credenciais/adicionar-provedores/&#34;&gt;&lt;strong&gt;Como adicionar provedores&lt;/strong&gt; &lt;/a&gt; e, assim, continuar configurando suas credenciais.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/credenciais/adicionar-provedores/&#34;&gt;&lt;strong&gt;Como adicionar provedores&lt;/strong&gt; &lt;/a&gt; e, assim, continuar configurando suas credenciais.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;Lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;Lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -82,10 +82,10 @@ Para saber mais sobre os arquivos editáveis das fórmulas e como &lt;strong&gt;
     
     <item>
       <title>Credenciais: Adicionar provedores</title>
-      <link>http://docs.devritchiecli.io/pt-br/credenciais/adicionar-provedores/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/adicionar-provedores/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/credenciais/adicionar-provedores/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/adicionar-provedores/</guid>
       <description>
         
         
@@ -122,10 +122,10 @@ Esse provedor, assim como as suas informações, serão salvas de forma permanen
     
     <item>
       <title>Credenciais: Usar credenciais como parâmetros de entrada</title>
-      <link>http://docs.devritchiecli.io/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</guid>
       <description>
         
         
@@ -166,7 +166,7 @@ O &lt;strong&gt;tipo&lt;/strong&gt; precisa respeitar o seguinte padrão: &lt;st
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;PROVIDER	 CONTEXT	  CREDENTIAL
 github  	 default	  {&amp;#34;token&amp;#34;:&amp;#34;***&amp;#34;, &amp;#34;email&amp;#34;:&amp;#34;***&amp;#34;, &amp;#34;username&amp;#34;:&amp;#34;***&amp;#34;}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Para mais informações sobre as automações disponíveis no repositório da nossa comunidade, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Para mais informações sobre as automações disponíveis no repositório da nossa comunidade, veja a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
       </description>
     </item>

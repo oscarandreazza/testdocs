@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Referência</title>
-    <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/</link>
+    <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/</link>
     <description>Recent content in Referência on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,25 +15,25 @@
     
     <item>
       <title>Referência: Cheat Sheet</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/cheat-sheet/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/cheat-sheet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/cheat-sheet/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/cheat-sheet/</guid>
       <description>
         
         
         &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/cheatsheetpt.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/cheatsheetpt.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Referência: Release Notes</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/release-notes/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/release-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/release-notes/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/release-notes/</guid>
       <description>
         
         
@@ -97,10 +97,10 @@
     
     <item>
       <title>Referência: Lista de comandos e flags</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/</guid>
       <description>
         
         
@@ -340,10 +340,10 @@ O comando rit build formula foi depreciado a partir da versão 2.5.0 do Ritchie.
     
     <item>
       <title>Referência: Migrando da v1 para a v2</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/migracao/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/migracao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/migracao/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/migracao/</guid>
       <description>
         
         
@@ -397,10 +397,10 @@ Em caso de dúvida, entre em contato com a nossa equipe no e-mail &lt;strong&gt;
     
     <item>
       <title>Referência: Recursos</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/resources/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/resources/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/resources/</guid>
       <description>
         
         
@@ -415,10 +415,10 @@ Em caso de dúvida, entre em contato com a nossa equipe no e-mail &lt;strong&gt;
     
     <item>
       <title>Referência: Sobre Ritchie</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/sobre-ritchie/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/sobre-ritchie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/sobre-ritchie/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/sobre-ritchie/</guid>
       <description>
         
         
@@ -437,7 +437,7 @@ Em caso de dúvida, entre em contato com a nossa equipe no e-mail &lt;strong&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Dessa forma, os profissionais - de todas as frentes - ganham tempo para atuar em tarefas mais complexas e relevantes para gerar valor ao seu projeto.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-demo-deploy-project.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-demo-deploy-project.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;qual-diferencial-do-ritchie&#34;&gt;&lt;strong&gt;Qual diferencial do Ritchie?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Por ser uma ferramenta de CLI, o Ritchie busca melhorar a experiência operacional dos desenvolvedores e traz benefícios como:&lt;/p&gt;
 &lt;ul&gt;
@@ -448,17 +448,17 @@ Em caso de dúvida, entre em contato com a nossa equipe no e-mail &lt;strong&gt;
 &lt;p&gt;Ao invés de sinalizar nas linhas de comando quais parâmetros e/ou argumentos o usuário precisa informar, fazemos o contrário: o Ritchie apresenta as opções disponíveis e vai, linha a linha, perguntando as informações necessárias para o comando funcionar, de forma interativa.&lt;/p&gt;
 &lt;p&gt;No exemplo abaixo, você pode ver a execução de um comando scaffold com a fórmula coffee.&lt;/p&gt;
 &lt;p&gt;Quando o usuário sinaliza qual a fórmula quer utilizar, o sistema automaticamente passa, linha a linha, a perguntar quais parâmetros específicos devem ser considerados para executar a ação desejada.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-scaffold-generate-coffee-go.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-scaffold-generate-coffee-go.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Referência: Glossário</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/gloss%C3%A1rio/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/gloss%C3%A1rio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/gloss%C3%A1rio/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/gloss%C3%A1rio/</guid>
       <description>
         
         
@@ -488,7 +488,7 @@ No Ritchie, os comandos são agrupados em &lt;strong&gt;&amp;ldquo;árvores&amp;
 &lt;p&gt;Para permitir mais opções e liberdade aos usuários, também é possível seguir o padrão abaixo na construção de comandos das fórmulas:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;code&gt;RIT + GRUPO + VERBO + SUBSTANTIVO&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Usamos o prefixo &lt;strong&gt;&lt;code&gt;rit&lt;/code&gt;&lt;/strong&gt; para iniciar nossa árvore de comandos.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/arvore-rit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/arvore-rit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
 
 &lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
@@ -529,7 +529,7 @@ Essa árvore é gerada &lt;strong&gt;dinamicamente&lt;/strong&gt; pelo CLI basea
 &lt;li&gt;Quando digitar a linha de comando no terminal (via &lt;strong&gt;stdin&lt;/strong&gt; ou &lt;strong&gt;input flags&lt;/strong&gt;).&lt;/li&gt;
 &lt;li&gt;Durante a execução da fórmula (se o código usou o &lt;strong&gt;prompt&lt;/strong&gt;).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/start-end-ritchie.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/start-end-ritchie.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;json&#34;&gt;&lt;strong&gt;JSON&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;JavaScript Object Notation (JSON), é um formato padrão de texto usado para estruturar dados criados com linguagem de programação JavaScript.&lt;/p&gt;
 &lt;h2 id=&#34;repositório&#34;&gt;&lt;strong&gt;Repositório&lt;/strong&gt;&lt;/h2&gt;
@@ -547,17 +547,17 @@ Essa árvore é gerada &lt;strong&gt;dinamicamente&lt;/strong&gt; pelo CLI basea
     
     <item>
       <title>Referência: FAQ</title>
-      <link>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/faq/</link>
+      <link>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/faq/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/faq/</guid>
       <description>
         
         
         &lt;hr&gt;
 &lt;h1 id=&#34;sobre-o-projeto&#34;&gt;&lt;strong&gt;Sobre o projeto&lt;/strong&gt;&lt;/h1&gt;
 &lt;h3 id=&#34;o-que-é-ritchie&#34;&gt;&lt;strong&gt;O que é Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;O Ritchie é um &lt;strong&gt;framework open source&lt;/strong&gt; que cria e ajusta o CLI para seu time. Ele permite que você crie, faça o build e compartilhe &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/gloss%C3%A1rio/#fórmulas&#34;&gt;&lt;strong&gt;fórmulas&lt;/strong&gt;&lt;/a&gt; facilmente. Para mais informações, veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/sobre-ritchie/#de-onde-o-ritchie-veio&#34;&gt;&lt;strong&gt;sobre o produto&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O Ritchie é um &lt;strong&gt;framework open source&lt;/strong&gt; que cria e ajusta o CLI para seu time. Ele permite que você crie, faça o build e compartilhe &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/gloss%C3%A1rio/#fórmulas&#34;&gt;&lt;strong&gt;fórmulas&lt;/strong&gt;&lt;/a&gt; facilmente. Para mais informações, veja a seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/refer%C3%AAncia/sobre-ritchie/#de-onde-o-ritchie-veio&#34;&gt;&lt;strong&gt;sobre o produto&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;o-que-o-ritchie-faz&#34;&gt;&lt;strong&gt;O que o Ritchie faz?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;O Ritchie cria automações para melhorar a experiência operacional dos &lt;strong&gt;desenvolvedores e traz benefícios como&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -567,9 +567,9 @@ Essa árvore é gerada &lt;strong&gt;dinamicamente&lt;/strong&gt; pelo CLI basea
 &lt;/ul&gt;
 &lt;h2 id=&#34;instalação-e-uso&#34;&gt;&lt;strong&gt;Instalação e Uso&lt;/strong&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;como-instalar-p-ritchie&#34;&gt;&lt;strong&gt;Como instalar p Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Você pode seguir o passo a passo da instalação de acordo com o seu sistema operacional. Para mais informações, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/primeiros-passos/&#34;&gt;&lt;strong&gt;seção de instalação.&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Você pode seguir o passo a passo da instalação de acordo com o seu sistema operacional. Para mais informações, veja a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/primeiros-passos/&#34;&gt;&lt;strong&gt;seção de instalação.&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;como-criar-uma-nova-fórmula-no-ritchie&#34;&gt;&lt;strong&gt;Como criar uma nova fórmula no Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Usando o comando &lt;code&gt;rit create formula&lt;/code&gt;, você pode criar fórmulas usando qualquer linguagem de programação. Para mais informações, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;seção Como criar fórmulas.&lt;/strong&gt; &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Usando o comando &lt;code&gt;rit create formula&lt;/code&gt;, você pode criar fórmulas usando qualquer linguagem de programação. Para mais informações, veja a &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;seção Como criar fórmulas.&lt;/strong&gt; &lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;como-criar-fórmulas-em-um-repositório-existente&#34;&gt;&lt;strong&gt;Como criar fórmulas em um repositório existente?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Siga os passos abaixo:&lt;/p&gt;
 &lt;ol&gt;
@@ -578,7 +578,7 @@ Essa árvore é gerada &lt;strong&gt;dinamicamente&lt;/strong&gt; pelo CLI basea
 &lt;li&gt;Adicione e implemente a nova fórmula com o comando &lt;code&gt;rit create formula&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;como-executar-fórmulas&#34;&gt;&lt;strong&gt;Como executar fórmulas?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Você pode executar suas fórmulas de maneira local ou por meio do Docker. Para mais informações, veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como executar fórmulas.&lt;/strong&gt; &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Você pode executar suas fórmulas de maneira local ou por meio do Docker. Para mais informações, veja a seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como executar fórmulas.&lt;/strong&gt; &lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;como-fazer-o-build-de-fórmulas-no-ritchie&#34;&gt;&lt;strong&gt;Como fazer o &amp;ldquo;build&amp;rdquo; de fórmulas no Ritchie?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Ao executar uma fórmula, o &amp;lsquo;build&amp;rsquo; é feito automaticamente, não é necessário nenhum comando para isso.&lt;/p&gt;
 &lt;h3 id=&#34;como-atualizar-uma-fórmula-de-um-repositório&#34;&gt;&lt;strong&gt;Como atualizar uma fórmula de um repositório?&lt;/strong&gt;&lt;/h3&gt;
@@ -591,7 +591,7 @@ Essa árvore é gerada &lt;strong&gt;dinamicamente&lt;/strong&gt; pelo CLI basea
 &lt;h3 id=&#34;como-executar-uma-fórmula-de-um-repositório&#34;&gt;&lt;strong&gt;Como executar uma fórmula de um repositório?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Use o comando &lt;code&gt;rit add repo &lt;/code&gt; para adicionar a fórmula ao repositório.&lt;/p&gt;
 &lt;h3 id=&#34;como-publicar-fórmulas-no-ritchie&#34;&gt;&lt;strong&gt;Como publicar fórmulas no Ritchie?&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Você pode publicar uma fórmula criando um repositório no Github, Gitlab ou Bitbucket e adicionando uma release da sua fórmula. Para mais informações, veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como publicar uma fórmula&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Você pode publicar uma fórmula criando um repositório no Github, Gitlab ou Bitbucket e adicionando uma release da sua fórmula. Para mais informações, veja a seção &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como publicar uma fórmula&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;comunidade&#34;&gt;&lt;strong&gt;Comunidade&lt;/strong&gt;&lt;/h1&gt;
 &lt;h3 id=&#34;como-submeter-minha-fórmula-no-repositório-da-comunidade&#34;&gt;&lt;strong&gt;Como submeter minha fórmula no repositório da comunidade?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Você precisa abrir um pull request no &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;repositório ritchie-formula&lt;/strong&gt; &lt;/a&gt; com sua sugestão de fórmula.&lt;/p&gt;

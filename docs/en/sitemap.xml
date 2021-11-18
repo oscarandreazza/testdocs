@@ -2,205 +2,205 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://docs.devritchiecli.io/reference/cheatsheet/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/cheatsheet/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/overview/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/overview/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/quick-start-guide/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/quick-start-guide/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://docs.devritchiecli.io/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://docs.devritchiecli.io/"
-                />
-  </url><url>
-    <loc>http://docs.devritchiecli.io/getting-started/linux/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/reference/release-notes/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/getting-started/macos/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/getting-started/windows/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/getting-started/manual-installation/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/getting-started/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/getting-started/initialize-cli/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/getting-started/upgrade-cli/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/run-formula/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/hello-world-formula/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/create-formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/organize-the-formula-folder/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/configure-inputs/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/extract-input-variables-in-a-formula/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/add-formula-dependencies/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/build-formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/workspaces/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/rename-formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/publish-formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/share-formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/delete-formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/group-formulas/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/formulas/test-formula/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/credentials/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/credentials/set-credentials/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/credentials/delete-credentials/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/credentials/add-providers/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/credentials/use-credentials-as-formula-inputs/</loc>
-    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
-  </url><url>
-    <loc>http://docs.devritchiecli.io/standard-inputs/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://docs.devritchiecli.io/pt-br/standard-inputs/"
+                href="https://oscarandreazza.github.io/testdocs/pt-br/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://docs.devritchiecli.io/standard-inputs/"
+                href="https://oscarandreazza.github.io/testdocs/"
                 />
   </url><url>
-    <loc>http://docs.devritchiecli.io/standard-inputs/overview/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/getting-started/linux/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/stdin-flag/stdin-flag-overview/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/release-notes/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/stdin-flag/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/getting-started/macos/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/stdin-flag/stdinflag-core-commands/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/getting-started/windows/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/stdin-flag/stdin-flag-formulas-commands/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/getting-started/manual-installation/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/standard-inputs/input-flag/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/getting-started/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/getting-started/initialize-cli/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/getting-started/upgrade-cli/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/run-formula/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/hello-world-formula/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/create-formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/organize-the-formula-folder/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/configure-inputs/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/extract-input-variables-in-a-formula/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/add-formula-dependencies/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/build-formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/workspaces/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/rename-formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/publish-formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/share-formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/delete-formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/group-formulas/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/formulas/test-formula/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/credentials/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/credentials/set-credentials/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/credentials/delete-credentials/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/credentials/add-providers/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/credentials/use-credentials-as-formula-inputs/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/standard-inputs/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/"
+                href="https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://docs.devritchiecli.io/standard-inputs/input-flag/"
+                href="https://oscarandreazza.github.io/testdocs/standard-inputs/"
                 />
   </url><url>
-    <loc>http://docs.devritchiecli.io/standard-inputs/core-commands/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/standard-inputs/overview/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/standard-inputs/formulas-commands/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/stdin-flag/stdin-flag-overview/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/tutorials/what-are-these-tutorials/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/stdin-flag/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/tutorials/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/stdin-flag/stdinflag-core-commands/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/tutorials/manipulate-inputs/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/stdin-flag/stdin-flag-formulas-commands/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/tutorials/use-github-credentials/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/standard-inputs/input-flag/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://oscarandreazza.github.io/testdocs/pt-br/standard-inputs/input-flag/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://oscarandreazza.github.io/testdocs/standard-inputs/input-flag/"
+                />
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/standard-inputs/core-commands/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/tutorials/conditional-inputs/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/standard-inputs/formulas-commands/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/tutorials/group-a-formula/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/tutorials/what-are-these-tutorials/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/tutorials/how-to-test-formulas/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/tutorials/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/reference/list-of-commands-and-flags/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/tutorials/manipulate-inputs/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/reference/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/tutorials/use-github-credentials/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/reference/version-migration/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/tutorials/conditional-inputs/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/reference/resources/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/tutorials/group-a-formula/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/reference/about-ritchie/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/tutorials/how-to-test-formulas/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/reference/glossary/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/list-of-commands-and-flags/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/reference/faq/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url><url>
-    <loc>http://docs.devritchiecli.io/contribute/</loc>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/version-migration/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/resources/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/about-ritchie/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/glossary/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/reference/faq/</loc>
+    <lastmod>2021-11-18T14:43:17-03:00</lastmod>
+  </url><url>
+    <loc>https://oscarandreazza.github.io/testdocs/contribute/</loc>
     <lastmod>2021-11-18T14:43:17-03:00</lastmod>
   </url>
 </urlset>

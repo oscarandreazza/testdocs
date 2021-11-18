@@ -1,4 +1,4 @@
-baseURL = "http://docs.devritchiecli.io"
+baseURL = "https://oscarandreazza.github.io/testdocs/"
 title = "Ritchie"
 enableRobotsTXT = true
 

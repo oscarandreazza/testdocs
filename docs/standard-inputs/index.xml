@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Standard Inputs</title>
-    <link>http://docs.devritchiecli.io/standard-inputs/</link>
+    <link>https://oscarandreazza.github.io/testdocs/standard-inputs/</link>
     <description>Recent content in Standard Inputs on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/standard-inputs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/standard-inputs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,17 +15,17 @@
     
     <item>
       <title>Standard Inputs: Overview</title>
-      <link>http://docs.devritchiecli.io/standard-inputs/overview/</link>
+      <link>https://oscarandreazza.github.io/testdocs/standard-inputs/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/standard-inputs/overview/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/standard-inputs/overview/</guid>
       <description>
         
         
         &lt;hr&gt;
 &lt;p&gt;When you inform inputs through &lt;strong&gt;arguments&lt;/strong&gt; or &lt;strong&gt;flags&lt;/strong&gt; allows you to automate workflows.&lt;/p&gt;
 &lt;p&gt;This is useful when you manipulate other tools within a script, as you can automate operations without interacting with the terminal.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/standard-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/standard-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;how-can-you-inform-the-input-parameters&#34;&gt;&lt;strong&gt;How can you inform the input parameters?&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Basically, there are two ways to inform input parameters directly on the command lines:&lt;/p&gt;
 &lt;ol&gt;
@@ -34,8 +34,8 @@
 &lt;/ol&gt;
 &lt;p&gt;For more information about them, check out the following sections:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/standard-inputs/input-flag/&#34;&gt;&lt;strong&gt;Input flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/stdin-flag/&#34;&gt;&lt;strong&gt;STDIN flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/standard-inputs/input-flag/&#34;&gt;&lt;strong&gt;Input flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/stdin-flag/&#34;&gt;&lt;strong&gt;STDIN flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -43,10 +43,10 @@
     
     <item>
       <title>Standard Inputs: Input Flags</title>
-      <link>http://docs.devritchiecli.io/standard-inputs/input-flag/</link>
+      <link>https://oscarandreazza.github.io/testdocs/standard-inputs/input-flag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/standard-inputs/input-flag/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/standard-inputs/input-flag/</guid>
       <description>
         
         
@@ -61,17 +61,17 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;For more information about &lt;strong&gt;Input Flags&lt;/strong&gt;, check out the &lt;a href=&#34;http://docs.devritchiecli.io/standard-inputs/formulas-commands/&#34;&gt;&lt;strong&gt;Formulas commands&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;For more information about &lt;strong&gt;Input Flags&lt;/strong&gt;, check out the &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/standard-inputs/formulas-commands/&#34;&gt;&lt;strong&gt;Formulas commands&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Standard Inputs: Core Commands</title>
-      <link>http://docs.devritchiecli.io/standard-inputs/core-commands/</link>
+      <link>https://oscarandreazza.github.io/testdocs/standard-inputs/core-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/standard-inputs/core-commands/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/standard-inputs/core-commands/</guid>
       <description>
         
         
@@ -156,10 +156,10 @@ The token flag is mandatory when the command is used to add a private repository
     
     <item>
       <title>Standard Inputs: Formulas commands</title>
-      <link>http://docs.devritchiecli.io/standard-inputs/formulas-commands/</link>
+      <link>https://oscarandreazza.github.io/testdocs/standard-inputs/formulas-commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/standard-inputs/formulas-commands/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/standard-inputs/formulas-commands/</guid>
       <description>
         
         

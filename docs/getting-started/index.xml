@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ritchie – Getting Started</title>
-    <link>http://docs.devritchiecli.io/getting-started/</link>
+    <link>https://oscarandreazza.github.io/testdocs/getting-started/</link>
     <description>Recent content in Getting Started on Ritchie</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="http://docs.devritchiecli.io/getting-started/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://oscarandreazza.github.io/testdocs/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Getting Started: CLI installation for Linux</title>
-      <link>http://docs.devritchiecli.io/getting-started/linux/</link>
+      <link>https://oscarandreazza.github.io/testdocs/getting-started/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/getting-started/linux/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/getting-started/linux/</guid>
       <description>
         
         
@@ -44,7 +44,7 @@
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-If you prefer, you also can install using the &lt;a href=&#34;http://docs.devritchiecli.io/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
+If you prefer, you also can install using the &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h3 id=&#34;packages&#34;&gt;Packages&lt;/h3&gt;
@@ -83,10 +83,10 @@ If you prefer, you also can install using the &lt;a href=&#34;http://docs.devrit
     
     <item>
       <title>Getting Started: CLI installation for Macos</title>
-      <link>http://docs.devritchiecli.io/getting-started/macos/</link>
+      <link>https://oscarandreazza.github.io/testdocs/getting-started/macos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/getting-started/macos/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/getting-started/macos/</guid>
       <description>
         
         
@@ -122,7 +122,7 @@ If you prefer, you also can install using the &lt;a href=&#34;http://docs.devrit
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-If you prefer, you also can follow with the&lt;a href=&#34;http://docs.devritchiecli.io/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
+If you prefer, you also can follow with the&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h3 id=&#34;second-option&#34;&gt;Second option&lt;/h3&gt;
@@ -138,10 +138,10 @@ If you prefer, you also can follow with the&lt;a href=&#34;http://docs.devritchi
     
     <item>
       <title>Getting Started: CLI installation for Windows</title>
-      <link>http://docs.devritchiecli.io/getting-started/windows/</link>
+      <link>https://oscarandreazza.github.io/testdocs/getting-started/windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/getting-started/windows/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/getting-started/windows/</guid>
       <description>
         
         
@@ -173,7 +173,7 @@ If you prefer, you also can follow with the&lt;a href=&#34;http://docs.devritchi
 
 &lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
 
-If you prefer, you also can proceed with the&lt;a href=&#34;http://docs.devritchiecli.io/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
+If you prefer, you also can proceed with the&lt;a href=&#34;https://oscarandreazza.github.io/testdocs/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;h2 id=&#34;step-2-verify-the-installation&#34;&gt;&lt;strong&gt;Step 2: Verify the installation&lt;/strong&gt;&lt;/h2&gt;
@@ -186,10 +186,10 @@ If you prefer, you also can proceed with the&lt;a href=&#34;http://docs.devritch
     
     <item>
       <title>Getting Started: Manual Installation</title>
-      <link>http://docs.devritchiecli.io/getting-started/manual-installation/</link>
+      <link>https://oscarandreazza.github.io/testdocs/getting-started/manual-installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/getting-started/manual-installation/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/getting-started/manual-installation/</guid>
       <description>
         
         
@@ -289,10 +289,10 @@ source ~/.rit_completion​
     
     <item>
       <title>Getting Started: Initialize CLI</title>
-      <link>http://docs.devritchiecli.io/getting-started/initialize-cli/</link>
+      <link>https://oscarandreazza.github.io/testdocs/getting-started/initialize-cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/getting-started/initialize-cli/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/getting-started/initialize-cli/</guid>
       <description>
         
         
@@ -305,16 +305,16 @@ source ~/.rit_completion​
 &lt;ol&gt;
 &lt;li&gt;If the user &lt;strong&gt;wants to contribute anonymously&lt;/strong&gt; to Ritchie metrics.&lt;/li&gt;
 &lt;li&gt;If the user &lt;strong&gt;wants to add the community&lt;/strong&gt; formulas locally.&lt;/li&gt;
-&lt;li&gt;Which &lt;strong&gt;execution method&lt;/strong&gt; the user wants to use by &lt;strong&gt;default&lt;/strong&gt; (local or docker). &lt;a href=&#34;http://docs.devritchiecli.io/formulas/run-formula/&#34;&gt;&lt;strong&gt;formula execution method&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Which &lt;strong&gt;execution method&lt;/strong&gt; the user wants to use by &lt;strong&gt;default&lt;/strong&gt; (local or docker). &lt;a href=&#34;https://oscarandreazza.github.io/testdocs/formulas/run-formula/&#34;&gt;&lt;strong&gt;formula execution method&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-init.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-init.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;After this, the command will create all the necessary configuration&amp;rsquo;s files.&lt;/p&gt;
 &lt;h2 id=&#34;step-2-verify-initialization&#34;&gt;&lt;strong&gt;Step 2: Verify Initialization&lt;/strong&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;1-commons-repository&#34;&gt;1. Commons repository&lt;/h3&gt;
 &lt;p&gt;If you added the community formulas repository, verify the import using the following command:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list repo
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will return all formulas repositories the user has local access to.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-list-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://oscarandreazza.github.io/testdocs/shared/rit-list-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2-ritchie-folder&#34;&gt;2. Ritchie folder&lt;/h3&gt;
 &lt;p&gt;You can check if the &lt;strong&gt;&lt;code&gt;.rit&lt;/code&gt;&lt;/strong&gt; folder has been created on your &lt;strong&gt;&lt;code&gt;$HOME&lt;/code&gt;&lt;/strong&gt; directory.&lt;/p&gt;
 
@@ -330,10 +330,10 @@ All operations done using Ritchie will be saved in this &lt;strong&gt;.rit&lt;/s
     
     <item>
       <title>Getting Started: Upgrade CLI</title>
-      <link>http://docs.devritchiecli.io/getting-started/upgrade-cli/</link>
+      <link>https://oscarandreazza.github.io/testdocs/getting-started/upgrade-cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.devritchiecli.io/getting-started/upgrade-cli/</guid>
+      <guid>https://oscarandreazza.github.io/testdocs/getting-started/upgrade-cli/</guid>
       <description>
         
         
