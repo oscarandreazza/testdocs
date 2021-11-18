@@ -9,6 +9,8 @@ theme = ["ritchie"]
 enableGitInfo = true
 
 staticDir = ["static"]
+publishDir = "./docs"
+
 
 # Language settings
 contentDir = "content/en"

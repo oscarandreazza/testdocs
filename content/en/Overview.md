@@ -6,7 +6,7 @@ description: 'In this section, you will find all initial information about Ritch
 
 ---
 
-## **What is Oscar?**  
+## **Testando deploy?**  
 
 Ritchie is an **open source framework** that allows you to create, store and share any kind of automations, executing them through command lines, to run operations or start workflows.
 
