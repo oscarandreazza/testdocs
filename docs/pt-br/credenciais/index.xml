@@ -1,0 +1,175 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ritchie – Credenciais</title>
+    <link>http://docs.devritchiecli.io/pt-br/credenciais/</link>
+    <description>Recent content in Credenciais on Ritchie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://docs.devritchiecli.io/pt-br/credenciais/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Credenciais: Definir credenciais</title>
+      <link>http://docs.devritchiecli.io/pt-br/credenciais/definir-credenciais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/credenciais/definir-credenciais/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;Você pode definir as credenciais do Ritchie para não precisar informar os mesmos dados diversas vezes no terminal.&lt;/p&gt;
+&lt;p&gt;Para fazer isso, rode o comando abaixo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set credential
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;O terminal irá retornar essa mensagem:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;? Select your provider [Use arrows to move, type to filter]
+&amp;gt; kubeconfig
+  ansible
+  aws
+  github
+  gitlab
+  jenkins
+  Add a new
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Depois que você escolheu um dos provedores disponíveis, o Ritchie irá solicitar que você preencha os seguintes campos:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;? Select your provider github
+? username: DennisRitchie
+? email: dennis.ritchie@zup.com.br
+? token: 
+✔ Github credential saved!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Para saber mais sobre os arquivos editáveis das fórmulas e como &lt;strong&gt;manipular as credenciais definidas na sessão como parâmetros de input&lt;/strong&gt; das fórmulas (no caso, inputs no config.json), veja a seção de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;Fórmulas&lt;/strong&gt;&lt;/a&gt;.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Credenciais: Apagar credenciais</title>
+      <link>http://docs.devritchiecli.io/pt-br/credenciais/apagar-credenciais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/credenciais/apagar-credenciais/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-apagar&#34;&gt;&lt;strong&gt;Como apagar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para deletar uma credencial, você precisa rodar o seguinte comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete credential
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Veja abaixo como o processo funciona:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/delete-credentials.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;leia-mais&#34;&gt;&lt;strong&gt;Leia mais&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/credenciais/adicionar-provedores/&#34;&gt;&lt;strong&gt;Como adicionar provedores&lt;/strong&gt; &lt;/a&gt; e, assim, continuar configurando suas credenciais.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;Lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Credenciais: Adicionar provedores</title>
+      <link>http://docs.devritchiecli.io/pt-br/credenciais/adicionar-provedores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/credenciais/adicionar-provedores/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;É possível configurar o Ritchie para adicionar novos provedores no seu espaço de trabalho.&lt;/p&gt;
+&lt;p&gt;Para fazer isso:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Selecione a opção &amp;ldquo;&lt;strong&gt;Add a new&lt;/strong&gt;&amp;rdquo; rodando o comando &lt;strong&gt;&lt;code&gt;rit set credential&lt;/code&gt;&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;? Select your provider Add a new
+? Define your provider name: Provider_Name
+? Define your field name: (ex.:token, secretAccessKey) token
+? Select your field type: secret
+? Add more credentials to this provider? no
+? token: *
+✔ Provider_Name credential saved!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As informações que o Ritchie solicita são:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Provider name:&lt;/strong&gt; Nome do novo provedor. Você pode nomear de acordo com sua preferência.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Field name:&lt;/strong&gt; Nome da credencial que está nesse provedor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Field type:&lt;/strong&gt; Tipo de valor dessa credencial. Ele pode ser: &lt;strong&gt;plain text&lt;/strong&gt; ou &lt;strong&gt;secret&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ao terminar essa configuração, você pode configurar as credenciais seguindo as instruções acima.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Esse provedor, assim como as suas informações, serão salvas de forma permanente no Ritchie. No entanto, você pode adicionar quantos provedores quiser.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Credenciais: Usar credenciais como parâmetros de entrada</title>
+      <link>http://docs.devritchiecli.io/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/credenciais/usar-credenciais-como-par%C3%A2metros-de-entrada/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;Depois de configurar as credenciais do provedor, você pode usá-la como parâmetro de entrada para o arquivo &lt;strong&gt;&lt;code&gt;config.json&lt;/code&gt;&lt;/strong&gt; das suas fórmulas.&lt;/p&gt;
+&lt;h2 id=&#34;como-configurar&#34;&gt;&lt;strong&gt;Como configurar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para fazer isso, use a palavra-chave reservada: &lt;strong&gt;&lt;code&gt;CREDENTIAL&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quando usada como parâmetro de entrada, a credencial terá 2 campos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Name:&lt;/strong&gt; Variável usada para extrair o parâmetro e manipulá-lo dentro do código da fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Nomenclatura específica para o CLI saber qual credencial usar.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;div class=&#34;alert alert-danger&#34; role=&#34;alert&#34;&gt;
+
+O &lt;strong&gt;tipo&lt;/strong&gt; precisa respeitar o seguinte padrão: &lt;strong&gt;&lt;code&gt;CREDENTIAL_PROVIDER_VARIABLE&lt;/code&gt;&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Por exemplo, para usar as credenciais do &lt;strong&gt;&lt;code&gt;GITHUB&lt;/code&gt;&lt;/strong&gt; como parâmetros, você precisa informá-las no arquivo &lt;strong&gt;&lt;code&gt;config.json&lt;/code&gt;&lt;/strong&gt; da fórmula:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&amp;#34;inputs&amp;#34;: [ 
+    { 
+        &amp;#34;name&amp;#34;: &amp;#34;git_user&amp;#34;, 
+        &amp;#34;type&amp;#34;: &amp;#34;CREDENTIAL_GITHUB_USERNAME&amp;#34; 
+    },
+    { 
+        &amp;#34;name&amp;#34;: &amp;#34;git_email&amp;#34;, 
+        &amp;#34;type&amp;#34;: &amp;#34;CREDENTIAL_GITHUB_EMAIL&amp;#34; 
+    },
+    { 
+        &amp;#34;name&amp;#34;: &amp;#34;git_token&amp;#34;, 
+        &amp;#34;type&amp;#34;: &amp;#34;CREDENTIAL_GITHUB_TOKEN&amp;#34;
+    } 
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Se você tem alguma dúvida com os nomes dos provedores, você pode checar a lista de credenciais que você já configurou usando o comando abaixo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list credential
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Com &lt;strong&gt;&lt;code&gt;GITHUB&lt;/code&gt;&lt;/strong&gt;, o terminal irá retornar uma resposta como essa:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;PROVIDER	 CONTEXT	  CREDENTIAL
+github  	 default	  {&amp;#34;token&amp;#34;:&amp;#34;***&amp;#34;, &amp;#34;email&amp;#34;:&amp;#34;***&amp;#34;, &amp;#34;username&amp;#34;:&amp;#34;***&amp;#34;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Para mais informações sobre as automações disponíveis no repositório da nossa comunidade, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

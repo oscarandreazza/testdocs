@@ -1,0 +1,620 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ritchie – Reference</title>
+    <link>http://docs.devritchiecli.io/reference/</link>
+    <description>Recent content in Reference on Ritchie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://docs.devritchiecli.io/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Reference: Cheat Sheet</title>
+      <link>http://docs.devritchiecli.io/reference/cheatsheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/cheatsheet/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/cheatsheet.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reference: Release Notes</title>
+      <link>http://docs.devritchiecli.io/reference/release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/release-notes/</guid>
+      <description>
+        
+        
+        &lt;div class=&#34;release-note-group&#34;&gt;
+&lt;div class=&#34;row release-note-item&#34; data-type=&#34;feature&#34; data-repository=&#34;&#34;&gt;
+  &lt;div class=&#34;col-auto&#34;&gt;
+    &lt;span class=&#34;release-note-item--type release-note-item--type-feature&#34;&gt;feature&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--repository&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--date&#34;&gt;May 2021&lt;/div&gt;
+  &lt;div class=&#34;col&#34;&gt;&lt;p&gt;Add command &lt;strong&gt;&amp;lsquo;rit list formulas&amp;rsquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Add a force-update option to execute the last formula version when enabled.&lt;/p&gt;
+&lt;p&gt;Add lib to support Ritchie-CLI internationalization.&lt;/p&gt;
+&lt;p&gt;Add the first part of the formula output feature.&lt;/p&gt;
+&lt;p&gt;Detect new repo version using cache.&lt;/p&gt;
+&lt;p&gt;Create configuration to force formula&amp;rsquo;s execution in the latest version.&lt;/p&gt;
+&lt;p&gt;Add configuration to mount volumes via &lt;strong&gt;config.json&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Create a formula and check &lt;strong&gt;config.json&lt;/strong&gt; file to see the release tag.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;row release-note-item&#34; data-type=&#34;fix&#34; data-repository=&#34;&#34;&gt;
+  &lt;div class=&#34;col-auto&#34;&gt;
+    &lt;span class=&#34;release-note-item--type release-note-item--type-fix&#34;&gt;fix&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--repository&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--date&#34;&gt;May 2021&lt;/div&gt;
+  &lt;div class=&#34;col&#34;&gt;&lt;p&gt;Fix files created by the formula belonging to the root user.&lt;/p&gt;
+&lt;p&gt;Change the invocation command from &lt;strong&gt;&amp;lsquo;docker&amp;rsquo;&lt;/strong&gt; to &lt;strong&gt;&amp;lsquo;com.docker.cli&amp;rsquo;&lt;/strong&gt; when the runtime env is Windows or MacOS.&lt;/p&gt;
+&lt;p&gt;Fix formula&amp;rsquo;s outputs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;row release-note-item&#34; data-type=&#34;chore&#34; data-repository=&#34;&#34;&gt;
+  &lt;div class=&#34;col-auto&#34;&gt;
+    &lt;span class=&#34;release-note-item--type release-note-item--type-chore&#34;&gt;chore&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--repository&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--date&#34;&gt;May 2021&lt;/div&gt;
+  &lt;div class=&#34;col&#34;&gt;&lt;p&gt;Add tests and support flags for &lt;strong&gt;rit delete repo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Save and reuse repo credentials for private repositories.&lt;/p&gt;
+&lt;p&gt;Add a friendlier error message on update repository.&lt;/p&gt;
+&lt;p&gt;Test refactor of flag package.&lt;/p&gt;
+&lt;p&gt;Add tests with testify for delete repository.&lt;/p&gt;
+&lt;p&gt;Remove stale bot.&lt;/p&gt;
+&lt;p&gt;Improve metrics extracted by input flags.&lt;/p&gt;
+&lt;p&gt;Test refactor of a flag package.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;row release-note-item&#34; data-type=&#34;docs&#34; data-repository=&#34;&#34;&gt;
+  &lt;div class=&#34;col-auto&#34;&gt;
+    &lt;span class=&#34;release-note-item--type release-note-item--type-docs&#34;&gt;docs&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--repository&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;col-auto release-note-item--date&#34;&gt;May 2021&lt;/div&gt;
+  &lt;div class=&#34;col&#34;&gt;&lt;p&gt;Documentation migration from Gitbook to Hugo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Check out Ritchie&amp;rsquo;s &lt;a href=&#34;https://github.com/ZupIT/ritchie-cli/releases&#34;&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reference: List of commands and flags</title>
+      <link>http://docs.devritchiecli.io/reference/list-of-commands-and-flags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/list-of-commands-and-flags/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;commands&#34;&gt;&lt;strong&gt;Commands&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;configuration-commands&#34;&gt;&lt;strong&gt;Configuration commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Commands&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit init&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;initialize Ritchie before use&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit upgrade&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;upgrade to the last Ritchie stable version&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit tutorial&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;enable or disable the tutorial&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit -v&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;return Ritchie currently installed version&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;repo-commands&#34;&gt;&lt;strong&gt;Repo commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Command&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit add repo&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;add a new repository (to access repository formulas with Ritchie)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit list repo&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;show a list with all your available repositories&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit update repo&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;update all repositories (to access new formulas from those repositories with Ritchie)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit set repo-priority&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;set a repository priority&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit delete repo&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;delete a repository (to remove access to the repository formulas with Ritchie)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;formula-commands&#34;&gt;&lt;strong&gt;Formula commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Command&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit create formula&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;create a new formula from scratch (as well as a new local repository if necessary)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit build formula&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;build a formula locally for test&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit build formula &amp;ndash;watch&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;build a formula monitoring the code to update real time changes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit rename formula&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rename a local formula&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit list formula&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;list all available formulas from specific/all repositories&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;div class=&#34;alert alert-danger&#34; role=&#34;alert&#34;&gt;
+
+The rit build formula command was deprecated from Ritchie&amp;rsquo;s version 2.5.0.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;autocomplete-commands&#34;&gt;&lt;strong&gt;Autocomplete commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Commands&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit completion zsh&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;add autocomplete via zsh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit completion bash&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;add autocomplete via bash&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit completion fish&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;add autocomplete via fish&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit completion powershell&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;add autocomplete via powershell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;env-commands&#34;&gt;&lt;strong&gt;Env commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Commands&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit set env&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;set a new environment&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit show env&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;show the current environment used&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit delete env&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;delete a environment&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;credential-commands&#34;&gt;&lt;strong&gt;Credential commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Commands&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit set credential&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;set new credentials for the context&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit list credential&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;list all credential names and fields&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;workspace-commands&#34;&gt;&lt;strong&gt;Workspace commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Commands&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit list workspace&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;list all formula&amp;rsquo;s workspaces&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit add workspace&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;add a new workspace&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit delete workspace&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;delete a specific formula&amp;rsquo;s workspace&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;rit update workspace&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;update a specific formula&amp;rsquo;s workspace (to access new formulas from this workspace with Ritchie)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;flags&#34;&gt;&lt;strong&gt;Flags&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;main-flags&#34;&gt;&lt;strong&gt;Main flags&lt;/strong&gt;&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Flags&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Operation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;--default&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;attribute the &lt;strong&gt;default&lt;/strong&gt; values configured on the formula.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;--docker&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;run a formula using &lt;strong&gt;Docker&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;--help&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;returns a list of executable available commands and flags for the user&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;--local&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;run a formula &lt;strong&gt;locally&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;--verbose&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;run a formula without log details&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reference: Version Migration</title>
+      <link>http://docs.devritchiecli.io/reference/version-migration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/version-migration/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;ritchie-10-and-ritchie-20&#34;&gt;&lt;strong&gt;Ritchie 1.0 and Ritchie 2.0&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Differences between version 1.0 and 2.0&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ritchie versions &lt;strong&gt;Single&lt;/strong&gt; and &lt;strong&gt;Team&lt;/strong&gt; are deprecated. &lt;em&gt;Check the observation below if you still want to use the previous version.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The command tree will be dynamically generated on the added repositories. &lt;em&gt;So, it won&amp;rsquo;t be necessary to edit formula&amp;rsquo;s repositories tree.json files anymore.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;There isn&amp;rsquo;t a cloud storage anymore. &lt;em&gt;The user can import formulas repositories from Github or Gitlab.&lt;/em&gt; (&lt;strong&gt;&lt;code&gt;rit add repo&lt;/code&gt;&lt;/strong&gt;) __&lt;/li&gt;
+&lt;li&gt;Autocomplete support for 2 new shells: &lt;strong&gt;Fish&lt;/strong&gt; and &lt;strong&gt;Powershell&lt;/strong&gt;. (&lt;strong&gt;&lt;code&gt;rit completion fish&lt;/code&gt;&lt;/strong&gt; | &lt;strong&gt;&lt;code&gt;rit completion powershell&lt;/code&gt;&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Support to run formula in a container. (&lt;strong&gt;&lt;code&gt;--docker flag&lt;/code&gt;&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;Support to build formulas on Windows OS.&lt;/li&gt;
+&lt;li&gt;New tutorial to the CLI.&lt;/li&gt;
+&lt;li&gt;Structural upgrades.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;alert alert-danger&#34; role=&#34;alert&#34;&gt;
+
+Version 2.0 &lt;strong&gt;doesn&amp;rsquo;t support Vault to share credentials&lt;/strong&gt;.
+Therefore, if you want to keep using those features, you have to stay on the &lt;strong&gt;1.0 version.&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;how-can-you-migrate-formulas-from-v10-to-v20&#34;&gt;&lt;strong&gt;How can you migrate formulas from V1.0 to V2.0?&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;context&#34;&gt;&lt;strong&gt;Context&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;If you use Ritchie 1.0 version and want to upgrade to the 2.0 one, &lt;strong&gt;you have to update your formula&amp;rsquo;s repository structure&lt;/strong&gt; to be compatible to the pattern used on the new version.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-migrate&#34;&gt;&lt;strong&gt;How to migrate?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt;: Create new formula repo from scratch using the &lt;strong&gt;&lt;code&gt;rit create formula&lt;/code&gt;&lt;/strong&gt; command.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding the same formulas paths used on the older repository to the new one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Export your formulas implementations from the older repository to the new one.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The structure still uses the same files: &lt;strong&gt;&lt;code&gt;config.json&lt;/code&gt;&lt;/strong&gt; , &lt;strong&gt;&lt;code&gt;main.*&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;formula.*&lt;/code&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Copy these files codes from the old structure to the new one, respecting the new layout.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt;: Publish the new formula repository on &lt;strong&gt;github&lt;/strong&gt; or &lt;strong&gt;gitlab&lt;/strong&gt; (also, it can &lt;strong&gt;public&lt;/strong&gt; or &lt;strong&gt;private&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt;: Generate a release of the formula repository.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5&lt;/strong&gt;: Add the formula repository on Ritchie using the &lt;strong&gt;&lt;code&gt;rit add repo&lt;/code&gt;&lt;/strong&gt; command.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6&lt;/strong&gt;: Share your formula&amp;rsquo;s repository with your team, colleagues or the community.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+If you have any question, feel free to contact our team at &lt;strong&gt;&lt;a href=&#34;mailto:ritchie@zup.com.br&#34;&gt;ritchie@zup.com.br&lt;/a&gt;&lt;/strong&gt; or by opening an issue on the &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;ritchie-formulas repository&lt;/strong&gt;&lt;/a&gt;.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reference: Resources</title>
+      <link>http://docs.devritchiecli.io/reference/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/resources/</guid>
+      <description>
+        
+        
+        &lt;h3 id=&#34;ritchies-resources&#34;&gt;&lt;strong&gt;Ritchie&amp;rsquo;s resources&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ritchie&amp;rsquo;s roadmap on &lt;a href=&#34;https://github.com/ZupIT/ritchie-cli/issues&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Check out Ritchie&amp;rsquo;s &lt;a href=&#34;https://www.youtube.com/watch?v=GHrW68Nj358&amp;amp;list=PLkX9oUrQ1ev72KUhsB5gi80Y5Jb-DCV_F&amp;amp;index=1&#34;&gt;&lt;strong&gt;Youtube&lt;/strong&gt;&lt;/a&gt; channel.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+The Youtube channel, for now, has only Portuguese content.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reference: About Ritchie</title>
+      <link>http://docs.devritchiecli.io/reference/about-ritchie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/about-ritchie/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;how-was-ritchie-created&#34;&gt;&lt;strong&gt;How was Ritchie created?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Ritchie&amp;rsquo;s goal is to improve the developer’s experience, giving them more autonomy to automate and simplify the execution of commands used in the process of creating and developing digital products.&lt;/p&gt;
+&lt;p&gt;The name is a tribute to &lt;strong&gt;Dennis Ritchie&lt;/strong&gt;, one of the Unix (predecessor of Linux) creators and also of the C language, which allowed the creation of the digital world as we know it today.&lt;/p&gt;
+&lt;p&gt;Despite a great number of multidisciplinary teams in the market, there is a challenge to reduce the dependence developers have on inputs that come from infrastructure and operations teams. &lt;strong&gt;DevOps&lt;/strong&gt; helped remedy the situation, but it did not eliminate the dependency between areas.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Ritchie&amp;rsquo;s team bring a tool to the community that promotes a &lt;strong&gt;NoOps&lt;/strong&gt; movement, a solution that automates repetitive operations and streamlines processes (also known as toil) that are often hampered in the infrastructure.&lt;/p&gt;
+&lt;p&gt;This will give developers the ability to perform operations that were exclusively the infrastructure&amp;rsquo;s domain.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;In that way, professionals - on all fronts - gain time to work on more complex and relevant tasks to generate value for their projects.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-demo-deploy-project.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-makes-ritchie-different&#34;&gt;&lt;strong&gt;What makes Ritchie different?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;As a CLI tool, Ritchie seeks to improve the operational &lt;strong&gt;developers&#39;&lt;/strong&gt; &lt;strong&gt;experience and brings beneficial such as:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplify repetitive and easy-to-execute tasks&lt;/li&gt;
+&lt;li&gt;Reduce the rework&lt;/li&gt;
+&lt;li&gt;Promote more time for the development team to focus on their deliveries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, instead of writing down on the command lines which parameters and/or arguments the user needs to inform, we do the opposite:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ritchie presents the available options and goes, line by line, asking for the information needed for the command to work, in an interactive way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the example below, you will see the execution of a scaffold command with the coffee formula.
+When the user signals which formula he wants to use, the system automatically passes, line by line, asking which specific parameters must be considered to perform the desired action.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-scaffold-generate-coffee-go.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reference: Glossary</title>
+      <link>http://docs.devritchiecli.io/reference/glossary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/glossary/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;The main concepts on Ritchie are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CLI&lt;/li&gt;
+&lt;li&gt;Command Tree&lt;/li&gt;
+&lt;li&gt;Credential&lt;/li&gt;
+&lt;li&gt;Environment&lt;/li&gt;
+&lt;li&gt;Formula&lt;/li&gt;
+&lt;li&gt;JSON&lt;/li&gt;
+&lt;li&gt;Repository&lt;/li&gt;
+&lt;li&gt;Standard Streams&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cli&#34;&gt;&lt;strong&gt;CLI&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;It is a command line interface, which is a program that processes commands in a software or any computing program only through text.&lt;/p&gt;
+&lt;h2 id=&#34;command-tree&#34;&gt;&lt;strong&gt;Command Tree&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Commands used in Ritchie are grouped according to a &lt;strong&gt;&amp;ldquo;tree&amp;rdquo;&lt;/strong&gt;.
+It is important to know this concept in order to actually understand the structure of the product.
+&lt;/div&gt;
+
+&lt;p&gt;In the case of Ritchie, the &lt;strong&gt;Cobra&lt;/strong&gt; (a Golang library) pattern was followed using the following logic of building core commands:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;RIT + VERB + NOUN&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To allow more options and freedom for users, it is also allowed to follow the pattern below in the construction of formula commands:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;RIT + GROUP + VERB + NOUN&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The app name is Ritchie, so we use the name &lt;strong&gt;&lt;code&gt;rit&lt;/code&gt;&lt;/strong&gt; to start our command tree.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/arvore-rit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;The &lt;strong&gt;&lt;code&gt;rit&lt;/code&gt;&lt;/strong&gt; command is therefore our parent command, or &lt;strong&gt;root&lt;/strong&gt;. It is not executable, but has been configured to return the &lt;strong&gt;helper command&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It is necessary to use executable sub-commands (which are child commands, or branches, of the rit command) in order to start any process.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;The executable commands in Ritchie are the commands located at the last level of the tree.&lt;/p&gt;
+&lt;p&gt;For example, in the image above:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;&lt;code&gt;rit set context&lt;/code&gt;&lt;/strong&gt; command is executable, as it is at the last level of the tree.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;&lt;code&gt;rit kafka create&lt;/code&gt;&lt;/strong&gt; command is not executable as there is an executable &lt;strong&gt;topic&lt;/strong&gt; subcommand, at the last level of the tree.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This command tree concept is the &lt;strong&gt;core&lt;/strong&gt; of Ritchie&amp;rsquo;s structure.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+All commands and sub-commands are mapped in a tree &lt;strong&gt;dynamically&lt;/strong&gt; created according to the repositories the user added locally on his computer by using the &lt;strong&gt;&lt;code&gt;rit add repo&lt;/code&gt;&lt;/strong&gt; command.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;credential&#34;&gt;&lt;strong&gt;Credential&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;It is the reusable input parameters you can use in Ritchie (for example: access data for any tool or api).&lt;/p&gt;
+&lt;h2 id=&#34;environment&#34;&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;On Ritchie, each environment will have its own credentials, it may be necessary to execute specific formulas through the CLI.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For example: it&amp;rsquo;s possible to create a &lt;strong&gt;professional&lt;/strong&gt; and a &lt;strong&gt;personal&lt;/strong&gt; environments (or &lt;strong&gt;prod&lt;/strong&gt; and &lt;strong&gt;staging&lt;/strong&gt;) with different credentials, and switch from an environment to another according to the necessity.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;formula&#34;&gt;&lt;strong&gt;Formula&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In Ritchie&amp;rsquo;s context, the &lt;strong&gt;formulas&lt;/strong&gt; are &lt;strong&gt;scripts&lt;/strong&gt; executed through a &lt;strong&gt;command line&lt;/strong&gt;. The user can execute it locally or through Docker with the necessary dependencies.&lt;/p&gt;
+&lt;h3 id=&#34;run-formulas&#34;&gt;&lt;strong&gt;Run formulas&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Depending on the formula, the user might need to inform input parameters.&lt;/p&gt;
+&lt;p&gt;Those input parameters can be informed in different ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;After running the command on the terminal (via &lt;strong&gt;prompt&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;When typing the command on the terminal (via &lt;strong&gt;stdin&lt;/strong&gt; or &lt;strong&gt;input flags&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;During the execution of the formula (if coded using &lt;strong&gt;prompt&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/start-end-ritchie.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;json&#34;&gt;&lt;strong&gt;JSON&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;JavaScript Object Notation (JSON), it is a standard text based format used to structure data created with JavaScript programming language.&lt;/p&gt;
+&lt;h2 id=&#34;repository&#34;&gt;&lt;strong&gt;Repository&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;A storage place you can organize features, commands or any files and/or files necessary to use a tool. On Ritchie, there are three repositories created to manage formulas, the server and contributions we receive.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ZupIT/ritchie-cli&#34;&gt;&lt;strong&gt;ritchie-cli&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;ritchie-formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;standard-streams&#34;&gt;&lt;strong&gt;Standard Streams&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;It is a communication channel that allows input and output interconnection between a computer program and its environment.&lt;/p&gt;
+&lt;p&gt;On Ritchie, the standard input (stdin) is used to execute commands automatically.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Reference: FAQ</title>
+      <link>http://docs.devritchiecli.io/reference/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/reference/faq/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h1 id=&#34;about-ritchie&#34;&gt;&lt;strong&gt;About Ritchie&lt;/strong&gt;&lt;/h1&gt;
+&lt;h3 id=&#34;what-is-ritchie&#34;&gt;&lt;strong&gt;What is Ritchie?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ritchie is an &lt;strong&gt;open source framework&lt;/strong&gt; that creates and tweaks a CLI for your team. It allows you to easily create, build and share &lt;a href=&#34;http://docs.devritchiecli.io/reference/glossary/#formula&#34;&gt;&lt;strong&gt;formulas&lt;/strong&gt;&lt;/a&gt;. For more information, check out &lt;a href=&#34;http://docs.devritchiecli.io/reference/about-ritchie/&#34;&gt;&lt;strong&gt;about Ritchie section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;what-does-ritchie-do&#34;&gt;&lt;strong&gt;What does Ritchie do?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ritchie creates automation commands to improve the operational &lt;strong&gt;developers&#39; experience and brings beneficial such as:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simplify repetitive and easy-to-execute tasks&lt;/li&gt;
+&lt;li&gt;Reduce the rework&lt;/li&gt;
+&lt;li&gt;Promote more time for the development team to focus on their deliveries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation-and-use&#34;&gt;&lt;strong&gt;Installation and Use&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;how-to-install-ritchie&#34;&gt;&lt;strong&gt;How to install Ritchie?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You can follow the installation step by step according do the operational system you&amp;rsquo;re using. For more information, check out the &lt;a href=&#34;http://docs.devritchiecli.io/getting-started/&#34;&gt;&lt;strong&gt;installation section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-create-a-new-formula-on-ritchie&#34;&gt;&lt;strong&gt;How to create a new formula on Ritchie?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Using the command &lt;code&gt;rit create formula&lt;/code&gt; , you can create formulas using any programming language. Check out more in &lt;a href=&#34;http://docs.devritchiecli.io/formulas/create-formulas/&#34;&gt;&lt;strong&gt;create a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-create-formulas-on-an-existing-repository&#34;&gt;&lt;strong&gt;How to create formulas on an existing repository?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Follow the next steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone the repo;&lt;/li&gt;
+&lt;li&gt;Add the repo with &lt;code&gt;rit add workspace&lt;/code&gt; command;&lt;/li&gt;
+&lt;li&gt;Add the new formula with &lt;code&gt;rit create formula&lt;/code&gt; command and implement it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;how-to-run-formulas&#34;&gt;&lt;strong&gt;How to run formulas?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You can execute your formulas locally or through Docker. For more information, check out &lt;a href=&#34;http://docs.devritchiecli.io/formulas/run-formula/&#34;&gt;&lt;strong&gt;how to run a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-build-formulas-on-ritchie&#34;&gt;&lt;strong&gt;How to build formulas on Ritchie?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;When you run a formula, a build is automatically made, you don&amp;rsquo;t need a command to do that.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-update-a-formula-from-a-repository&#34;&gt;&lt;strong&gt;How to update a formula from a repository?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Follow the next steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Locally clone the repo;&lt;/li&gt;
+&lt;li&gt;Add the repo with the &lt;code&gt;rit add workspace&lt;/code&gt; command;&lt;/li&gt;
+&lt;li&gt;Now, update the workspace.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;how-to-execute-a-formula-from-a-repository&#34;&gt;&lt;strong&gt;How to execute a formula from a repository?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Use &lt;code&gt;rit add repo &lt;/code&gt; command to add the repository.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-publish-formulas-on-ritchie&#34;&gt;&lt;strong&gt;How to publish formulas on Ritchie?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You can publish a formula by creating a Github&amp;rsquo;s, Gitlab&amp;rsquo;s or Bitbucket&amp;rsquo;s repository and adding a release version of this formula. For more information, check out how to &lt;a href=&#34;http://docs.devritchiecli.io/formulas/publish-formulas/&#34;&gt;&lt;strong&gt;publish a formula section&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;community&#34;&gt;&lt;strong&gt;Community&lt;/strong&gt;&lt;/h1&gt;
+&lt;h3 id=&#34;how-to-submit-my-formula-on-communitys-repo&#34;&gt;How to submit my formula on community&amp;rsquo;s repo?&lt;/h3&gt;
+&lt;p&gt;You just have to open a pull request on &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;ritchie-formula&amp;rsquo;s repository&lt;/strong&gt; &lt;/a&gt; with your formula suggestion.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-contribute&#34;&gt;&lt;strong&gt;How to contribute?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;You can contribute with improvements, suggestions or reporting bugs on&lt;a href=&#34;https://github.com/ZupIT/ritchie-cli&#34;&gt; &lt;strong&gt;ritchie-cli&amp;rsquo;s repository.&lt;/strong&gt; &lt;/a&gt;That&amp;rsquo;s the process you should follow:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fork the repository.&lt;/li&gt;
+&lt;li&gt;Create a branch: &lt;code&gt;git checkout -b &amp;lt;branch_name&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Implement your idea.&lt;/li&gt;
+&lt;li&gt;Commit your implementation: &lt;code&gt;git commit -m &#39;&amp;lt;commit_message&amp;gt;&#39;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Push your branch: &lt;code&gt;git push origin &amp;lt;project_name&amp;gt;/&amp;lt;location&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Open a pull request on the &lt;code&gt;main&lt;/code&gt; branch for analysis.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

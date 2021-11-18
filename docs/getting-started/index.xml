@@ -1,0 +1,372 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ritchie – Getting Started</title>
+    <link>http://docs.devritchiecli.io/getting-started/</link>
+    <description>Recent content in Getting Started on Ritchie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://docs.devritchiecli.io/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Getting Started: CLI installation for Linux</title>
+      <link>http://docs.devritchiecli.io/getting-started/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/getting-started/linux/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h3 id=&#34;requirements-only-for-versions-prior-to-206&#34;&gt;&lt;strong&gt;Requirements&lt;/strong&gt; (only for versions prior to 2.0.6)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;make&lt;/strong&gt; command.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;step-1-installing-command&#34;&gt;&lt;strong&gt;Step 1: Installing command&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;latest-version&#34;&gt;Latest Version&lt;/h3&gt;
+&lt;p&gt;To install the latest version, run the command below in the terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;To install Ritchie on servers or Docker containers (without &lt;code&gt;sudo&lt;/code&gt; user), use the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e &amp;#39;s/sudo//g&amp;#39; | bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+If you prefer, you also can install using the &lt;a href=&#34;http://docs.devritchiecli.io/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;packages&#34;&gt;Packages&lt;/h3&gt;
+&lt;p&gt;To download a specific package or version, just paste the URL on your browser replacing the &lt;strong&gt;&lt;code&gt;{VERSION}&lt;/code&gt;&lt;/strong&gt; field according to &lt;a href=&#34;https://github.com/ZupIT/ritchie-cli/tags&#34;&gt;&lt;strong&gt;the repository&amp;rsquo;s project tags&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;h4 id=&#34;red-hat-package-manager&#34;&gt;Red Hat Package Manager&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-url&#34; data-lang=&#34;url&#34;&gt;https://commons-repo.ritchiecli.io/{VERSION}/installer/ritchie.rpm
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;To download version 2.12.0 use the following URL:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-url&#34; data-lang=&#34;url&#34;&gt;https://commons-repo.ritchiecli.io/2.12.0/installer/ritchie.rpm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;debian&#34;&gt;Debian&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-url&#34; data-lang=&#34;url&#34;&gt;https://commons-repo.ritchiecli.io/{VERSION}/installer/ritchie.deb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;To download version 2.12.0 use the following URL:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-url&#34; data-lang=&#34;url&#34;&gt;https://commons-repo.ritchiecli.io/2.12.0/installer/ritchie.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;arch-linux&#34;&gt;Arch Linux&lt;/h4&gt;
+&lt;p&gt;The &lt;code&gt;tar.gz&lt;/code&gt; package is available on this &lt;a href=&#34;https://aur.archlinux.org/packages/ritchie-cli/&#34;&gt;&lt;strong&gt;Arch Linux user repository&lt;/strong&gt;&lt;/a&gt; page (&lt;a href=&#34;https://github.com/avelino/ritchie-cli-archpack&#34;&gt;&lt;strong&gt;repository reference&lt;/strong&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;step-2-verify-installation&#34;&gt;&lt;strong&gt;Step 2: Verify installation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Confirm if your installation went well by running this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If everything&amp;rsquo;s configured, the terminal will return Ritchie&amp;rsquo;s current version.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting Started: CLI installation for Macos</title>
+      <link>http://docs.devritchiecli.io/getting-started/macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/getting-started/macos/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h3 id=&#34;requirements-only-for-versions-prior-to-206&#34;&gt;&lt;strong&gt;Requirements&lt;/strong&gt; (only for versions prior to 2.0.6)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;make&lt;/strong&gt; command (&lt;a href=&#34;https://stackoverflow.com/questions/1469994/using-make-on-os-x&#34;&gt;&lt;strong&gt;Using &amp;ldquo;make&amp;rdquo; on macOS&lt;/strong&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;md5sum&lt;/strong&gt; tools.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;To install &lt;strong&gt;md5sum&lt;/strong&gt; with &lt;em&gt;&lt;strong&gt;Homebrew&lt;/strong&gt;&lt;/em&gt; , use: &lt;code&gt;brew install md5sha1sum&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To install &lt;strong&gt;md5sum&lt;/strong&gt; with &lt;em&gt;&lt;strong&gt;MacPorts&lt;/strong&gt;&lt;/em&gt; , use: &lt;code&gt;sudo port install md5sha1sum&lt;/code&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;step-1-installing-command&#34;&gt;&lt;strong&gt;Step 1: Installing command&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;first-option&#34;&gt;First option&lt;/h3&gt;
+&lt;p&gt;To install the latest version, run the command below in the terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Note: To install Ritchie on servers or Docker containers (without &lt;code&gt;sudo&lt;/code&gt; user), use the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;curl -fsSL https://commons-repo.ritchiecli.io/install.sh | sed -e &amp;#39;s/sudo//g&amp;#39; | bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+If you prefer, you also can follow with the&lt;a href=&#34;http://docs.devritchiecli.io/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;second-option&#34;&gt;Second option&lt;/h3&gt;
+&lt;p&gt;You can also &lt;strong&gt;download the Ritchie CLI package&lt;/strong&gt; through the command line below, to &lt;strong&gt;install it manually.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;curl --output ~/Desktop/Ritchie-CLI-macos-installer-x64.pkg --location https://commons-repo.ritchiecli.io/latest/Ritchie-CLI-macos-installer-x64.pkg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;step-2-verify-the-installation&#34;&gt;&lt;strong&gt;Step 2: Verify the installation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Confirm if your installation worked, run the command below:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If everything&amp;rsquo;s configured, the terminal will return Ritchie&amp;rsquo;s current version.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting Started: CLI installation for Windows</title>
+      <link>http://docs.devritchiecli.io/getting-started/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/getting-started/windows/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;To install &lt;strong&gt;the latest version of Ritchie&lt;/strong&gt; on Windows, you have to download Ritchie&amp;rsquo;s installer and run it on your terminal.&lt;/p&gt;
+&lt;h2 id=&#34;step-1-download-the-installer&#34;&gt;&lt;strong&gt;Step 1: Download the installer&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;You can download Ritchie:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using this link to the &lt;a href=&#34;https://commons-repo.ritchiecli.io/latest/ritchiecli.msi&#34;&gt;&lt;strong&gt;latest version&lt;/strong&gt;&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Or any version you want: just paste the URL on your browser replacing the &lt;code&gt;{VERSION}&lt;/code&gt; field according to &lt;a href=&#34;https://github.com/ZupIT/ritchie-cli/tags&#34;&gt;&lt;strong&gt;the repository&amp;rsquo;s project tags&lt;/strong&gt;&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-url&#34; data-lang=&#34;url&#34;&gt;https://commons-repo.ritchiecli.io/{VERSION}/installer/ritchiecli.msi
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;To download version 2.12.0 use the following URL:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-url&#34; data-lang=&#34;url&#34;&gt;https://commons-repo.ritchiecli.io/2.10.0/installer/ritchiecli.msi
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Or with &lt;code&gt;Winget&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;winget install Ritchie-CLI
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you don&amp;rsquo;t have winget installed by default on your pc, go to Microsoft store search for winget and install it or maybe you just need to update it.&lt;/p&gt;
+&lt;p&gt;When you finish, follow the instructions on your terminal after running the &lt;code&gt;rit&lt;/code&gt; command.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+If you prefer, you also can proceed with the&lt;a href=&#34;http://docs.devritchiecli.io/getting-started/manual-installation/&#34;&gt; &lt;strong&gt;manual installation&lt;/strong&gt;.&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;step-2-verify-the-installation&#34;&gt;&lt;strong&gt;Step 2: Verify the installation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Confirm if your installation went well, run the command below:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If everything&amp;rsquo;s configured, the terminal will return Ritchie&amp;rsquo;s current version.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting Started: Manual Installation</title>
+      <link>http://docs.devritchiecli.io/getting-started/manual-installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/getting-started/manual-installation/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;how-to-download-ritchie-binary&#34;&gt;&lt;strong&gt;How to download Ritchie binary?&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Choose the version you want to install.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You can find the latest version available, checkou the &lt;a href=&#34;https://commons-repo.ritchiecli.io/stable.txt&#34;&gt;&lt;strong&gt;Latest page&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You can choose a specific version, check out the &lt;a href=&#34;https://github.com/ZupIT/ritchie-cli/tags&#34;&gt;&lt;strong&gt;All versions page&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Get the appropriate URL for your system and paste it into the browser, replacing &lt;strong&gt;&lt;code&gt;{VERSION}&lt;/code&gt;&lt;/strong&gt; with the version you chose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;binary-url&#34;&gt;&lt;strong&gt;Binary URL&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;MacOS&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;Windows&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;https://commons-repo.ritchiecli.io/{VERSION}/linux/rit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+&lt;p&gt;Example: If you chose the version &lt;strong&gt;2.11.3&lt;/strong&gt; use this URL:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-URL&#34; data-lang=&#34;URL&#34;&gt;https://commons-repo.ritchiecli.io/2.11.3/linux/rit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;https://commons-repo.ritchiecli.io/{VERSION}/darwin/rit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+&lt;p&gt;Example: If you chose the version &lt;strong&gt;2.11.3&lt;/strong&gt; use this URL:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-URL&#34; data-lang=&#34;URL&#34;&gt;https://commons-repo.ritchiecli.io/2.11.3/darwin/rit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;https://commons-repo.ritchiecli.io/{VERSION}/windows/rit.exe
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+&lt;p&gt;Example: If you chose the version &lt;strong&gt;2.11.3&lt;/strong&gt; use this URL:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-URL&#34; data-lang=&#34;URL&#34;&gt;https://commons-repo.ritchiecli.io/2.11.3/windows/rit.exe
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;manual-settings&#34;&gt;&lt;strong&gt;Manual settings&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;how-to-create-a-folder&#34;&gt;&lt;strong&gt;How to create a folder?&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Run the command below to create a folder &lt;code&gt;$HOME/.rit/bin&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;mkdir -p $HOME/.rit/bin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Copy and paste the binary to the folder above:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;​cd $HOME/.rit/bin 
+cp $HOME/Downloads/rit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Run a permission to run:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;chmod +x rit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;how-to-configure-the-bashrc-or-etcprofile-or-zshrc-linux--macos&#34;&gt;&lt;strong&gt;How to configure the .bashrc or /etc/profile or .zshrc (Linux / MacOS)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To ZSH, define a new PATH by copying the following code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;export RIT_PATH=$HOME/.rit
+PATH=$RIT_PATH/bin:$PATH
+rit completion zsh &amp;gt; ~/.rit_completion
+source ~/.rit_completion
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To Bash, define a new PATH by copying the following code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;export RIT_PATH=$HOME/.rit
+PATH=$RIT_PATH/bin:$PATH
+rit completion bash &amp;gt; ~/.rit_completion
+source ~/.rit_completion​
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;setting-environment-variables-windows&#34;&gt;&lt;strong&gt;Setting environment variables (Windows)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;For this operating system, you need to call rit on the terminal directly from rit.exe (&lt;strong&gt;rit.exe login&lt;/strong&gt; command for example)&lt;/p&gt;
+&lt;p&gt;It is possible and we suggest to create an environment variable for rit to facilitate the use of the CLI.&lt;/p&gt;
+&lt;h3 id=&#34;read-more&#34;&gt;&lt;strong&gt;Read More&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Here are some articles explaining how to add an environment variable in Windows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding &lt;a href=&#34;https://professor-falken.com/pt/windows/como-configurar-la-ruta-y-las-variables-de-entorno-en-windows-10/&#34;&gt;&lt;strong&gt;through interface&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Adding&lt;a href=&#34;https://devcontent.com.br/artigos/windows/o-que-sao-como-alterar-criar-excluir-variaveis-de-ambiente&#34;&gt; &lt;strong&gt;through terminal&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting Started: Initialize CLI</title>
+      <link>http://docs.devritchiecli.io/getting-started/initialize-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/getting-started/initialize-cli/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;See the steps below to initialize the CLI:&lt;/p&gt;
+&lt;h2 id=&#34;step-1-initialization&#34;&gt;&lt;strong&gt;Step 1: Initialization&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Run the following command to initialize Ritchie:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will ask &lt;strong&gt;three information&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If the user &lt;strong&gt;wants to contribute anonymously&lt;/strong&gt; to Ritchie metrics.&lt;/li&gt;
+&lt;li&gt;If the user &lt;strong&gt;wants to add the community&lt;/strong&gt; formulas locally.&lt;/li&gt;
+&lt;li&gt;Which &lt;strong&gt;execution method&lt;/strong&gt; the user wants to use by &lt;strong&gt;default&lt;/strong&gt; (local or docker). &lt;a href=&#34;http://docs.devritchiecli.io/formulas/run-formula/&#34;&gt;&lt;strong&gt;formula execution method&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-init.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;After this, the command will create all the necessary configuration&amp;rsquo;s files.&lt;/p&gt;
+&lt;h2 id=&#34;step-2-verify-initialization&#34;&gt;&lt;strong&gt;Step 2: Verify Initialization&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1-commons-repository&#34;&gt;1. Commons repository&lt;/h3&gt;
+&lt;p&gt;If you added the community formulas repository, verify the import using the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will return all formulas repositories the user has local access to.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-list-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-ritchie-folder&#34;&gt;2. Ritchie folder&lt;/h3&gt;
+&lt;p&gt;You can check if the &lt;strong&gt;&lt;code&gt;.rit&lt;/code&gt;&lt;/strong&gt; folder has been created on your &lt;strong&gt;&lt;code&gt;$HOME&lt;/code&gt;&lt;/strong&gt; directory.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+All operations done using Ritchie will be saved in this &lt;strong&gt;.rit&lt;/strong&gt; folder (credentials, repos, metrics&amp;hellip;).
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Getting Started: Upgrade CLI</title>
+      <link>http://docs.devritchiecli.io/getting-started/upgrade-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/getting-started/upgrade-cli/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;When a new Ritchie CLI version is released, a warning will appear when executing one of the following commands:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;rit&lt;/code&gt;&lt;/strong&gt; &lt;em&gt;(helper)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;rit -v&lt;/code&gt;&lt;/strong&gt; &lt;em&gt;(version)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;If you want to upgrade the Ritchie CLI version when this warning appears, run the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;example-of-the-command-output-for-the-260-version&#34;&gt;&lt;strong&gt;Example of the command output for the 2.6.0 version&lt;/strong&gt;&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;➜ rit upgrade
+
+Rit upgraded with success
+Release 2.6.0 description:
+* Added multiselect input for formulas
+* User is notified when adding the same repo and version
+* Release notes are displayed on every upgrade
+* Rit add repo will only add valid repos
+* Context commands substituted by env commands
+* Deprecated stdin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This output is based on the description of the release tag on the &lt;a href=&#34;https://github.com/ZupIT/ritchie-cli/releases&#34;&gt;&lt;strong&gt;ritchie-cli releases page on Github&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

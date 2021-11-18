@@ -1,0 +1,1362 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ritchie – Fórmulas</title>
+    <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/</link>
+    <description>Recent content in Fórmulas on Ritchie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Fórmulas: Executar fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-executar&#34;&gt;&lt;strong&gt;Como executar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Você tem &lt;strong&gt;duas maneiras&lt;/strong&gt; de executar fórmulas usando o Ritchie:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Localmente&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usando o Docker&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;O &lt;strong&gt;método de execução de fórmulas padrão&lt;/strong&gt; é escolhido durante a etapa de inicialização do Ritchie com o comando &lt;strong&gt;&lt;code&gt;rit init&lt;/code&gt;&lt;/strong&gt;. Você pode alterar essa configuração executando o comando abaixo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set formula-runner
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-run-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-execução-local&#34;&gt;&lt;strong&gt;1. Execução local&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Para executar uma fórmula localmente, é necessário ter instalada no computador a linguagem de programação que foi usada para desenvolver a fórmula.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exemplo:&lt;/strong&gt; uma fórmula desenvolvida em &lt;strong&gt;Java&lt;/strong&gt; precisará ter &lt;strong&gt;Java instalado&lt;/strong&gt; na máquina para ser executada localmente.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-execução-via-docker&#34;&gt;&lt;strong&gt;2. Execução via Docker&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Todas as fórmulas podem ser executadas sem depender da linguagem usada, desde que o &lt;strong&gt;&lt;code&gt;DOCKER&lt;/code&gt;&lt;/strong&gt; esteja instalado e iniciado.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Para mais informações sobre como essa execução funciona na prática, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;seção fórmula hello world&lt;/strong&gt; &lt;/a&gt;.
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Veja como:
+Acesse no Docker:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preferences &amp;gt; Command Line&amp;gt; Enable cloud experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/ios-docker.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;3-local--docker-flags&#34;&gt;&lt;strong&gt;3. Local &amp;amp; Docker Flags&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;É possível forçar o Ritchie CLI a executar uma fórmula seguindo um método de execução específico, usando flags.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flag &lt;strong&gt;&lt;code&gt;--local&lt;/code&gt;&lt;/strong&gt; executará a fórmula localmente (se o método de execução padrão for o Docker).&lt;/li&gt;
+&lt;li&gt;A flag &lt;strong&gt;&lt;code&gt;--docker&lt;/code&gt;&lt;/strong&gt; executará a fórmula com Docker (se o método de execução padrão for local).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-containers-com-ritchie&#34;&gt;&lt;strong&gt;4. Containers com Ritchie&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Todos os templates de fórmulas contém um arquivo &lt;strong&gt;DockerFile&lt;/strong&gt; que cria um container com &lt;strong&gt;Ritchie CLI&lt;/strong&gt; instalado.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para continuar aprendendo mais sobre fórmulas:&lt;/p&gt;
+&lt;p&gt;👉 Vá para página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;Fórmula Hello World&lt;/strong&gt;&lt;/a&gt; e descubra as diferentes maneiras de executar uma fórmula no Ritchie.&lt;/p&gt;
+&lt;p&gt;👉 Vá para página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como criar fórmulas&lt;/strong&gt;&lt;/a&gt; para entender o passo a passo para criar sua primeira automação usando o Ritchie.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Executar uma fórmula &#34;Hello World&#34;</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;hello-world&#34;&gt;&lt;strong&gt;Hello World&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Premissa: Depois que você finalizou a instalação e a inicialização do Ritchie - agora você pode acessar a fórmula hello world para testar. Você precisa adicionar o repositório &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas-demo&#34;&gt;&lt;strong&gt;ritchie-formulas-demo&lt;/strong&gt;&lt;/a&gt; localmente.
+&lt;/div&gt;
+
+&lt;p&gt;Para adicionar o repositório &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas-demo&#34;&gt;&lt;strong&gt;ritchie-formulas-demo&lt;/strong&gt;&lt;/a&gt; localmente, você pode usar o comando &lt;strong&gt;&lt;code&gt;rit add repo&lt;/code&gt;&lt;/strong&gt; ou executar a linha de comando abaixo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add repo --provider=&amp;#34;Github&amp;#34; --name=&amp;#34;demo&amp;#34; --repoUrl=&amp;#34;https://github.com/ZupIT/ritchie-formulas-demo&amp;#34; --priority=1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+É possível ainda verificar os repositórios estão sendo usados executando o comando &lt;strong&gt;&lt;code&gt;rit list repo&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;p&gt;Agora você pode executar os comandos desse tutorial.&lt;/p&gt;
+&lt;h2 id=&#34;premissa-confira-os-detalhes-da-fórmula&#34;&gt;&lt;strong&gt;Premissa: Confira os detalhes da fórmula&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para obter os detalhes de uso de uma fórmula, é possível executar o comando usando a flag &lt;strong&gt;&lt;code&gt;--help&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo hello-world --help
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;O retorno informa todas as flags disponíveis para a execução do comando.&lt;/p&gt;
+&lt;h2 id=&#34;cenários&#34;&gt;&lt;strong&gt;Cenários&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;No Ritchie, é possível, você tem 6 possibilidades de rodar uma fórmula por meio dessas flags:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Via Prompt&lt;/li&gt;
+&lt;li&gt;Via Prompt e Docker&lt;/li&gt;
+&lt;li&gt;Via Input Flags&lt;/li&gt;
+&lt;li&gt;Via Input Flags e Docker&lt;/li&gt;
+&lt;li&gt;Via Stdin&lt;/li&gt;
+&lt;li&gt;Via Stdin e Docker&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Você pode ver cada caso abaixo, escolha um caso e escreva um dos comandos.&lt;/p&gt;
+&lt;h3 id=&#34;opção-1-usando-prompt&#34;&gt;&lt;strong&gt;Opção 1: Usando Prompt&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Como essa fórmula foi desenvolvida usando Golang, é preciso ter Golang instalado para conseguir executá-la localmente.
+&lt;/div&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo hello-world
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Selecione uma opção para cada parâmetro de entrada e veja a mágica acontecer:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-helloworld-prompt.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Essa é a execução padrão de linhas de comando no Ritchie, executando fórmulas localmente através de &lt;strong&gt;prompt&lt;/strong&gt; (interagindo com o CLI no terminal) para informar os parâmetros de entrada.&lt;/p&gt;
+&lt;h3 id=&#34;opção-2-usando-prompt--docker&#34;&gt;&lt;strong&gt;Opção 2: Usando Prompt &amp;amp; Docker&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Você pode rodar o mesmo comando usando a flag &lt;strong&gt;&amp;ndash;docker&lt;/strong&gt; para executar a fórmula remotamente (em um container), mas ainda informando os parâmetros de entrada via &lt;strong&gt;prompt&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo hello-world --docker
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+O Docker precisa estar instalado e iniciado para conseguir executar comandos usando essa flag.
+Nesse caso, não é necessário ter Golang instalado.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;opção-3-usando-input-flags&#34;&gt;&lt;strong&gt;Opção 3: Usando Input Flags&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Você também pode executar o comando informando as entradas por meio de flags (você pode saber quais flags estão disponíveis usando a flag &lt;strong&gt;&lt;code&gt;--help&lt;/code&gt;&lt;/strong&gt; ao executar um comando). Desta forma, os parâmetros de entradas são informados diretamente na linha de comando.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo hello-world --rit_input_text=&amp;#34;Dennis&amp;#34; --rit_input_boolean=true --rit_input_list=&amp;#34;everything&amp;#34; --rit_input_password=&amp;#34;Ritchie&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;opção-4-usando-input-flags--docker&#34;&gt;&lt;strong&gt;Opção 4: Usando Input Flags &amp;amp; Docker&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ao combinar os &lt;strong&gt;&lt;code&gt;input flags&lt;/code&gt;&lt;/strong&gt; com a flag do &lt;strong&gt;&lt;code&gt;--docker&lt;/code&gt;&lt;/strong&gt;, é possível executar um comando remotamente (em um contêiner) com os parâmetros de entrada informados diretamente na linha de comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo hello-world --rit_input_text=&amp;#34;Dennis&amp;#34; --rit_input_boolean=true --rit_input_list=&amp;#34;everything&amp;#34; --rit_input_password=&amp;#34;Ritchie&amp;#34; --docker
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;opção-5-usando-stdin&#34;&gt;&lt;strong&gt;Opção 5: Usando Stdin&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;É também possível executar comando usando a flag &lt;strong&gt;&lt;code&gt;--stdin&lt;/code&gt;&lt;/strong&gt; (Standard Input). Dessa maneira, os parâmetros de entrada podem ser informados diretamente na linha de comando inicial:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;echo &amp;#39;{&amp;#34;rit_input_text&amp;#34;:&amp;#34;Dennis&amp;#34;, &amp;#34;rit_input_boolean&amp;#34;:&amp;#34;true&amp;#34;, &amp;#34;rit_input_list&amp;#34;:&amp;#34;everything&amp;#34;, &amp;#34;rit_input_password&amp;#34;:&amp;#34;Ritchie&amp;#34;}&amp;#39; | rit demo hello-world --stdin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Ritchie usa o formato &lt;strong&gt;JSON&lt;/strong&gt; para executar comandos STDIN.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;opção-6-usando-stdin&#34;&gt;&lt;strong&gt;Opção 6: Usando Stdin&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Quando são usadas as 2 flags &lt;strong&gt;&amp;ndash;stdin&lt;/strong&gt; e &lt;strong&gt;&amp;ndash;docker&lt;/strong&gt;, é possível executar o comando remotamente informando os parâmetros de entrada na linha de comando inicial:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;echo &amp;#39;{&amp;#34;rit_input_text&amp;#34;:&amp;#34;Dennis&amp;#34;, &amp;#34;rit_input_boolean&amp;#34;:&amp;#34;true&amp;#34;, &amp;#34;rit_input_list&amp;#34;:&amp;#34;everything&amp;#34;, &amp;#34;rit_input_password&amp;#34;:&amp;#34;Ritchie&amp;#34;}&amp;#39; | rit demo hello-world --stdin --docker
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Dê uma olhada nas fórmulas da comunidade &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;(ex: ritchie-formulas)&lt;/strong&gt;&lt;/a&gt;.
+A maioria das fórmulas tem um arquivo &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas#readme&#34;&gt;&lt;strong&gt;README&lt;/strong&gt;&lt;/a&gt; explicando como executar a fórmula e para que ela serve.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Veja como &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;criar suas fórmulas&lt;/strong&gt; &lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Criar fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-criar&#34;&gt;&lt;strong&gt;Como criar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;passo-1-execute-o-comando-de-criação-de-formula&#34;&gt;&lt;strong&gt;Passo 1: Execute o comando de criação de formula&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Execute esse comando para criar uma fórmula:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit create formula
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Você deverá informar alguns parâmetros de entrada antes da sua execução:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;O &lt;strong&gt;comando&lt;/strong&gt; (de preferência, com o &lt;strong&gt;padrão &lt;code&gt;rit + grupo + verbo + substantivo&lt;/code&gt;&lt;/strong&gt; para respeitar a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/gloss%C3%A1rio/&#34;&gt;&lt;strong&gt;árvore de comando&lt;/strong&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;linguagem de programação&lt;/strong&gt; da fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;O caminho (path)&lt;/strong&gt; para salvar os arquivos da fórmula.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Exemplo: &lt;code&gt;rit demo create formula&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit_create_formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;passo-2-teste-sua-fórmula&#34;&gt;&lt;strong&gt;Passo 2: Teste sua fórmula&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Você pode testar diretamente a fórmula depois de sua criação. Isso é possível porque o comando &lt;strong&gt;&lt;code&gt;rit create formula&lt;/code&gt;&lt;/strong&gt; também constrói a fórmula automaticamente (ela gera os arquivos executáveis da fórmula e adiciona-os no &lt;strong&gt;.rit folder&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Nesse caso, o template da formula &lt;strong&gt;&amp;ldquo;Hello World&amp;rdquo;&lt;/strong&gt; será executado como você pode ver abaixo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit_demo_hello-world.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Este template é composto por &lt;strong&gt;3 parâmetros de entrada&lt;/strong&gt;, que representam os tipos de inputs atualmente disponíveis para serem usados no Ritchie:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Uma amostra das &lt;strong&gt;&lt;code&gt;variáveis de texto&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Uma amostra da &lt;strong&gt;&lt;code&gt;lista de variáveis&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Uma amostra das &lt;strong&gt;&lt;code&gt;variáveis booleanas&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Uma amostra das &lt;strong&gt;&lt;code&gt;variáveis de password&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Quando você terminar a criação da sua fórmula, ela será &amp;ldquo;buildada&amp;rdquo; e enviada para um repositório local específico de acordo com o nome do seu workspace, com o prefixo &lt;strong&gt;&amp;ldquo;local&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exemplo:&lt;/strong&gt; Se um workspace aparecer com o nome &lt;code&gt;Default&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+    &amp;#34;Default&amp;#34;:&amp;#34;/home/user/ritchie-formula-local&amp;#34;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Um repositório associado a esse workspace será criado na pasta &lt;strong&gt;&lt;code&gt;/home/user/.rit/repos&lt;/code&gt;&lt;/strong&gt;, e adicionado no arquivo &lt;strong&gt;&lt;code&gt;repositories.json&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;[
+	{
+		&amp;#34;provider&amp;#34;: &amp;#34;Local&amp;#34;,
+		&amp;#34;name&amp;#34;: &amp;#34;local-default&amp;#34;,
+		&amp;#34;version&amp;#34;: &amp;#34;0.0.0&amp;#34;,
+		&amp;#34;url&amp;#34;: &amp;#34;local repository&amp;#34;,
+		&amp;#34;priority&amp;#34;: 0,
+		&amp;#34;isLocal&amp;#34;: true
+	}
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Continue configurando a sua fórmula:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vá para a seção de como &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;organizar uma pasta de fórmula&lt;/strong&gt;&lt;/a&gt; para entender como editar os arquivos que o Ritchie cria depois da criação de uma fórmula.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Organizar a pasta de fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/organizar-a-pasta-de-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;o-que-é-uma-pasta-de-fórmula&#34;&gt;&lt;strong&gt;O que é uma pasta de fórmula?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Esta pasta contém arquivos com comportamento da fórmula.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+A estrutura das pastas define os comandos tree, por isso &lt;strong&gt;não é recomendando que você atualize o nome dessas pastas&lt;/strong&gt;, ou inclua mais arquivos e/ou pastas, a menos que seja uma &lt;strong&gt;pasta src/*.&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Cada linguagem de programação possui suas próprias especificidades, mas a estrutura da fórmula é quase a mesma. Não importa em qual linguagem seja usada, ela irá conter:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Arquivo&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Descrição&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;config.json&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para configurar os parâmetros de entrada da fórmula.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;main file&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para extrair variáveis locais.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;pkg/formula file&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para implementar a operação da fórmula.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;Dockerfile&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para &amp;ldquo;buildar&amp;rdquo; imagens no Docker.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;README file&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para explicar o que faz uma fórmula.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;Makefile file&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para compilar o código da fórmula (&lt;em&gt;será depreciado em 03/2021&lt;/em&gt;).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;build.sh file&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para compilar o código da fórmula em shell.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;metadata.json file&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo para &amp;ldquo;taguear&amp;rdquo; informações de uma fórmula.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;set_unmask.sh file&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivo usado pelo &lt;code&gt;Makefile file&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;help.json files&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Arquivos usados para configurar mensagens de ajuda da fórmula no CLI.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;Você pode encontrar todos os &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas/tree/master/templates/create_formula/languages&#34;&gt;&lt;strong&gt;templates de linguagens&lt;/strong&gt;&lt;/a&gt; no repositório &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;ritchie-formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;exemplos-de-pastas-de-fórmulas&#34;&gt;&lt;strong&gt;Exemplos de pastas de fórmulas&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t-0&#34; role=&#34;tab&#34; aria-controls=&#34;t-0&#34; aria-selected=&#34;true&#34;&gt;Golang&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t-1&#34; role=&#34;tab&#34; aria-controls=&#34;t-1&#34;&gt;Java&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t-2&#34; role=&#34;tab&#34; aria-controls=&#34;t-2&#34;&gt;Node&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t-3&#34; role=&#34;tab&#34; aria-controls=&#34;t-3&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t-4&#34; role=&#34;tab&#34; aria-controls=&#34;t-4&#34;&gt;Shell&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t&#34;&gt;&lt;div id=&#34;t-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-0&#34;&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/go.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;main.go:&lt;/strong&gt; Extrair os inputs, e chamar os métodos da fórmula (na pasta &lt;strong&gt;formula/*&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;formula/*:&lt;/strong&gt; Implementar a lógica da fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;help.json:&lt;/strong&gt; Alterar a mensagem de descrição do comando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+  &lt;div id=&#34;t-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-1&#34;&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/java.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;main.java:&lt;/strong&gt; Extrair os inputs, e chamar os métodos da fórmula (na pasta &lt;strong&gt;formula/*&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;formula/*:&lt;/strong&gt; Implementar a lógica da fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;help.json:&lt;/strong&gt; Alterar a mensagem de descrição do comando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+  &lt;div id=&#34;t-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-2&#34;&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/node.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;index.js:&lt;/strong&gt; Extrair os inputs, e chamar os métodos da fórmula (na pasta &lt;strong&gt;formula/*&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;formula/*:&lt;/strong&gt; Implementar a lógica da fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;help.json:&lt;/strong&gt; Alterar a mensagem de descrição do comando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+  &lt;div id=&#34;t-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-3&#34;&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/python.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;main.py:&lt;/strong&gt; Extrair os inputs, e chamar os métodos da fórmula (na pasta &lt;strong&gt;formula/*&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;formula/*:&lt;/strong&gt; Implementar a lógica da fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;help.json:&lt;/strong&gt; Alterar a mensagem de descrição do comando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+  &lt;div id=&#34;t-4&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t-4&#34;&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/shell.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com a imagem acima, você deve editar os arquivos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;config.json:&lt;/strong&gt; Alterar os &lt;em&gt;&lt;strong&gt;inputs&lt;/strong&gt;&lt;/em&gt; e suas configurações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;main.sh:&lt;/strong&gt; Extrair os inputs, e chamar os métodos da fórmula (na pasta &lt;strong&gt;formula/*&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;formula/*:&lt;/strong&gt; Implementar a lógica da fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;help.json:&lt;/strong&gt; Alterar a mensagem de descrição do comando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Configurar inputs</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;o-que-é-um-arquivo-config-configjson-file&#34;&gt;&lt;strong&gt;O que é um arquivo config (config.json file)?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;O arquivo &lt;strong&gt;config.json&lt;/strong&gt; contém os parâmetros de entrada da fórmula. Ele permite que o CLI saiba quais dados devem ser pedidos ao usuário quando ele executa o comando no terminal, a fim de que processe a fórmula corretamente.&lt;/p&gt;
+&lt;p&gt;Essas entradas são feitas para os seguintes campos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dockerImageBuilder&lt;/strong&gt;: Uma imagem para buildar o docker (de acordo com a linguagem de programação escolhida para criar a fórmula).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dockerVolumes&lt;/strong&gt;: Lista de volumes locais que você deseja montar no container de execução em docker.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;inputs&lt;/strong&gt;: Lista com os parâmetros de entrada de uma fórmula.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;requireLatestVersion&lt;/strong&gt;: Um parâmetro booleano que indica a necessidade (ou não) de uma fórmula ser executada na última versão do repositório.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+  &amp;#34;dockerImageBuilder&amp;#34;: &amp;#34;dockerImage&amp;#34;,
+  &amp;#34;dockerVolumes&amp;#34;: [],
+  &amp;#34;inputs&amp;#34;: [],
+  &amp;#34;requireLatestVersion&amp;#34;: false,
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;configuração-dos-volumes-do-docker-a-serem-mapeados&#34;&gt;&lt;strong&gt;Configuração dos volumes do Docker a serem mapeados&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para cada volume que será mapeado, você deve informar a origem e o destino, utilizando dois pontos &lt;strong&gt;&amp;quot;:&amp;quot;&lt;/strong&gt; como separador.&lt;/p&gt;
+&lt;h4 id=&#34;exemplo&#34;&gt;Exemplo:&lt;/h4&gt;
+&lt;p&gt;O diretório de origem sendo &lt;strong&gt;&lt;code&gt;/home/user-name/folder&lt;/code&gt;&lt;/strong&gt; e o diretório de destino &lt;strong&gt;&lt;code&gt;/mount/folder&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+    &amp;#34;dockerVolumes&amp;#34;: [
+        &amp;#34;/home/user-name/folder:/mount/folder&amp;#34;
+    ],
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;configuração-dos-parâmetros-de-entrada&#34;&gt;&lt;strong&gt;Configuração dos parâmetros de entrada&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Cada parâmetro de entrada é composto pelos seguintes campos:&lt;/p&gt;
+&lt;h3 id=&#34;campos-obrigatórios&#34;&gt;Campos obrigatórios&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;name&lt;/code&gt;: nome da variável para extração.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Uma vez que o valor de um parâmetro de entrada é informado no Ritchie CLI, ele é salvo como uma &lt;strong&gt;variável local&lt;/strong&gt; durante a execução da fórmula.&lt;/p&gt;
+&lt;p&gt;O &lt;strong&gt;nome&lt;/strong&gt; da variável será convertida em &lt;strong&gt;maiúscula&lt;/strong&gt; como o &lt;strong&gt;nome da variável local&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Uma boa prática é adicionar o sufixo &lt;strong&gt;_&lt;code&gt;RIT_&lt;/code&gt;&lt;/strong&gt; para cada &lt;strong&gt;&lt;code&gt;input name&lt;/code&gt;&lt;/strong&gt; para evitar conflitos com variáveis locais.
+&lt;strong&gt;Exemplo: &lt;code&gt;rit_file_name&lt;/code&gt; &amp;ndash;&amp;gt; &lt;code&gt;RIT_FILE_NAME&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;type&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;text&lt;/strong&gt; &lt;em&gt;(string)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;bool&lt;/strong&gt; &lt;em&gt;(boolean)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;password&lt;/strong&gt; &lt;em&gt;(string escondida no CLI)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;multiselect&lt;/strong&gt; lista valores predefinidos, é possível selecionar vários valores &lt;em&gt;(string)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;credentials&lt;/strong&gt; &lt;em&gt;(tipo específico, veja mais sobre &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/usar-inputs-condicionais/&#34;&gt;&lt;strong&gt;nesse tutorial&lt;/strong&gt;&lt;/a&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;dynamic&lt;/strong&gt; &lt;em&gt;(associado ao campo opcional&lt;code&gt;request_info&lt;/code&gt;)&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;path:&lt;/strong&gt; habilita o &lt;code&gt;autocomplete&lt;/code&gt; para o usuário informar o passo para uma pasta ou um arquivo &lt;em&gt;(string)&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;label&lt;/code&gt;: texto que aparecerá no CLI para pedir o input ao usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;exemplo-de-parâmetro-de-entrada-com-campos-obrigatórios&#34;&gt;&lt;strong&gt;Exemplo de parâmetro de entrada com campos obrigatórios:&lt;/strong&gt;&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;exemplo-de-parâmetro-de-entrada-com-o-tipo-multiselect&#34;&gt;&lt;strong&gt;Exemplo de parâmetro de entrada com o tipo multiselect:&lt;/strong&gt;&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Choose one or more days: &amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_days&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;multiselect&amp;#34;,
+      &amp;#34;required&amp;#34;: true,
+      &amp;#34;items&amp;#34;: [
+           &amp;#34;Monday&amp;#34;,
+           &amp;#34;Tuesday&amp;#34;,
+           &amp;#34;Wednesday&amp;#34;,
+           &amp;#34;Thursday&amp;#34;,
+           &amp;#34;Friday&amp;#34;,
+           &amp;#34;Saturday&amp;#34;,
+           &amp;#34;Friday&amp;#34;
+      ]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;algumas-observações-sobre-o-tipo-multiselect&#34;&gt;&lt;strong&gt;Algumas observações sobre o tipo &lt;strong&gt;&lt;code&gt;multiselect&lt;/code&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Para selecionar uma das opções com o tipo &lt;code&gt;multiselect&lt;/code&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Aperte a chave &lt;code&gt;space&lt;/code&gt; (a chave &lt;code&gt;enter&lt;/code&gt; irá mover para o próximo parâmetro de entrada, se houver).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;As opções selecionadas no campo do tipo &lt;code&gt;multiselect&lt;/code&gt; retornam:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Uma string com as opções separadas por barra (&lt;code&gt;|&lt;/code&gt;) e sem espaço, por exemplo: &lt;code&gt;Monday | Wednesday | Friday&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Use o campo &lt;code&gt;required&lt;/code&gt; como &lt;code&gt;true&lt;/code&gt;, caso contrário, se não houver uma opção selecionada, a variável local será salva como &lt;code&gt;undefined&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;exemplo-de-parâmetro-de-entrada-usando-o-tipo-autocomplete&#34;&gt;&lt;strong&gt;Exemplo de parâmetro de entrada usando o tipo autocomplete:&lt;/strong&gt;&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type the path to the folder with your file:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_path&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;path&amp;#34;,
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;campos-opcionais&#34;&gt;&lt;strong&gt;Campos opcionais&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;default&lt;/code&gt;: Valor padrão do parâmetro (se valor é nulo).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;default&amp;#34;: &amp;#34;Dennis&amp;#34;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Você pode ainda fazer essa configuração default com a flag default, que te permite atribuir valores default configurados na fórmula.&lt;/p&gt;
+&lt;p&gt;Caso não haja campos com valor default, a flag continuará solicitando os parâmetros de entrada que devem ser configurados no seu arquivo config.json.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;required&lt;/code&gt;: Boolean que indica se um campo é obrigatório ou opcional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;required&amp;#34;: true
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tutorial&lt;/code&gt;: Campo de ajuda para o parâmetro de entrada &lt;em&gt;[? for help]&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;tutorial&amp;#34;: &amp;#34;We are expecting you to write your name (ex: John)&amp;#34;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;items&lt;/code&gt;: Lista de opções para o parâmetro.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;items&amp;#34;: [
+            &amp;#34;Dennis&amp;#34;,
+            &amp;#34;John&amp;#34;,
+            &amp;#34;Bill&amp;#34;
+      ]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cache&lt;/code&gt;: Salva os valores de parâmetros de entrada anteriores.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;active&lt;/code&gt;: Se o cache é habilitado ou não.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;qty&lt;/code&gt;: A quantidade de valor armazenada no cache.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;newLabel&lt;/code&gt;: Texto que aparece no CLI para pedir um novo input ao usuário.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;cache&amp;#34;: {
+            &amp;#34;active&amp;#34;: true,
+            &amp;#34;qty&amp;#34;: 5,
+            &amp;#34;newLabel&amp;#34;: &amp;#34;Type another name:&amp;#34;
+      }
+}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;condition&lt;/code&gt;: Esse parâmetro só aparece se a condicional funcionar.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;variable&lt;/code&gt;: O nome da variável usada em um parâmetro anterior para comparação.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;operator&lt;/code&gt;: O operador lógico usado para comparar. Suporta &lt;strong&gt;&lt;code&gt;==&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;!=&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;&amp;lt;&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;&amp;gt;&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;&amp;lt;=&lt;/code&gt;&lt;/strong&gt; e  &lt;strong&gt;&lt;code&gt;&amp;gt;=&lt;/code&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;value&lt;/code&gt;: O valor que você deseja usar para comparação.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;default&amp;#34;: &amp;#34;Dennis&amp;#34;
+},
+{
+      &amp;#34;condition&amp;#34;: {
+            &amp;#34;variable&amp;#34;: &amp;#34;rit_name&amp;#34;,
+            &amp;#34;operator&amp;#34;: &amp;#34;!=&amp;#34;,
+            &amp;#34;value&amp;#34;: &amp;#34;Dennis&amp;#34;
+      }
+      &amp;#34;label&amp;#34;: &amp;#34;What is your date of birth?&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_date_of_birth&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pattern&lt;/code&gt;: Configura a validação de um parâmetro de entrada.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;regex&lt;/code&gt;: O modelo regex para validar o parâmetro.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mismatchText&lt;/code&gt;: A mensagem de erro se o parâmetro de entrada seja invalidado pelo regex.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;What is your age&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_age&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;pattern&amp;#34;: {
+            &amp;#34;regex&amp;#34;: &amp;#34;[0-9]&amp;#34;,
+            &amp;#34;mismatchText&amp;#34;: &amp;#34;Only a integer value is allowed here (ex: 20)&amp;#34;
+      }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+O tipo de &lt;strong&gt;&lt;code&gt;entrada dinâmico&lt;/code&gt;&lt;/strong&gt; será &lt;strong&gt;depreciado&lt;/strong&gt; nas &lt;strong&gt;próximas liberações&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;requestInfo&lt;/code&gt;: Configuração para ter o parâmetro de entrada do tipo dinâmico.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;url&lt;/code&gt;: Uma URL que consome o serviço GET e é responsável por retornar a lista de objetos.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jsonPath&lt;/code&gt;: O caminho da variável para extrair da lista retornada uma variável de cada objeto. Exemplo: &lt;code&gt;&amp;quot;jsonPath&amp;quot;: $[&#39;user&#39;][&#39;name&#39;]&lt;/code&gt; (Veja mais sobre &lt;a href=&#34;https://goessner.net/articles/JsonPath/&#34;&gt;&lt;strong&gt;como funciona esse path json&lt;/strong&gt;&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;{
+      &amp;#34;label&amp;#34;: &amp;#34;Type your name:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_name&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;requestInfo&amp;#34;: {
+            &amp;#34;url&amp;#34;: &amp;#34;https://my-url.com&amp;#34;,
+            &amp;#34;jsonPath&amp;#34;: $[&amp;#39;user&amp;#39;][&amp;#39;name&amp;#39;]
+      }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Cada fórmula contém quantos parâmetros de entrada forem necessários, assim como qualquer associação nos campos acima.
+&lt;/div&gt;
+
+&lt;h4 id=&#34;exemplo-de-parâmetros-de-entrada-com-campo-condicional-e-padrão-regex&#34;&gt;&lt;strong&gt;Exemplo de parâmetros de entrada com campo condicional e padrão Regex:&lt;/strong&gt;&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&amp;#34;inputs&amp;#34;: [
+    {
+      &amp;#34;label&amp;#34;: &amp;#34;Select a system:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_system&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;items&amp;#34;: [
+        &amp;#34;LINUX&amp;#34;,
+        &amp;#34;MACOS&amp;#34;,
+        &amp;#34;WINDOWS&amp;#34;
+      ],
+      &amp;#34;required&amp;#34;: true,
+      &amp;#34;tutorial&amp;#34;: &amp;#34;Select a System from the list.&amp;#34;
+    },
+    {
+      &amp;#34;condition&amp;#34;: {
+        &amp;#34;variable&amp;#34;:&amp;#34;rit_system&amp;#34;,
+        &amp;#34;operator&amp;#34;:&amp;#34;==&amp;#34;,
+        &amp;#34;value&amp;#34;:&amp;#34;LINUX&amp;#34;
+      },
+      &amp;#34;label&amp;#34;: &amp;#34;Select a LINUX OS:&amp;#34;,
+      &amp;#34;name&amp;#34;: &amp;#34;rit_linux_os&amp;#34;,
+      &amp;#34;type&amp;#34;: &amp;#34;text&amp;#34;,
+      &amp;#34;items&amp;#34;: [
+        &amp;#34;UBUNTU&amp;#34;,
+        &amp;#34;FEDORA&amp;#34;,
+        &amp;#34;CENTOS&amp;#34;
+      ],
+      &amp;#34;pattern&amp;#34;: {
+        &amp;#34;regex&amp;#34;: &amp;#34;UBUNTU|FEDORA|CENTOS&amp;#34;,
+        &amp;#34;mismatchText&amp;#34;: &amp;#34;Invalid option&amp;#34;
+      },
+      &amp;#34;required&amp;#34;: false,
+      &amp;#34;tutorial&amp;#34;: &amp;#34;Select an Linux Operating System from the list.&amp;#34;
+    }
+  ]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Uma vez que o valor de um parâmetro de entrada é informado no Ritchie CLI, ele é salvo como uma &lt;strong&gt;variável local&lt;/strong&gt; durante a execução da fórmula.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Extrair input variables em uma fórmula</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-main/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;o-que-é-um-arquivo-main&#34;&gt;&lt;strong&gt;O que é um arquivo main?&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;O arquivo Main é usado para extrair os &lt;strong&gt;parâmetros de entrada&lt;/strong&gt; informados no arquivo config.json, salvos como &lt;strong&gt;variáveis locais&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Os parâmetros de entrada são extraídos pelo &lt;strong&gt;nome&lt;/strong&gt; do campo informado no arquivo config.json em &lt;strong&gt;letras maiúsculas&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Esse arquivo é também onde estão as funções da fórmula, manipulando parâmetros de entrada, que são chamados para realizar uma operação e/ou automação da fórmula.&lt;/p&gt;
+&lt;h3 id=&#34;exemplos-de-arquivo-main&#34;&gt;&lt;strong&gt;Exemplos de arquivo Main&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Nos exemplos abaixo, sempre há a classe de uma &lt;strong&gt;&lt;code&gt;formula&lt;/code&gt;&lt;/strong&gt; com uma função &lt;strong&gt;&lt;code&gt;Run()&lt;/code&gt;&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;main.go&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Main.java&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;index.js&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-3&#34; role=&#34;tab&#34; aria-controls=&#34;t1-3&#34;&gt;main.py&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-4&#34; role=&#34;tab&#34; aria-controls=&#34;t1-4&#34;&gt;main.sh&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;	input2 := os.Getenv(&amp;#34;INPUT_LIST&amp;#34;)
+	input3, _ := strconv.ParseBool(os.Getenv(&amp;#34;INPUT_BOOLEAN&amp;#34;))
+	input4 := os.Getenv(&amp;#34;INPUT_PASSWORD&amp;#34;)
+
+	formula.Formula{
+		Text:     input1,
+		List:     input2,
+		Boolean:  input3,
+		Password: input4,
+	}.Run(os.Stdout)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;public class Main {
+
+  public static void main(String[] args) {
+
+    String inputText = System.getenv(&amp;quot;INPUT_TEXT&amp;quot;);
+    boolean inputBoolean = Boolean.parseBoolean(System.getenv(&amp;quot;INPUT_BOOLEAN&amp;quot;));
+    String inputList = System.getenv(&amp;quot;INPUT_LIST&amp;quot;);
+    String inputPassword = System.getenv(&amp;quot;INPUT_PASSWORD&amp;quot;);
+
+    Formula formula = new Formula(
+      inputText, 
+      inputBoolean, 
+      inputList, 
+      inputPassword
+    );
+    
+    formula.Run();
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const INPUT1 = process.env.INPUT_TEXT
+const INPUT2 = process.env.INPUT_BOOLEAN
+const INPUT3 = process.env.INPUT_LIST
+const INPUT4 = process.env.INPUT_PASSWORD
+
+run(INPUT1, INPUT2, INPUT3, INPUT4)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-3&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;input1 = os.environ.get(&amp;quot;INPUT_TEXT&amp;quot;)
+input2 = os.environ.get(&amp;quot;INPUT_BOOLEAN&amp;quot;)
+input3 = os.environ.get(&amp;quot;INPUT_LIST&amp;quot;)
+input4 = os.environ.get(&amp;quot;INPUT_PASSWORD&amp;quot;)
+
+formula.Run(input1, input2, input3, input4)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-4&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-4&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;//Inputs are not even necessary here, as Shellscript get values from local variables directly.
+
+runFormula &#39;$SAMPLE_TEXT&#39; $SAMPLE_LIST &#39;$SAMPLE_BOOL&#39;&#39;$SAMPLE_PASSWORD&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Adicionar as dependências de fórmula</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/depend%C3%AAncias/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-adicionar-as-dependências-de-fórmula&#34;&gt;&lt;strong&gt;Como adicionar as dependências de fórmula?&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Cada linguagem de programação possui suas próprias especificidades para &lt;strong&gt;importar bibliotecas ou pacotes&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;p&gt;No Ritchie, é possível configurar cada fórmula como um projeto pequeno e independente.&lt;/p&gt;
+&lt;p&gt;Portanto, você pode importar todas as dependências necessárias para performar as operações que você deseja implementar. Veja mais abaixo:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t2&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t2-0&#34; role=&#34;tab&#34; aria-controls=&#34;t2-0&#34; aria-selected=&#34;true&#34;&gt;go.mod (GOLANG)&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t2-1&#34; role=&#34;tab&#34; aria-controls=&#34;t2-1&#34;&gt;pom.xml (JAVA)&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t2-2&#34; role=&#34;tab&#34; aria-controls=&#34;t2-2&#34;&gt;package.json (NODE)&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t2-3&#34; role=&#34;tab&#34; aria-controls=&#34;t2-3&#34;&gt;requirements.txt (PYTHON)&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t2-4&#34; role=&#34;tab&#34; aria-controls=&#34;t2-4&#34;&gt;composer.json (PHP)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t2&#34;&gt;&lt;div id=&#34;t2-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t2-0&#34;&gt;
+
+&lt;p&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;module formula
+
+go 1.14
+
+require (
+    github.com/gookit/color v1.2.5
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;div id=&#34;t2-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t2-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;project xmlns=&amp;quot;http://maven.apache.org/POM/4.0.0&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;
+         xsi:schemaLocation=&amp;quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd&amp;quot;&amp;gt;
+    &amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt;
+
+    &amp;lt;groupId&amp;gt;com.ritchie&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;formula&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;1.0-SNAPSHOT&amp;lt;/version&amp;gt;
+
+    &amp;lt;properties&amp;gt;
+        &amp;lt;java.version&amp;gt;1.8&amp;lt;/java.version&amp;gt;
+        &amp;lt;maven.compiler.source&amp;gt;${java.version}&amp;lt;/maven.compiler.source&amp;gt;
+        &amp;lt;maven.compiler.target&amp;gt;${java.version}&amp;lt;/maven.compiler.target&amp;gt;
+        &amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;
+        &amp;lt;maven-jar-plugin.version&amp;gt;3.2.0&amp;lt;/maven-jar-plugin.version&amp;gt;
+    &amp;lt;/properties&amp;gt;
+
+    &amp;lt;build&amp;gt;
+        &amp;lt;finalName&amp;gt;Main&amp;lt;/finalName&amp;gt;
+        &amp;lt;plugins&amp;gt;
+            &amp;lt;plugin&amp;gt;
+                &amp;lt;groupId&amp;gt;org.apache.maven.plugins&amp;lt;/groupId&amp;gt;
+                &amp;lt;artifactId&amp;gt;maven-compiler-plugin&amp;lt;/artifactId&amp;gt;
+                &amp;lt;version&amp;gt;3.8.1&amp;lt;/version&amp;gt;
+                &amp;lt;configuration&amp;gt;
+                    &amp;lt;source&amp;gt;1.8&amp;lt;/source&amp;gt;
+                    &amp;lt;target&amp;gt;1.8&amp;lt;/target&amp;gt;
+                &amp;lt;/configuration&amp;gt;
+            &amp;lt;/plugin&amp;gt;
+            &amp;lt;plugin&amp;gt;
+                &amp;lt;!-- Build an executable JAR --&amp;gt;
+                &amp;lt;groupId&amp;gt;org.apache.maven.plugins&amp;lt;/groupId&amp;gt;
+                &amp;lt;artifactId&amp;gt;maven-jar-plugin&amp;lt;/artifactId&amp;gt;
+                &amp;lt;version&amp;gt;${maven-jar-plugin.version}&amp;lt;/version&amp;gt;
+                &amp;lt;configuration&amp;gt;
+                    &amp;lt;archive&amp;gt;
+                        &amp;lt;manifest&amp;gt;
+                            &amp;lt;!-- &amp;lt;addClasspath&amp;gt;true&amp;lt;/addClasspath&amp;gt; --&amp;gt;
+                            &amp;lt;mainClass&amp;gt;com.ritchie.Main&amp;lt;/mainClass&amp;gt;
+                        &amp;lt;/manifest&amp;gt;
+                    &amp;lt;/archive&amp;gt;
+                &amp;lt;/configuration&amp;gt;
+            &amp;lt;/plugin&amp;gt;
+            &amp;lt;plugin&amp;gt;
+                &amp;lt;artifactId&amp;gt;maven-assembly-plugin&amp;lt;/artifactId&amp;gt;
+                &amp;lt;configuration&amp;gt;
+                    &amp;lt;appendAssemblyId&amp;gt;false&amp;lt;/appendAssemblyId&amp;gt;
+                    &amp;lt;archive&amp;gt;
+                        &amp;lt;manifest&amp;gt;
+                            &amp;lt;mainClass&amp;gt;com.ritchie.Main&amp;lt;/mainClass&amp;gt;
+                        &amp;lt;/manifest&amp;gt;
+                    &amp;lt;/archive&amp;gt;
+                    &amp;lt;descriptorRefs&amp;gt;
+                        &amp;lt;descriptorRef&amp;gt;jar-with-dependencies&amp;lt;/descriptorRef&amp;gt;
+                    &amp;lt;/descriptorRefs&amp;gt;
+                &amp;lt;/configuration&amp;gt;
+                &amp;lt;executions&amp;gt;
+                    &amp;lt;execution&amp;gt;
+                        &amp;lt;id&amp;gt;make-assembly&amp;lt;/id&amp;gt;
+                        &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt;
+                        &amp;lt;goals&amp;gt;
+                            &amp;lt;goal&amp;gt;single&amp;lt;/goal&amp;gt;
+                        &amp;lt;/goals&amp;gt;
+                    &amp;lt;/execution&amp;gt;
+                &amp;lt;/executions&amp;gt;
+            &amp;lt;/plugin&amp;gt;
+        &amp;lt;/plugins&amp;gt;
+    &amp;lt;/build&amp;gt;
+
+    &amp;lt;dependencies&amp;gt;
+        &amp;lt;dependency&amp;gt;
+            &amp;lt;groupId&amp;gt;junit&amp;lt;/groupId&amp;gt;
+            &amp;lt;artifactId&amp;gt;junit&amp;lt;/artifactId&amp;gt;
+            &amp;lt;version&amp;gt;4.13.1&amp;lt;/version&amp;gt;
+            &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+        &amp;lt;/dependency&amp;gt;
+
+        &amp;lt;dependency&amp;gt;
+            &amp;lt;groupId&amp;gt;com.github.tomas-langer&amp;lt;/groupId&amp;gt;
+            &amp;lt;artifactId&amp;gt;chalk&amp;lt;/artifactId&amp;gt;
+            &amp;lt;version&amp;gt;1.0.2&amp;lt;/version&amp;gt;
+        &amp;lt;/dependency&amp;gt;
+    &amp;lt;/dependencies&amp;gt;
+&amp;lt;/project&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t2-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t2-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
+  &amp;quot;dependencies&amp;quot;: {
+    &amp;quot;cli-color&amp;quot;: &amp;quot;^2.0.0&amp;quot;
+  },
+  &amp;quot;main&amp;quot;: &amp;quot;index.js&amp;quot;,
+  &amp;quot;scripts&amp;quot;: {
+    &amp;quot;test&amp;quot;: &amp;quot;echo \&amp;quot;Error: no test specified\&amp;quot; &amp;amp;&amp;amp; exit 1&amp;quot;
+  },
+  &amp;quot;version&amp;quot;: &amp;quot;1.0.0&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t2-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t2-3&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;colored==1.4.2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t2-4&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t2-4&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
+  &amp;quot;require&amp;quot;: {
+    &amp;quot;codedungeon/php-cli-colors&amp;quot;: &amp;quot;~1.0&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Buildar fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/buildar-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+
+
+&lt;div class=&#34;alert alert-danger&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Essa funcionalidade não está mais disponível a partir da &lt;strong&gt;versão 2.5.0 do Ritchie.&lt;/strong&gt; Isso porque o build da fórmula é feito de maneira automática: um repositório local criado assim que você implementa a fórmula&lt;/p&gt;
+&lt;p&gt;Caso esteja usando uma versão anterior, basta seguir as orientações desta seção.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;como-buildar&#34;&gt;&lt;strong&gt;Como &amp;ldquo;buildar&amp;rdquo;?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Depois de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/criar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;criar uma fórmula&lt;/strong&gt;&lt;/a&gt;, e se você quiser editar o código dela, será necessário fazer o build dessas alterações para testar o comando com a nova implementação.&lt;/p&gt;
+&lt;p&gt;Para isso, execute o comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit build formula
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Você deverá informar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;O &lt;strong&gt;caminho do diretório&lt;/strong&gt; onde a fórmula está localizada.&lt;/li&gt;
+&lt;li&gt;O &lt;strong&gt;caminho da fórmula&lt;/strong&gt; a ser buildada (ele segue o comando da fórmula).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Se você quiser atualizar o código da fórmula em tempo de execução, é possível utilizar a &lt;strong&gt;flag “&amp;ndash;watch”&lt;/strong&gt; junto da fórmula. Veja o exemplo abaixo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit build formula --watch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Workspaces</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/workspaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/workspaces/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;qual-a-diferença-entre-workspace-e-repositório&#34;&gt;&lt;strong&gt;Qual a diferença entre workspace e repositório?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Repositórios e workspaces são usados para interagir com as fórmulas no Ritchie, mas em situações diferentes, veja abaixo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;workspace&lt;/code&gt;&lt;/strong&gt;: Você pode usar os comandos do workspace para desenvolver, editar e testar fórmulas &lt;code&gt;locais&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;repository&lt;/code&gt;&lt;/strong&gt;: Você pode usar o repositório para fazer o download de fórmulas de &lt;code&gt;repositórios Git&lt;/code&gt; e usá-las.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Veja um exemplo de adição de repositório na página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/executar-uma-f%C3%B3rmula-hello-world/&#34;&gt;&lt;strong&gt;Executar uma fórmula Hello World&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Os comandos para repos e workspaces são similares, eles permitem que o CLI &amp;lsquo;veja&amp;rsquo; as fórmulas disponíveis. Os workspaces possuem &lt;strong&gt;prioridade mais alta&lt;/strong&gt; que os Repos, se você usar, por exemplo, os dois comandos para os mesmos repositórios de fórmulas, os workspaces serão executados.&lt;/p&gt;
+&lt;p&gt;Para mais informações sobre os comandos de workspace e repositórios, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos e flags&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;como-adicionar&#34;&gt;&lt;strong&gt;Como adicionar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Siga os passos para adicionar:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Execute o comando abaixo para adicionar um novo workspace:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add workspace
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Informe alguns parâmetros de entrada antes da sua execução:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1: Informe o nome do workspace (não use espaços ou caracteres especiais).&lt;/li&gt;
+&lt;li&gt;2: Informe o caminho (path) do workspace na sua máquina local.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-add-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;como-listar&#34;&gt;&lt;strong&gt;Como listar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Execute o comando abaixo para listar os workspaces da máquina:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list workspace
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-list-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;como-atualizar&#34;&gt;&lt;strong&gt;Como atualizar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Se você não é a única pessoa trabalhando em um workspace (por exemplo: se for um repositório clonado do Git), é necessário atualizar o workspace para permitir que a CLI &amp;ldquo;veja&amp;rdquo; as novas fórmulas ou atualizações disponíveis na sua máquina local, após fazer o &lt;em&gt;pull&lt;/em&gt; o código.&lt;/p&gt;
+&lt;p&gt;Para atualizar um espaço de trabalho, execute o comando abaixo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update workspace
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Depois disso, selecione o nome do workspace e aguarde a mensagem de saída do CLI:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-update-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;como-apagar&#34;&gt;&lt;strong&gt;Como apagar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para excluir um workspace, execute o comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete workspace
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Depois disso, siga os passos:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Selecione o workspace;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Confirme que você deseja excluir o workspace:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-delete-workspace.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conheça a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Renomear fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/renomear-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-renomear-uma-fórmula&#34;&gt;&lt;strong&gt;Como renomear uma fórmula?&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;premissas&#34;&gt;&lt;strong&gt;Premissas&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Somente fórmulas locais podem ser renomeadas.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;renomeando-sua-fórmula&#34;&gt;&lt;strong&gt;Renomeando sua fórmula&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Você pode usar o comando core do Ritchie &lt;strong&gt;&lt;code&gt;rit rename formula&lt;/code&gt;&lt;/strong&gt; para renomear uma fórmula local. Os parâmetros de entrada necessários são:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;O nome da fórmula antiga;&lt;/li&gt;
+&lt;li&gt;O novo nome da fórmula;&lt;/li&gt;
+&lt;li&gt;O nome do workspace.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exemplo:&lt;/strong&gt; &lt;code&gt;rit group old&lt;/code&gt; &amp;gt; &lt;code&gt;rit group new&lt;/code&gt; &amp;gt; &lt;code&gt;Default&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-rename-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;O Ritchie identifica automaticamente o workspace que a fórmula pertence.&lt;/li&gt;
+&lt;li&gt;Se o CLI identificar mais de um workspace com a fórmula informada, um passo extra necessário (&lt;em&gt;quando for usada a execução via prompt&lt;/em&gt;) será pedido pelo Ritchie, para escolher o workspace que deve ter a fórmula renomeada.&lt;/li&gt;
+&lt;li&gt;Essa fórmula possui entrada via &lt;em&gt;flags&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para mais informações, veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmula&lt;/strong&gt;&lt;/a&gt;.
+.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;efeitos&#34;&gt;&lt;strong&gt;Efeitos&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Todos os arquivos que identificam a fórmula serão alterados para o novo nome da fórmula. &lt;em&gt;Essas alterações refletirão tanto nas pastas internas de controle do Ritchie, quanto na pasta do workspace (sendo ele o default ou personalizado)&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O autocomplete do Ritchie identificará somente o novo nome de fórmula.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Continue configurando a sua fórmula:&lt;/p&gt;
+&lt;p&gt;👉 Veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como compartilhar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Publicar fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/publicar-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-publicar&#34;&gt;&lt;strong&gt;Como publicar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Existe uma fórmula no Ritchie que permite você criar/atualizar o repositório de fórmulas no Github e/ou Gitlab.&lt;/p&gt;
+&lt;h3 id=&#34;premissas&#34;&gt;&lt;strong&gt;Premissas&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Para publicar um repositório, é necessário configurar as credenciais do Github e/ou Gitlab usando o comando &lt;strong&gt;&lt;code&gt;rit set credential.&lt;/code&gt;&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;publicando-seu-repositório&#34;&gt;&lt;strong&gt;Publicando seu repositório&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Você pode usar uma fórmula que foi criada no repositório da comunidade para fazer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inicializar em um repositório local do Git (se necessário).&lt;/li&gt;
+&lt;li&gt;Criar repositório no Github e/ou Gitlab.&lt;/li&gt;
+&lt;li&gt;Gerar a release de uma nova versão do repositório.&lt;/li&gt;
+&lt;li&gt;Adicionar um repositório nos repositórios locais do Ritchie (usando o comando &lt;strong&gt;&lt;code&gt;rit add repo&lt;/code&gt;&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Além disso, se o repositório já existir, a fórmula irá fazer o commit de um novo código e gerar uma nova release informada antes de atualizar os repositórios do Ritchie (usando o comando &lt;strong&gt;&lt;code&gt;rit update repo&lt;/code&gt;&lt;/strong&gt;)
+&lt;/div&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit publish repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Você deverá informar 5 tipos diferentes de parâmetros de entrada:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;O &lt;strong&gt;&lt;code&gt;provedor&lt;/code&gt;&lt;/strong&gt; (Github ou Gitlab).&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;&lt;code&gt;privacidade do repositório&lt;/code&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;O &lt;strong&gt;&lt;code&gt;nome do repositório&lt;/code&gt;&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;O &lt;strong&gt;&lt;code&gt;caminho local do repositório&lt;/code&gt;&lt;/strong&gt; que você quer publicar.&lt;/li&gt;
+&lt;li&gt;A &lt;strong&gt;&lt;code&gt;versão da release&lt;/code&gt;&lt;/strong&gt; para ser gerada.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-publish-repo.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Você pode checar se a publicação deu certo usando o comando &lt;strong&gt;&lt;code&gt;rit list repo&lt;/code&gt;&lt;/strong&gt; e observando se o repositório publicado aparece.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;publicando-manualmente&#34;&gt;&lt;strong&gt;Publicando manualmente&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para publicar uma fórmula manualmente, você precisa submetê-la no repositório do &lt;strong&gt;Github e/ou Gitlab&lt;/strong&gt; seguindo esses passos:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Você precisa de um repositório de fórmulas exclusivo no Github e/ou Gitlab. &lt;em&gt;Ele pode ser criado a partir de um repositório local ou de um repositório clonado.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Adicione sua fórmula ao repositório. &lt;em&gt;Para isso, use o comando &lt;strong&gt;&lt;code&gt;rit create formula&lt;/code&gt;&lt;/strong&gt; ou copie /cole as pastas.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Faça o commit e submeta o novo código ao repositório do Github e/ou Gitlab.&lt;/li&gt;
+&lt;li&gt;Gere uma nova release do repositório de fórmulas.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Continue configurando a sua fórmula:&lt;/p&gt;
+&lt;p&gt;👉 Veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como compartilhar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Compartilhar fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/compartilhar-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-compartilhar&#34;&gt;&lt;strong&gt;Como compartilhar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Depois que o repositório de fórmulas for publicado, outros usuários podem adicionar suas fórmulas localmente a partir da &lt;strong&gt;URL&lt;/strong&gt; de acesso a elas.&lt;/p&gt;
+&lt;p&gt;Exemplo: &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas&#34;&gt;&lt;strong&gt;&lt;code&gt;https://github.com/ZupIT/ritchie-formulas&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Para adicionar um novo repositório no Ritchie, é necessário rodar o comando abaixo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Uma vez que o repositório for adicionado, o Ritchie irá usar a versão da release selecionada do repositório para acessar as fórmulas disponíveis.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/rit-share-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Se o repositório de fórmulas for &lt;strong&gt;privado&lt;/strong&gt;, será necessário informar o token do seu Github/Gitlab.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;como-checar-a-última-versão-do-repositório&#34;&gt;&lt;strong&gt;Como checar a última versão do repositório?&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Essa feature está disponível a partir da versão 2.2 do Ritchie.
+&lt;/div&gt;
+
+&lt;p&gt;No Ritchie, é possível checar novos comandos de fórmulas adicionados e checar se há uma nova versão de algum repositório que você tenha importado localmente.
+Siga os próximos passos:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Passo 1.&lt;/strong&gt; Executar o comando de ajuda &lt;strong&gt;&lt;code&gt;rit --help&lt;/code&gt;&lt;/strong&gt;. O sistema deve retornar a lista com grupo de repositórios disponíveis.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;(new version 2.12.1) commons repo commands:
+  beagle      Beagle commands
+  bitbucket   Manage bitbucket objects
+  clean-swift Manage clean-swift objects
+  docker      Manipulate Docker objects
+  git         Manipulate Git objects
+  github      Manipulate GitHub objects
+  gitlab      Manipulate GitLab objects
+  istio       Istio Service Mesh commands
+  jupyter     Manage jupyter objects
+  kafka       Kafka commands
+  kubernetes  Manipulate kubernetes objects
+  publish     Publish command
+  scaffold    Manipulate scaffold objects
+  xcode       Manage xcode objects
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Passo 2.&lt;/strong&gt; Se preferir, execute o comando &lt;strong&gt;&lt;code&gt;rit list repo&lt;/code&gt;&lt;/strong&gt;, que retorna informações dos repositórios importados, como a versão atual e a última versão disponível.&lt;/p&gt;
+&lt;h3 id=&#34;como-encontrar-fórmulas-de-um-repositório&#34;&gt;&lt;strong&gt;Como encontrar fórmulas de um repositório?&lt;/strong&gt;&lt;/h3&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Essa feature está disponível a partir da versão 2.11 do Ritchie.
+&lt;/div&gt;
+
+&lt;p&gt;Quando você trabalha com vários grupos de fórmulas, pode ser difícil lembrar de cada comando disponível.&lt;/p&gt;
+&lt;p&gt;Se você quiser listar as fórmulas de um repositório específico, siga os passos abaixo:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Execute o comando de lista &lt;strong&gt;&lt;code&gt;rit list formula&lt;/code&gt;&lt;/strong&gt;. O sistema deve retornar a lista com o grupo de repositórios diponíveis e também a opção &amp;lsquo;&lt;strong&gt;ALL&lt;/strong&gt;&#39;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;? Repository:
+  ALL
+&amp;gt; repo-name-1
+  repo-name-2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Selecione o repositório que você deseja (ou ALL para todos) e o sistema retorna uma lista com os comandos e uma breve descrição que foi definida no arquivo &lt;strong&gt;&lt;code&gt;help.json&lt;/code&gt;&lt;/strong&gt; de cada fórmula:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;? Repository: repo-name-1
+COMMAND                                 DESCRIPTION
+rit aws add terraform-eks               Generate terraform AWS eks
+rit aws add terraform-vpc               Generate terraform AWS vpc
+rit aws apply terraform                 Apply terraform on AWS
+rit aws clean bucket                    Clean bucket AWS
+rit aws create bucket                   Create bucket AWS
+rit aws delete bucket                   Delete AWS objects
+
+There are 6 formulas
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;como-eu-posso-atualizar&#34;&gt;&lt;strong&gt;Como eu posso atualizar?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Para atualizar a versão de algum repositório local, você só precisa rodar o comando abaixo informando o nome do repositório e a versão desejada:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update repo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;próximos-passos&#34;&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Nesta seção, você viu como compartilhar uma fórmula no Ritchie. Para continuar configurando sua fórmula:&lt;/p&gt;
+&lt;p&gt;👉 Vá para página &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/credenciais/definir-credenciais/&#34;&gt;&lt;strong&gt;definir credenciais&lt;/strong&gt;&lt;/a&gt; e veja como rodar esse comando com suas fórmulas.&lt;/p&gt;
+&lt;p&gt;👉 Vá para página de &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; para ver as automações disponíveis no repositório da nossa comunidade.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Apagar fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/apagar-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;como-apagar&#34;&gt;&lt;strong&gt;Como apagar?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Para apagar uma fórmula, você precisa rodar o seguinte comando:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete formula
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Feito isso, siga os passos:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Passo 1:&lt;/strong&gt; Selecione o workspace em que está a fórmula que deseja apagar.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Passo 2:&lt;/strong&gt; Selecione a fórmula que será apagada.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Passo 3:&lt;/strong&gt; O Ritchie fará uma pergunta para você confirmar se deseja seguir com a operação de apagar a fórmula. Basta selecionar &amp;ldquo;sim&amp;rdquo; (yes).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/delete-formula.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Veja &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;como encapsular fórmulas&lt;/strong&gt;&lt;/a&gt; para descobrir como se executa uma fórmula dentro de outra fórmula.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Conheça a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; de fórmulas disponíveis no Ritchie.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Encapsular fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/encapsular-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;o-que-é-encapsulamento&#34;&gt;&lt;strong&gt;O que é encapsulamento?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;No Ritchie, é possível &lt;strong&gt;executar fórmulas dentro de fórmulas&lt;/strong&gt;. Esse processo é chamado de &lt;strong&gt;Encapsulamento de Fórmula&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Essa função permite que você, por exemplo, realize operações em que é necessário rodar fórmulas consecutivas.&lt;/p&gt;
+&lt;p&gt;A seguir, veja como você pode fazer esse processo de encapsulamento:&lt;/p&gt;
+&lt;h2 id=&#34;como-encapsular&#34;&gt;&lt;strong&gt;Como encapsular?&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;1-premissa&#34;&gt;&lt;strong&gt;1. Premissa&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Para realizar um encapsulamento de fórmula, é necessário usar &lt;strong&gt;Standard Inputs&lt;/strong&gt;. Para mais informações, veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/&#34;&gt;&lt;strong&gt;seção de Standard Inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;2-execução&#34;&gt;&lt;strong&gt;2. Execução&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Ao &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/arquivo-config/&#34;&gt;&lt;strong&gt;implementar uma fórmula&lt;/strong&gt;&lt;/a&gt;, você precisa pegar o arquivo onde a operação está codificada e executar a linha de comando associada à fórmula encapsulada.&lt;/p&gt;
+&lt;p&gt;A linha de comando da fórmula encapsulada deve ser executada utilizando &lt;strong&gt;Standard Inputs&lt;/strong&gt; e informando os seus parâmetros de entradas diretamente no código.&lt;/p&gt;
+&lt;h3 id=&#34;3-exemplo&#34;&gt;3. Exemplo&lt;/h3&gt;
+&lt;p&gt;A fórmula &lt;strong&gt;&lt;code&gt;rit publish repo&lt;/code&gt;&lt;/strong&gt; foi implementada usando o encapsulamento de fórmula. Inclusive, você pode encontrar no Github a &lt;a href=&#34;https://github.com/ZupIT/ritchie-formulas/tree/master/publish/repo&#34;&gt;&lt;strong&gt;implementação dessa fórmula&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No exemplo abaixo, você verá como esse encapsulamento funciona na parte do código usando &lt;strong&gt;&lt;code&gt;Input flags&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Essa fórmula foi implementada usando &lt;strong&gt;&lt;code&gt;Shell&lt;/code&gt;&lt;/strong&gt;, mas o raciocínio é o mesmo para qualquer outra linguagem de programação.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;runFormula() {
+  if [ &amp;#34;Github&amp;#34; == $PROVIDER ]
+  then
+    echo &amp;#34;🐙 Github provider selected&amp;#34;
+    rit github publish repo --privacy=$PRIVACY --project_name=$PROJECT_NAME --workspace_path=$WORKSPACE_PATH --version=$VERSION
+  elif [ &amp;#34;Gitlab&amp;#34; == $PROVIDER ]
+  then
+    echo &amp;#34;🦊 Gitlab provider selected&amp;#34;
+    rit gitlab publish repo --privacy=$PRIVACY --project_name=$PROJECT_NAME --workspace_path=$WORKSPACE_PATH --version=$VERSION
+  else
+    echo &amp;#34;🤖 Unexpected Provider informed. Check it please and try again.&amp;#34;
+  fi
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;De acordo com a entrada informada pelo usuário, duas fórmulas diferentes podem ser executadas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;rit github publish repo&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;rit gitlab publish repo&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para tanto, os parâmetros de entrada das fórmulas encapsuladas são informados dinamicamente de acordo com os parâmetros de entrada da fórmula principal (&lt;strong&gt;&lt;code&gt;rit publish repo&lt;/code&gt;&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;Dependendo da operação, os &lt;strong&gt;&lt;code&gt;inputs flags&lt;/code&gt;&lt;/strong&gt; do comando podem ser gerados de acordo com outras operações realizadas durante a execução da fórmula principal, antes de executar a linha de comando da fórmula encapsulada.&lt;/p&gt;
+&lt;h3 id=&#34;aprenda-mais&#34;&gt;&lt;strong&gt;Aprenda Mais&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Veja os &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/&#34;&gt;&lt;strong&gt;tutoriais&lt;/strong&gt;&lt;/a&gt; que criamos para você praticar as diversas funcionalidades do Ritchie.&lt;/li&gt;
+&lt;li&gt;Veja a &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/refer%C3%AAncia/lista-de-comandos-e-flags/&#34;&gt;&lt;strong&gt;lista de comandos&lt;/strong&gt;&lt;/a&gt; para ver as automações disponíveis no repositório da nossa comunidade.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Fórmulas: Testar formulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/testar-formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/f%C3%B3rmulas/testar-formulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;testes-unitários&#34;&gt;&lt;strong&gt;Testes unitários&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;No contexto do Ritchie CLI, teste unitário é a forma de testar uma parte da implementação da sua fórmula.&lt;/p&gt;
+&lt;p&gt;Alguns templates de fórmula, como Java e Golang, possuem classe de testes para escrever e rodar testes unitários das fórmulas.&lt;/p&gt;
+&lt;p&gt;Você também pode configurar seu CI/CD e os processos de release para rodar esses testes, logo após a adição ou atualização de uma fórmula.&lt;/p&gt;
+&lt;h2 id=&#34;testes-funcionais&#34;&gt;&lt;strong&gt;Testes funcionais&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;usando-github-actions&#34;&gt;&lt;strong&gt;Usando Github Actions&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;O time do Ritchie desenvolveu um Github action para testar comandos de output da CLI. Veja o repositório &lt;a href=&#34;https://github.com/GuillaumeFalourd/test-cli-commands-action&#34;&gt;&lt;strong&gt;test-cli-commands-action&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ritchie CLI utiliza essa ação para ter certeza, que os comandos core da CLI se comportem como esperado, depois que os arquivos relacionados são atualizados.&lt;/p&gt;
+&lt;h3 id=&#34;como-essa-ação-funciona&#34;&gt;&lt;strong&gt;Como essa ação funciona?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/githubactions.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Quando você usa essa ação, você consegue checar diferentes cenários da implementação por meio de outputs de fórmulas, de acordo com os inputs das fórmulas. Você pode testar somente quando o arquivo do diretório de fórmulas estiver atualizado.&lt;/p&gt;
+&lt;p&gt;Para mais informações sobre actions, veja a página do &lt;a href=&#34;https://github.com/marketplace/actions/test-cli-commands-action&#34;&gt;&lt;strong&gt;Github Marketplace&lt;/strong&gt;&lt;/a&gt; ou o tutorial &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/tutoriais/como-testar-formulas/&#34;&gt;&lt;strong&gt;Como testar fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

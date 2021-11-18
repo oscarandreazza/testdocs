@@ -1,0 +1,198 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ritchie – Standard Inputs</title>
+    <link>http://docs.devritchiecli.io/standard-inputs/</link>
+    <description>Recent content in Standard Inputs on Ritchie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://docs.devritchiecli.io/standard-inputs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Standard Inputs: Overview</title>
+      <link>http://docs.devritchiecli.io/standard-inputs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/standard-inputs/overview/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;When you inform inputs through &lt;strong&gt;arguments&lt;/strong&gt; or &lt;strong&gt;flags&lt;/strong&gt; allows you to automate workflows.&lt;/p&gt;
+&lt;p&gt;This is useful when you manipulate other tools within a script, as you can automate operations without interacting with the terminal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/standard-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;how-can-you-inform-the-input-parameters&#34;&gt;&lt;strong&gt;How can you inform the input parameters?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Basically, there are two ways to inform input parameters directly on the command lines:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Through the STDIN flag . &lt;em&gt;&lt;strong&gt;(will be deprecated in early 2021)&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Through Input flags.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For more information about them, check out the following sections:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/standard-inputs/input-flag/&#34;&gt;&lt;strong&gt;Input flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/stdin-flag/&#34;&gt;&lt;strong&gt;STDIN flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Standard Inputs: Input Flags</title>
+      <link>http://docs.devritchiecli.io/standard-inputs/input-flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/standard-inputs/input-flag/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;The &lt;strong&gt;Input flags&lt;/strong&gt; on Ritchie has been developed to give one more option to use input parameters through command lines.&lt;/p&gt;
+&lt;p&gt;Therefore, the input parameters need to be informed in the following pattern:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;RIT (GROUP) VERB NOUN --input_name=&amp;#34;input_value&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For more information about &lt;strong&gt;Input Flags&lt;/strong&gt;, check out the &lt;a href=&#34;http://docs.devritchiecli.io/standard-inputs/formulas-commands/&#34;&gt;&lt;strong&gt;Formulas commands&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Standard Inputs: Core Commands</title>
+      <link>http://docs.devritchiecli.io/standard-inputs/core-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/standard-inputs/core-commands/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;core-commands-with-input-flags&#34;&gt;&lt;strong&gt;Core Commands with input flags&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+This flags are supported since Ritchie&amp;rsquo;s 2.8 release.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;available-flags&#34;&gt;&lt;strong&gt;Available flags&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;init-command&#34;&gt;&lt;strong&gt;Init command&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit init&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit init --sendMetrics=&amp;#34;yes&amp;#34; --addCommons=&amp;#34;yes&amp;#34; --runType=&amp;#34;local&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;create-formula-command&#34;&gt;&lt;strong&gt;Create formula command&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit create formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit create formula --name=&amp;#34;rit group verb noun&amp;#34; --language=&amp;#34;go&amp;#34; --workspace=&amp;#34;Default&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;credentials-command&#34;&gt;&lt;strong&gt;Credentials command&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit set credential&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set credential --provider=&amp;#34;github&amp;#34; --fields=&amp;#34;username,token&amp;#34; --values=&amp;#34;Dennis,123456&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit delete credential&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete credential --provider=&amp;#34;github&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;environment-commands&#34;&gt;&lt;strong&gt;Environment commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit set env&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set env --env=&amp;#34;prod&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit delete env&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete env --env=&amp;#34;prod&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;formula-commands&#34;&gt;&lt;strong&gt;Formula commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit set formula-runner&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set formula-runner --runner=&amp;#34;local&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit list formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list formula --name=&amp;#34;repo_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+If you need to list formulas from every repository you have added, use the flag &amp;lsquo;&lt;strong&gt;ALL&lt;/strong&gt;&amp;rsquo;.
+&lt;/div&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list formula --name=&amp;#34;ALL&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit rename formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit rename formula --oldName=&amp;#34;rit group old&amp;#34; --newName=&amp;#34;rit group new&amp;#34; --workspace=&amp;#34;workspace_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+The workspace flag is required when the formula is found in more than one workspace.
+&lt;/div&gt;
+
+&lt;p&gt;rit delete formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete formula --workspace=&amp;#34;workspace_name&amp;#34; --formula=&amp;#34;rit group verb noun&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;repo-commands&#34;&gt;&lt;strong&gt;Repo commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit add repo&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add repo --name=&amp;#34;demo&amp;#34; --provider=&amp;#34;Github&amp;#34; --repoUrl=&amp;#34;https://github.com/ZupIT/ritchie-formulas-demo&amp;#34; --tag=&amp;#34;2.8.9&amp;#34; --token=&amp;#34;1324efg&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+When the version flag is not passed, Ritchie automatically searches for the latest version.
+The token flag is mandatory when the command is used to add a private repository.
+&lt;/div&gt;
+
+&lt;p&gt;rit delete repo&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete repo --name=&amp;#34;repo_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit update repo&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update repo --name=&amp;#34;commons&amp;#34; --version=&amp;#34;2.0.0&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;tutorial-command&#34;&gt;&lt;strong&gt;Tutorial command&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit tutorial&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit tutorial --enabled=true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;workspace-commands&#34;&gt;&lt;strong&gt;Workspace commands&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit add workspace&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add workspace --name=&amp;#34;workspace_name&amp;#34; --path=&amp;#34;path/to/workspace&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit delete workspace&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete workspace --name=&amp;#34;workspace_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit update workspace&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update workspace --name=&amp;#34;workspace_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Standard Inputs: Formulas commands</title>
+      <link>http://docs.devritchiecli.io/standard-inputs/formulas-commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/standard-inputs/formulas-commands/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;The Input flags with formulas are based on the &lt;strong&gt;inputs parameters names&lt;/strong&gt;. They are informed in the &lt;strong&gt;config.json file&lt;/strong&gt; used to implement the formula.&lt;/p&gt;
+&lt;h3 id=&#34;example&#34;&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Formula command: &lt;strong&gt;&lt;code&gt;rit demo formula&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inputs names asked in the config.json file:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;name&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;surname&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;dateOfBirth&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Formula execution with input flags:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo formula --name=&amp;#34;dennis&amp;#34; --surname=&amp;#34;ritchie&amp;#34; --dateOfBirth=&amp;#34;09/09/1941&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-danger&#34; role=&#34;alert&#34;&gt;
+
+The formula&amp;rsquo;s command through Input flags needs the input parameters based on the config.json to work properly.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

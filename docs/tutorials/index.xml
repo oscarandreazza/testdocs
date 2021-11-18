@@ -1,0 +1,1128 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ritchie – Tutorials</title>
+    <link>http://docs.devritchiecli.io/tutorials/</link>
+    <description>Recent content in Tutorials on Ritchie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://docs.devritchiecli.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Tutorials: What are these tutorials?</title>
+      <link>http://docs.devritchiecli.io/tutorials/what-are-these-tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/tutorials/what-are-these-tutorials/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This section guides you to create formulas in different levels and with that show you lots of activities you can do with Richie.&lt;/p&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;To perform the tutorials here, you will need to know more about the following concepts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/run-formula/&#34;&gt;&lt;strong&gt;How to run formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/create-formulas/&#34;&gt;&lt;strong&gt;How to create formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/build-formulas/&#34;&gt;&lt;strong&gt;How to build formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/formulas/group-formulas/&#34;&gt;&lt;strong&gt;How to group formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 1:&lt;/strong&gt; Basic level: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/manipulate-inputs/&#34;&gt;&lt;strong&gt;How to manipulate basic inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 2:&lt;/strong&gt; Basic level 2: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/use-github-credentials/&#34;&gt;&lt;strong&gt;How to manipulate GitHub credentials inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 3:&lt;/strong&gt; Intermediate: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/conditional-inputs/&#34;&gt;&lt;strong&gt;How to manipulate conditional inputs?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tutorial 4:&lt;/strong&gt; Advanced: &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/group-a-formula/&#34;&gt;&lt;strong&gt;How to apply the formula aggregation concept?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Tutorials: How to manipulate inputs</title>
+      <link>http://docs.devritchiecli.io/tutorials/manipulate-inputs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/tutorials/manipulate-inputs/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This tutorials helps you to create a simple formula, in this case, it will sum two positive numbers.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Command suggestion: &lt;strong&gt;&lt;code&gt;rit math sum numbers&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;inputs&#34;&gt;Inputs&lt;/h2&gt;
+&lt;p&gt;This formula must have (at least) two input parameters. See below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Number one (&lt;code&gt;RIT_NUMBER_ONE&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Number two (&lt;code&gt;RIT_NUMBER_TWO&lt;/code&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;how-can-you-do-that&#34;&gt;&lt;strong&gt;How can you do that?&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+This is the same for all programming languages.
+&lt;/div&gt;
+
+&lt;p&gt;Search for the &lt;code&gt;config.json&lt;/code&gt; file of your formula and replace it the &lt;strong&gt;&lt;code&gt;inputs&lt;/code&gt;&lt;/strong&gt; field for the block below:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-&#34;inputs&#34;:&#34; data-lang=&#34;&#34;inputs&#34;:&#34;&gt;    {
+      &amp;quot;label&amp;quot;: &amp;quot;Number one : &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_number_one&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;
+    },
+    {
+      &amp;quot;label&amp;quot;: &amp;quot;Number two : &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_number_two&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;
+    }
+  ]
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-by-step&#34;&gt;&lt;strong&gt;Step by step&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Follow the steps below to create your formula:&lt;/p&gt;
+&lt;h3 id=&#34;step-1-extract-all-inputs-parameters&#34;&gt;&lt;strong&gt;Step 1: Extract all inputs parameters&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;main&lt;/code&gt;&lt;/strong&gt; file of tour formula and extract all the inputs before using them to call your formula&amp;rsquo;s method. See some code example below:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Java&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;Golang&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-3&#34; role=&#34;tab&#34; aria-controls=&#34;t1-3&#34;&gt;Node&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;import os
+
+from formula import formula
+
+number_one = int(os.environ.get(&amp;quot;RIT_NUMBER_ONE&amp;quot;))
+number_two = int(os.environ.get(&amp;quot;RIT_NUMBER_TWO&amp;quot;))
+
+formula.run(number_one, number_two)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package com.ritchie;
+
+import com.ritchie.formula.Formula;
+
+public class Main {
+
+  public static void main(String[] args) {
+    String numberOne = System.getenv(&amp;quot;RIT_NUMBER_ONE&amp;quot;);
+    String numberTwo = System.getenv(&amp;quot;RIT_NUMBER_TWO&amp;quot;);
+    Formula formula = new Formula(Integer.valueOf(numberOne), Integer.valueOf(numberTwo));
+    System.out.println(formula.run());
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main
+
+import (
+	&amp;quot;formula/pkg/formula&amp;quot;
+	&amp;quot;os&amp;quot;
+	&amp;quot;strconv&amp;quot;
+)
+
+func main() {
+	numberOne, _ := strconv.Atoi(os.Getenv(&amp;quot;RIT_NUMBER_ONE&amp;quot;))
+	numberTwo, _ := strconv.Atoi(os.Getenv(&amp;quot;RIT_NUMBER_TWO&amp;quot;))
+
+	formula.Formula{
+		NumberOne: numberOne,
+		NumberTwo: numberTwo,
+	}.Run()
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-3&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const run = require(&amp;quot;./formula/formula&amp;quot;)
+
+const NUMBER_ONE = parseInt(process.env.RIT_NUMBER_ONE)
+const NUMBER_TWO = parseInt(process.env.RIT_NUMBER_TWO)
+
+run(NUMBER_ONE, NUMBER_TWO) 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Warning: Here is where the conversion from STRING to INT happens, because there is no native &lt;strong&gt;INT&lt;/strong&gt; type in the &lt;strong&gt;&lt;code&gt;config.json&lt;/code&gt;&lt;/strong&gt; file.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+This file follows the &lt;strong&gt;&lt;code&gt;main.*&lt;/code&gt;&lt;/strong&gt; nomenclature for most languages, except Node that it calls &lt;strong&gt;&lt;code&gt;index.js&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;step-2-implement-the-formulas-operation&#34;&gt;&lt;strong&gt;Step 2: Implement the formula&amp;rsquo;s operation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;formula&lt;/code&gt;&lt;/strong&gt; file of your formula and implement the method performing the operation of your automation. See some code examples:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Java&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;Golang&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-3&#34; role=&#34;tab&#34; aria-controls=&#34;t1-3&#34;&gt;Node&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;
+def run(number_one, number_two):
+    sum = number_one + number_two
+    print(&amp;quot;The sum is&amp;quot;, sum)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package com.ritchie.formula;
+
+public class Formula {
+
+  private Integer numberOne;
+  private Integer numberTwo;
+
+  public String run() {
+    Integer sum = numberOne + numberTwo;
+    return String.format(&amp;quot;The sum is %s&amp;quot;, sum);
+  }
+
+  public Formula(Integer numberOne, Integer numberTwo) {
+    this.numberOne = numberOne;
+    this.numberTwo = numberTwo;
+  }
+
+  public Integer getNumberOne() {
+    return numberOne;
+  }
+
+  public void setNumberOne(Integer numberOne) {
+    this.numberOne = numberOne;
+  }
+
+  public Integer getNumberTwo() {
+    return numberTwo;
+  }
+
+  public void setNumberTwo(Integer numberTwo) {
+    this.numberTwo = numberTwo;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package formula
+
+import (
+	&amp;quot;fmt&amp;quot;
+)
+
+type Formula struct {
+	NumberOne int
+	NumberTwo int
+}
+
+func (f Formula) Run() {
+	sum := f.NumberOne + f.NumberTwo
+	fmt.Println(&amp;quot;The sum is&amp;quot;, sum)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-3&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;function Run(numberOne, numberTwo) {
+    var sum = numberOne + numberTwo
+    console.log(&amp;quot;The sum is &amp;quot; + sum)
+}
+
+const formula = Run
+module.exports = formula
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&#34;step-3-test-the-formula-on-your-terminal&#34;&gt;&lt;strong&gt;Step 3: Test the formula on your terminal&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test with prompt&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ rit math sum numbers
+? Number one : 1
+? Number two : 2
+The sum is 3
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test with input flags&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ rit math sum numbers --rit_number_one=&amp;quot;1&amp;quot; --rit_number_two=&amp;quot;2&amp;quot; 
+The sum is 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;If you want to test your formula more, see some suggestions below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a validation of the input parameters to return an error to the user if the parameter is not an integer.&lt;/li&gt;
+&lt;li&gt;Allow the user to sum negative numbers with positive ones.&lt;/li&gt;
+&lt;li&gt;Allow the user to digit decimals in addition to integers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;next-steps&#34;&gt;&lt;strong&gt;Next steps&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;👉 If you&amp;rsquo;ve completed this first tutorial, let&amp;rsquo;s go to the second one &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/use-github-credentials/&#34;&gt;&lt;strong&gt;How to use GitHub crendentials&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Tutorials: How to use GitHub credentials</title>
+      <link>http://docs.devritchiecli.io/tutorials/use-github-credentials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/tutorials/use-github-credentials/</guid>
+      <description>
+        
+        
+        &lt;p&gt;In this tutorial you will learn how to create a formula on Ritchie that will return a JSON with Github credentials.&lt;/p&gt;
+&lt;p&gt;The tutorial configures the inputs inside the &lt;strong&gt;config.json&lt;/strong&gt; file, but run the formula without informing them as &lt;code&gt;prompt&lt;/code&gt; or &lt;code&gt;stdin&lt;/code&gt; (they will be extracted automatically). You&amp;rsquo;ll find more information in the &lt;a href=&#34;http://docs.devritchiecli.io/formulas/configure-inputs/&#34;&gt;&lt;strong&gt;input configuration&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Command suggestion: &lt;strong&gt;&lt;code&gt;rit github get user&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;inputs&#34;&gt;&lt;strong&gt;Inputs&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This formula must have (at least) three input parameters. See below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Username (&lt;code&gt;RIT_GITHUB_USER&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Token (&lt;code&gt;RIT_GITHUB_TOKEN&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Email (&lt;code&gt;RIT_GITHUB_EMAIL&lt;/code&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;how-can-you-do-that&#34;&gt;How can you do that?&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+This is the same for all programming languages.
+&lt;/div&gt;
+
+&lt;p&gt;Search for the &lt;code&gt;config.json&lt;/code&gt; file of your formula and replace it the &lt;strong&gt;&lt;code&gt;inputs&lt;/code&gt;&lt;/strong&gt; field for the block below:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-&#34;inputs&#34;:&#34; data-lang=&#34;&#34;inputs&#34;:&#34;&gt;    {
+        &amp;quot;name&amp;quot;: &amp;quot;rit_github_user&amp;quot;,
+        &amp;quot;type&amp;quot;: &amp;quot;CREDENTIAL_GITHUB_USERNAME&amp;quot;
+    },
+    {
+        &amp;quot;name&amp;quot;: &amp;quot;rit_github_token&amp;quot;,
+        &amp;quot;type&amp;quot;: &amp;quot;CREDENTIAL_GITHUB_TOKEN&amp;quot;
+    },
+    {
+        &amp;quot;name&amp;quot;: &amp;quot;rit_github_email&amp;quot;,
+        &amp;quot;type&amp;quot;: &amp;quot;CREDENTIAL_GITHUB_EMAIL&amp;quot;
+    }
+ ]
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-by-step&#34;&gt;&lt;strong&gt;Step by step&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Follow the steps below to create your formula:&lt;/p&gt;
+&lt;h3 id=&#34;step-1-extract-all-inputs-parameters&#34;&gt;&lt;strong&gt;Step 1: Extract all inputs parameters&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;main&lt;/code&gt;&lt;/strong&gt; file of tour formula and extract all the inputs before using them to call your formula&amp;rsquo;s method. See some code example below:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Java&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;Golang&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-3&#34; role=&#34;tab&#34; aria-controls=&#34;t1-3&#34;&gt;Node&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;import os
+
+from formula import formula
+
+username = os.environ.get(&amp;quot;RIT_GITHUB_USER&amp;quot;)
+token = os.environ.get(&amp;quot;RIT_GITHUB_TOKEN&amp;quot;)
+email = os.environ.get(&amp;quot;RIT_GITHUB_EMAIL&amp;quot;)
+
+formula.run(username, token, email)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package com.ritchie;
+
+import com.ritchie.formula.Formula;
+
+public class Main {
+
+  public static void main(String[] args) {
+    String username = System.getenv(&amp;quot;RIT_GITHUB_USER&amp;quot;);
+    String token = System.getenv(&amp;quot;RIT_GITHUB_TOKEN&amp;quot;);
+    String email = System.getenv(&amp;quot;RIT_GITHUB_EMAIL&amp;quot;);
+    Formula formula = new Formula(username, token, email);
+    System.out.println(formula.run());
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main
+
+import (
+	&amp;quot;formula/pkg/formula&amp;quot;
+	&amp;quot;os&amp;quot;
+)
+
+func main() {
+	username := os.Getenv(&amp;quot;RIT_GITHUB_USER&amp;quot;)
+	token := os.Getenv(&amp;quot;RIT_GITHUB_TOKEN&amp;quot;)
+  email := os.Getenv(&amp;quot;RIT_GITHUB_TOKEN&amp;quot;)
+
+	formula.Formula{
+		Username: username,
+		Token:    token,
+		Email:    email,
+	}.Run()
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-3&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;const run = require(&amp;quot;./formula/formula&amp;quot;)
+
+const USERNAME = process.env.RIT_GITHUB_USER
+const TOKEN = process.env.RIT_GITHUB_TOKEN
+const EMAIL = process.env.RIT_GITHUB_EMAIL
+
+run(USERNAME, TOKEN, EMAIL)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+This file follows the &lt;strong&gt;&lt;code&gt;main.*&lt;/code&gt;&lt;/strong&gt; nomenclature for most languages, except Node that it calls &lt;strong&gt;&lt;code&gt;index.js&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;step-2-implement-the-formulas-operation&#34;&gt;&lt;strong&gt;Step 2: Implement the formula&amp;rsquo;s operation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;formula&lt;/code&gt;&lt;/strong&gt; file of your formula and implement the method performing the operation of your automation. See some code examples:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Java&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;Golang&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-3&#34; role=&#34;tab&#34; aria-controls=&#34;t1-3&#34;&gt;Node&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;
+import json
+
+class Github:
+	username = &#39;username&#39;
+	token = &#39;token&#39;
+	email = &#39;email&#39;
+
+def run(username, token, email):
+    # Create object
+    github = Github()
+    github.username = username
+    github.token = token
+    github.email = email
+
+    # Convert to JSON string
+    github_json = json.dumps(github.__dict__)
+
+    # Print json string
+    print(github_json)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package com.ritchie.formula;
+
+import com.google.gson.*; # Add GSON dependency on POM.XML
+
+public class Formula {
+
+  private String username;
+  private String token;
+  private String email;
+
+  public String run() {
+    Gson gson = new Gson();
+    return gson.toJson(this, Formula.class);
+  }
+
+  public Formula(String username, String token, String email) {
+    this.username = username;
+    this.token = token;
+    this.email = email;
+  }
+
+  public String getUsername() {
+    return username;
+  }
+
+  public void setUsername(String username) {
+    this.username = username;
+  }
+
+  public String getToken() {
+    return token;
+  }
+
+  public void setToken(String token) {
+    this.token = token;
+  }
+
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package formula
+
+import (
+	&amp;quot;bytes&amp;quot;
+	&amp;quot;encoding/json&amp;quot;
+	&amp;quot;log&amp;quot;
+)
+
+type Formula struct {
+	Username string
+	Token    string
+	Email    string 
+}
+
+func (h Formula) Run() {
+	response, err := json.Marshal(h)
+	if err != nil {
+		log.Printf(&amp;quot;Error&amp;quot;, h)
+	}
+
+	var prettyJSON bytes.Buffer
+	error := json.Indent(&amp;amp;prettyJSON, response, &amp;quot;&amp;quot;, &amp;quot;\t&amp;quot;)
+	if error != nil {
+		log.Println(&amp;quot;JSON parse error:&amp;quot;, error)
+	}
+
+	log.Println(&amp;quot;Github Credentials:&amp;quot;, string(prettyJSON.Bytes()))
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-3&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-3&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;function Run(username, token, email) {
+    console.log(&amp;quot;Credential Github&amp;quot;)
+    console.log(&amp;quot;username: &amp;quot; + username)
+    console.log(&amp;quot;token: &amp;quot; + token)
+    console.log(&amp;quot;email: &amp;quot; + email)
+}
+
+const formula = Run
+module.exports = formula
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Depending on the language, it can be necessary add some dependencies in the related files (&lt;code&gt;pom.xml&lt;/code&gt; for &lt;strong&gt;Java&lt;/strong&gt;, &lt;code&gt;requirements.txt&lt;/code&gt; for &lt;strong&gt;Python&lt;/strong&gt;, &lt;code&gt;package.json&lt;/code&gt; for &lt;strong&gt;Node&lt;/strong&gt;, &lt;code&gt;go.mod&lt;/code&gt; for &lt;strong&gt;Golang&lt;/strong&gt;, etc).
+&lt;/div&gt;
+
+&lt;h3 id=&#34;step-3-test-the-formula-on-your-terminal&#34;&gt;&lt;strong&gt;Step 3: Test the formula on your terminal&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test without configured credentials&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ rit github get user
+? Provider key not found, please provide a value for github username:  ******
+? Provider key not found, please provide a value for github token:  ******
+? Provider key not found, please provide a value for github email:  ******
+{&amp;quot;username&amp;quot;: &amp;quot;Dennis&amp;quot;, &amp;quot;token&amp;quot;: &amp;quot;123456&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;dennis.ritchie@zup.com.br&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test with configured credentials&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ rit github get user 
+{&amp;quot;username&amp;quot;: &amp;quot;Dennis&amp;quot;, &amp;quot;token&amp;quot;: &amp;quot;123456&amp;quot;, &amp;quot;email&amp;quot;: &amp;quot;dennis.ritchie@zup.com.br&amp;quot;}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;If you want to test your formula more, see some suggestions below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop some Github operation by manipulating these credentials.&lt;/li&gt;
+&lt;li&gt;Code a formula which will allow the user to create a repository on Github.&lt;/li&gt;
+&lt;li&gt;Code a formula which will allow the user to &lt;strong&gt;add&lt;/strong&gt;, &lt;strong&gt;commit&lt;/strong&gt; and &lt;strong&gt;push&lt;/strong&gt; using only one command.&lt;/li&gt;
+&lt;li&gt;Code a formula which will allow the user to generate a &lt;strong&gt;release&lt;/strong&gt; of the informed Github repository.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;next-steps&#34;&gt;&lt;strong&gt;Next steps&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;👉 If you&amp;rsquo;ve completed the second tutorial, go to the third &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/conditional-inputs/&#34;&gt;&lt;strong&gt;How to use conditional inputs&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Tutorials: How to use conditional inputs</title>
+      <link>http://docs.devritchiecli.io/tutorials/conditional-inputs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/tutorials/conditional-inputs/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Here, the idea is to create a formula on Ritchie that will return the tool selected by the user according to its profile.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You&amp;rsquo;ll find more information about the &lt;strong&gt;conditional field&lt;/strong&gt; on the &lt;a href=&#34;http://docs.devritchiecli.io/formulas/configure-inputs/&#34;&gt;&lt;strong&gt;config.json inputs&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Command suggestion: &lt;strong&gt;&lt;code&gt;rit get tools&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&#34;inputs&#34;&gt;Inputs&lt;/h2&gt;
+&lt;p&gt;This formula must have (at least) three input parameters. See below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Name (&lt;code&gt;RIT_NAME&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Profile (&lt;code&gt;RIT_PROFILE&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Profile tool (&lt;code&gt;RIT_TOOL&lt;/code&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The formula inputs must follow the diagram below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/ritchie-conditional-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-can-you-do-that&#34;&gt;How can you do that?&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+This is the same for all programming languages.
+&lt;/div&gt;
+
+&lt;p&gt;Search for the &lt;code&gt;config.json&lt;/code&gt; file of your formula and replace it the &lt;strong&gt;&lt;code&gt;inputs&lt;/code&gt;&lt;/strong&gt; field for the block below:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-&#34;inputs&#34;:&#34; data-lang=&#34;&#34;inputs&#34;:&#34;&gt;    {
+      &amp;quot;label&amp;quot;: &amp;quot;Type the professional name: &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_name&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;,
+      &amp;quot;cache&amp;quot;: {
+        &amp;quot;active&amp;quot;: true,
+        &amp;quot;newLabel&amp;quot;: &amp;quot;Type other name: &amp;quot;,
+        &amp;quot;qty&amp;quot;: 3
+      }
+    },
+    {
+      &amp;quot;label&amp;quot;: &amp;quot;Select the professional profile: &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_profile&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;,
+      &amp;quot;items&amp;quot;: [
+        &amp;quot;BACK-END&amp;quot;,
+        &amp;quot;FRONT-END&amp;quot;,
+        &amp;quot;OPERATION&amp;quot;,
+        &amp;quot;QA&amp;quot;
+      ]
+    },
+    {
+      &amp;quot;condition&amp;quot;: {
+        &amp;quot;variable&amp;quot;:&amp;quot;rit_profile&amp;quot;,
+        &amp;quot;operator&amp;quot;:&amp;quot;==&amp;quot;,
+        &amp;quot;value&amp;quot;:&amp;quot;BACK-END&amp;quot;
+      },
+      &amp;quot;label&amp;quot;: &amp;quot;Which tool this BACK-END professional needs to install: &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_tool&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;,
+      &amp;quot;items&amp;quot;: [
+        &amp;quot;INTELLIJ&amp;quot;,
+        &amp;quot;DATAGRIP&amp;quot;,
+        &amp;quot;DOCKER&amp;quot;
+      ]
+    },
+    {
+      &amp;quot;condition&amp;quot;: {
+        &amp;quot;variable&amp;quot;:&amp;quot;rit_profile&amp;quot;,
+        &amp;quot;operator&amp;quot;:&amp;quot;==&amp;quot;,
+        &amp;quot;value&amp;quot;:&amp;quot;FRONT-END&amp;quot;
+      },
+      &amp;quot;label&amp;quot;: &amp;quot;Which tool this FRONT-END professional needs to install: &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_tool&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;,
+      &amp;quot;items&amp;quot;: [
+        &amp;quot;ATOM&amp;quot;,
+        &amp;quot;CHROME DEV TOOLS&amp;quot;,
+        &amp;quot;NPM&amp;quot;
+      ]
+    },
+    {
+      &amp;quot;condition&amp;quot;: {
+        &amp;quot;variable&amp;quot;:&amp;quot;rit_profile&amp;quot;,
+        &amp;quot;operator&amp;quot;:&amp;quot;==&amp;quot;,
+        &amp;quot;value&amp;quot;:&amp;quot;OPERATION&amp;quot;
+      },
+      &amp;quot;label&amp;quot;: &amp;quot;Which tool this OPERATION professional needs to install: &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_tool&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;,
+      &amp;quot;items&amp;quot;: [
+        &amp;quot;JENKINS&amp;quot;,
+        &amp;quot;CIRCLE-CI&amp;quot;,
+        &amp;quot;TERRAFORM&amp;quot;
+      ]
+    },
+    {
+      &amp;quot;condition&amp;quot;: {
+        &amp;quot;variable&amp;quot;:&amp;quot;rit_profile&amp;quot;,
+        &amp;quot;operator&amp;quot;:&amp;quot;==&amp;quot;,
+        &amp;quot;value&amp;quot;:&amp;quot;QA&amp;quot;
+      },
+      &amp;quot;label&amp;quot;: &amp;quot;Which tool this QA professional needs to install: &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_tool&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;,
+      &amp;quot;items&amp;quot;: [
+        &amp;quot;SELENIUM&amp;quot;,
+        &amp;quot;POSTMAN&amp;quot;,
+        &amp;quot;CUCUMBER&amp;quot;
+      ]
+    }
+  ]
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-by-step&#34;&gt;&lt;strong&gt;Step by step&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Follow the steps below to create your formula:&lt;/p&gt;
+&lt;h3 id=&#34;step-1-extract-all-inputs-parameters&#34;&gt;&lt;strong&gt;Step 1: Extract all inputs parameters&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;main&lt;/code&gt;&lt;/strong&gt; file of tour formula and extract all the inputs before using them to call your formula&amp;rsquo;s method. See some code example below:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Java&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;import os
+
+from formula import formula
+
+name = os.environ.get(&amp;quot;RIT_NAME&amp;quot;)
+profile = os.environ.get(&amp;quot;RIT_PROFILE&amp;quot;)
+tool = os.environ.get(&amp;quot;RIT_TOOL&amp;quot;)
+
+formula.run(profile, tool)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package com.ritchie;
+
+import com.ritchie.formula.Formula;
+
+public class Main {
+
+  public static void main(String[] args) {
+    String username = System.getenv(&amp;quot;RIT_GIT_USER&amp;quot;);
+    String token = System.getenv(&amp;quot;RIT_GIT_TOKEN&amp;quot;);
+    String email = System.getenv(&amp;quot;RIT_GIT_EMAIL&amp;quot;);
+    Formula formula = new Formula(username, token, email);
+    System.out.println(formula.run());
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+This file follows the &lt;strong&gt;&lt;code&gt;main.*&lt;/code&gt;&lt;/strong&gt; nomenclature for most languages, except Node that it calls &lt;strong&gt;&lt;code&gt;index.js&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;step-2-implement-the-formulas-operation&#34;&gt;&lt;strong&gt;Step 2: Implement the formula&amp;rsquo;s operation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;formula&lt;/code&gt;&lt;/strong&gt; file of your formula and implement the method performing the operation of your automation. See some code examples:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Java&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;
+def run(name, profile, tool):
+    printf(&amp;quot;Welcome to {name}&amp;quot;)
+    printf(&amp;quot;He is our new {profile} professional.&amp;quot;)
+    printf(&amp;quot;Ritchie will install {tool} for him automatically.&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package com.ritchie.formula;
+
+import com.google.gson.*; # Add GSON dependency on POM.XML
+
+public class Formula {
+
+  private String username;
+  private String token;
+  private String email;
+
+  public String run() {
+    Gson gson = new Gson();
+    return gson.toJson(this, Formula.class);
+  }
+
+  public Formula(String username, String token, String email) {
+    this.username = username;
+    this.token = token;
+    this.email = email;
+  }
+
+  public String getUsername() {
+    return username;
+  }
+
+  public void setUsername(String username) {
+    this.username = username;
+  }
+
+  public String getToken() {
+    return token;
+  }
+
+  public void setToken(String token) {
+    this.token = token;
+  }
+
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Depending on the language, it can be necessary add some dependencies in the related files (&lt;code&gt;pom.xml&lt;/code&gt; for &lt;strong&gt;Java&lt;/strong&gt;, &lt;code&gt;requirements.txt&lt;/code&gt; for &lt;strong&gt;Python&lt;/strong&gt;, &lt;code&gt;package.json&lt;/code&gt; for &lt;strong&gt;Node&lt;/strong&gt;, &lt;code&gt;go.mod&lt;/code&gt; for &lt;strong&gt;Golang&lt;/strong&gt;, etc).
+&lt;/div&gt;
+
+&lt;h3 id=&#34;step-3-test-the-formula-on-your-terminal&#34;&gt;&lt;strong&gt;Step 3: Test the formula on your terminal&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test with prompt&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ rit get tools
+? Type the professional name: Dennis
+? Select the professional profile: BACK-END
+? Which tool this BACK-END professional needs to install: DOCKER
+Welcome to Dennis
+He is our new BACK-END professional.
+Ritchie will install DOCKER for him automatically.
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Test with input flags&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ rit get tools --rit_name=&amp;quot;Dennis&amp;quot; --rit_profile=&amp;quot;BACK-END&amp;quot; --rit_tool=&amp;quot;DOCKER&amp;quot;
+Welcome to Dennis
+He is our new BACK-END professional.
+Ritchie will install DOCKER for him automatically.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;If you want to test your formula more, see a suggestion below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install the selected tool according to the computer OS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&#34;next-step&#34;&gt;&lt;strong&gt;Next step&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;👉 If you&amp;rsquo;ve completed the second tutorial, go to the fourth &lt;a href=&#34;http://docs.devritchiecli.io/tutorials/group-a-formula/&#34;&gt;&lt;strong&gt;How to group formulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Tutorials: How to group a formula</title>
+      <link>http://docs.devritchiecli.io/tutorials/group-a-formula/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/tutorials/group-a-formula/</guid>
+      <description>
+        
+        
+        &lt;p&gt;In this tutorial, the idea is to create a formula to execute another formula inside it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;See more information on how to run formula inside other on &lt;a href=&#34;http://docs.devritchiecli.io/formulas/group-formulas/&#34;&gt;&lt;strong&gt;groups formulas&lt;/strong&gt;&lt;/a&gt; section.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here, we will group at least two formulas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;rit math sum numbers&lt;/code&gt;&lt;/strong&gt; (level 1).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;rit math multiply numbers&lt;/code&gt;&lt;/strong&gt; (TODO).&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Command suggestion: &lt;strong&gt;&lt;code&gt;rit math calculate&lt;/code&gt;&lt;/strong&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;inputs&#34;&gt;&lt;strong&gt;Inputs&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This formula must have (at least) three input parameters. See below:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Number one (&lt;code&gt;RIT_NUMBER_ONE&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Number two (&lt;code&gt;RIT_NUMBER_TWO&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Operation (&lt;code&gt;RIT_OPERATION&lt;/code&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;how-can-you-do-that&#34;&gt;How can you do that?&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+This is the same for all programming languages.
+&lt;/div&gt;
+
+&lt;p&gt;Search for the &lt;code&gt;config.json&lt;/code&gt; file of your formula and replace it the &lt;strong&gt;&lt;code&gt;inputs&lt;/code&gt;&lt;/strong&gt; field for the block below:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-&#34;inputs&#34;:&#34; data-lang=&#34;&#34;inputs&#34;:&#34;&gt;    {
+      &amp;quot;label&amp;quot;: &amp;quot;Number one : &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_number_one&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;
+    },
+    {
+      &amp;quot;label&amp;quot;: &amp;quot;Number two : &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_number_two&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;
+    },
+    {
+      &amp;quot;label&amp;quot;: &amp;quot;Operation : &amp;quot;,
+      &amp;quot;name&amp;quot;: &amp;quot;rit_operation&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;text&amp;quot;,
+      &amp;quot;items&amp;quot;: [
+        &amp;quot;sum&amp;quot;,
+        &amp;quot;multiplication&amp;quot;
+      ]
+    }
+  ]
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;step-by-step&#34;&gt;&lt;strong&gt;Step by step&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Follow the steps below to create your formula:&lt;/p&gt;
+&lt;h3 id=&#34;step-1-extract-all-inputs-parameters&#34;&gt;&lt;strong&gt;Step 1: Extract all inputs parameters&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;main&lt;/code&gt;&lt;/strong&gt; file of tour formula and extract all the inputs before using them to call your formula&amp;rsquo;s method. See some code example below:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Golang&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;Shell&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;import os
+
+from formula import formula
+
+number_one = int(os.environ.get(&amp;quot;RIT_NUMBER_ONE&amp;quot;))
+number_two = int(os.environ.get(&amp;quot;RIT_NUMBER_TWO&amp;quot;))
+operation = os.environ.get(&amp;quot;RIT_OPERATION&amp;quot;)
+
+formula.run(number_one, number_two, operation)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package main
+
+import (
+	&amp;quot;formula/pkg/formula&amp;quot;
+	&amp;quot;os&amp;quot;
+)
+
+func main() {
+	numberOne := os.Getenv(&amp;quot;RIT_NUMBER_ONE&amp;quot;)
+	numberTwo := os.Getenv(&amp;quot;RIT_NUMBER_TWO&amp;quot;)
+	operation := os.Getenv(&amp;quot;RIT_OPERATION&amp;quot;)
+
+	formula.Formula{
+		NumberOne: numberOne,
+		NumberTwo: numberTwo,
+		Operation: operation,
+	}.Run()
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+
+# shellcheck source=/dev/null
+. &amp;quot;$(dirname &amp;quot;$0&amp;quot;)&amp;quot;/formula/formula.sh --source-only
+
+runFormula
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+This file follows the &lt;strong&gt;&lt;code&gt;main.*&lt;/code&gt;&lt;/strong&gt; nomenclature for most languages, except Node that it calls &lt;strong&gt;&lt;code&gt;index.js&lt;/code&gt;&lt;/strong&gt;.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;step-2-implement-the-formulas-operation&#34;&gt;&lt;strong&gt;Step 2: Implement the formula&amp;rsquo;s operation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Run the rit formula according to the selected operation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;multiply&lt;/strong&gt; must call the &lt;code&gt;rit math multiply numbers&lt;/code&gt; formula;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;sum&lt;/strong&gt; must call the &lt;code&gt;rit math sum numbers&lt;/code&gt; formula.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Search for the &lt;strong&gt;&lt;code&gt;formula&lt;/code&gt;&lt;/strong&gt; file of your formula and implement the method performing the operation of your automation. See some code examples:&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;t1&#34; role=&#34;tablist&#34;&gt;&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link active&#34; href=&#34;#t1-0&#34; role=&#34;tab&#34; aria-controls=&#34;t1-0&#34; aria-selected=&#34;true&#34;&gt;Python&lt;/a&gt;&lt;/li&gt;
+	  
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-1&#34; role=&#34;tab&#34; aria-controls=&#34;t1-1&#34;&gt;Golang&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#34;nav-item&#34;&gt;&lt;a data-toggle=&#34;tab&#34; class=&#34;nav-link&#34; href=&#34;#t1-2&#34; role=&#34;tab&#34; aria-controls=&#34;t1-2&#34;&gt;Shell&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div class=&#34;tab-content&#34; id=&#34;t1&#34;&gt;&lt;div id=&#34;t1-0&#34; class=&#34;tab-pane show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-0&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-#!/usr/bin/python3&#34; data-lang=&#34;#!/usr/bin/python3&#34;&gt;import os
+import json
+
+def run(number_one, number_two, operation):
+    if operation == &amp;quot;sum&amp;quot;:
+        input_flag_cmd = f&amp;quot;rit python math sum numbers --rit_number_one={number_one} --rit_number_two={number_two}&amp;quot;
+
+    elif operation == &amp;quot;multiplication&amp;quot;:
+        input_flag_cmd = f&amp;quot;rit python math multiply numbers --rit_number_one={number_one} --rit_number_two={number_two}&amp;quot;
+
+    else:
+        print(&amp;quot;Unexpected operation&amp;quot;)
+
+    os.system(f&#39;{input_flag_cmd}&#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-1&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-1&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;package formula
+
+import (
+	&amp;quot;fmt&amp;quot;
+	&amp;quot;log&amp;quot;
+	&amp;quot;os/exec&amp;quot;
+)
+
+type Formula struct {
+	NumberOne string
+	NumberTwo string
+	Operation string
+}
+
+func (h Formula) Run() {
+	cmdLine := exec.Command(&amp;quot;&amp;quot;, &amp;quot;&amp;quot;)
+
+	switch h.Operation {
+	case &amp;quot;sum&amp;quot;:
+		cmdLine = exec.Command(
+			&amp;quot;rit&amp;quot;,
+			&amp;quot;math&amp;quot;,
+			&amp;quot;sum&amp;quot;,
+			&amp;quot;numbers&amp;quot;,
+			fmt.Sprintf(&amp;quot;--rit_number_one=%s&amp;quot;, h.NumberOne),
+			fmt.Sprintf(&amp;quot;--rit_number_two=%s&amp;quot;, h.NumberTwo),
+		)
+	case &amp;quot;multiplication&amp;quot;:
+		cmdLine = exec.Command(
+			&amp;quot;rit&amp;quot;,
+			&amp;quot;math&amp;quot;,
+			&amp;quot;multiply&amp;quot;,
+			&amp;quot;numbers&amp;quot;,
+			fmt.Sprintf(&amp;quot;--rit_number_one=%s&amp;quot;, h.NumberOne),
+			fmt.Sprintf(&amp;quot;--rit_number_two=%s&amp;quot;, h.NumberTwo),
+		)
+	default:
+		fmt.Print(&amp;quot;Unexpected operation type:&amp;quot;, h.Operation)
+	}
+
+	out, err := cmdLine.CombinedOutput()
+	if err != nil {
+		log.Fatalf(&amp;quot;cmd.Run() failed with %s\n&amp;quot;, err)
+	}
+
+	fmt.Printf(string(out))
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;div id=&#34;t1-2&#34; class=&#34;tab-pane&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;t1-2&#34;&gt;
+
+&lt;p&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/sh
+runFormula() {
+  if [ &amp;quot;sum&amp;quot; = &amp;quot;$RIT_OPERATION&amp;quot; ]; then
+    rit math sum numbers --rit_number_one=$RIT_NUMBER_ONE --rit_number_two=$RIT_NUMBER_TWO
+  elif [ &amp;quot;multiplication&amp;quot; = &amp;quot;$RIT_OPERATION&amp;quot; ]; then
+    rit math multiply numbers --rit_number_one=$RIT_NUMBER_ONE --rit_number_two=$RIT_NUMBER_TWO
+  else
+    echo &amp;quot;Unexpected operation type: $RIT_OPERATION&amp;quot;
+  fi
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
+
+Depending on the language, it can be necessary add some dependencies in the related files (&lt;code&gt;pom.xml&lt;/code&gt; for &lt;strong&gt;Java&lt;/strong&gt;, &lt;code&gt;requirements.txt&lt;/code&gt; for &lt;strong&gt;Python&lt;/strong&gt;, &lt;code&gt;package.json&lt;/code&gt; for &lt;strong&gt;Node&lt;/strong&gt;, &lt;code&gt;go.mod&lt;/code&gt; for &lt;strong&gt;Golang&lt;/strong&gt;, etc).
+&lt;/div&gt;
+
+&lt;h3 id=&#34;step-3-test-the-formula-on-your-terminal&#34;&gt;&lt;strong&gt;Step 3: Test the formula on your terminal&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multiply test&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ rit math calculate
+? Number one : 1
+? Number two : 2
+? Operation: multiplication
+The multiplication is 2
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sum test&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;~ ~ rit math calculate
+? Number one : 1
+? Number two : 2
+? Operation: sum
+The sum is 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;If you want to test your formula more, see some suggestions below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add more operations.&lt;/li&gt;
+&lt;li&gt;Add the option to inform any quantity of numbers as inputs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Tutorials: How to test formulas outputs</title>
+      <link>http://docs.devritchiecli.io/tutorials/how-to-test-formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/tutorials/how-to-test-formulas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This tutorial will help you to create and configure a Github Action workflow to test your formula outputs.&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You need to have the &lt;strong&gt;&lt;code&gt;rit math sum numbers&lt;/code&gt;&lt;/strong&gt; formula on a Github repository.&lt;/li&gt;
+&lt;li&gt;You need a &lt;strong&gt;.github/workflows&lt;/strong&gt; directory created on the Github repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-can-you-do-that&#34;&gt;&lt;strong&gt;How can you do that?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Follow the next steps to test a formula:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Create a file on the &lt;strong&gt;.github/workflows&lt;/strong&gt; directory named &lt;strong&gt;&lt;code&gt;test-formula-sum-numbers.yml&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Paste the following yaml implementation inside of it:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;yaml
+name: Formula Sum Numbers
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  formula-sum-numbers-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4    //requirement to the test-cli-commands-action
+      - uses: actions/setup-node@v2    // requirement to the test-cli-commands-action
+        with:
+          node-version: &#39;14&#39;
+      - name: Ritchie Installation
+        run: curl -fsSL https://commons-repo.ritchiecli.io/install.sh | bash
+      - name: Ritchie Initialization
+        run: echo &#39;{&amp;quot;addCommons&amp;quot;:false, &amp;quot;sendMetrics&amp;quot;:false, &amp;quot;runType&amp;quot;:&amp;quot;local&amp;quot;}&#39; | rit init --stdin
+      - name: Add current formula repository as workspace
+        run: rit add workspace --name=&amp;quot;current_repo&amp;quot; --path=&amp;quot;./&amp;quot;
+      - uses: GuillaumeFalourd/test-cli-commands-action@v1
+        with:
+          command_line: rit math sum numbers —rit_number_one=1 —rit_number_two=2
+          contains: The sum is 3
+          expected_result: PASSED
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; After you commit and push your code, go to the &lt;strong&gt;Actions&lt;/strong&gt; tab’s repository:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/actions-tab.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;You will see the &lt;strong&gt;workflow run&lt;/strong&gt; being executed (or the result of its execution), see below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/formula-sum-numbers.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;That’s it, &lt;strong&gt;each push&lt;/strong&gt; to the repository will now trigger this workflow and you can also check if the formula is behaving correctly.&lt;/p&gt;
+&lt;p&gt;You are able to update the workflow implementation to trigger only when the formula’s root directory is updated, or to test more scenarios according to the formula&amp;rsquo;s inputs.&lt;/p&gt;
+&lt;p&gt;For more information about workflow syntax, check out &lt;a href=&#34;https://docs.github.com/en/enterprise-server@3.0/actions/reference/workflow-syntax-for-github-actions&#34;&gt;&lt;strong&gt;Github Documentation&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

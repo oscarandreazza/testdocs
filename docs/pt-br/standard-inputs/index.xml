@@ -1,0 +1,198 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ritchie – Standard Inputs</title>
+    <link>http://docs.devritchiecli.io/pt-br/standard-inputs/</link>
+    <description>Recent content in Standard Inputs on Ritchie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="http://docs.devritchiecli.io/pt-br/standard-inputs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Standard Inputs: Visão Geral</title>
+      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/visao-geral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/visao-geral/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;Informar os parâmetros de entrada por meio de &lt;strong&gt;argumentos&lt;/strong&gt; ou &lt;strong&gt;flags&lt;/strong&gt; permite que você automatize workflows.&lt;/p&gt;
+&lt;p&gt;Isso é útil quando você manipular outras ferramentas dentro do script, assim você automatiza operações sem precisar interagir com o terminal.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://docs.devritchiecli.io/shared/standard-inputs.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;como-informar-os-parâmetros-de-entrada&#34;&gt;&lt;strong&gt;Como informar os parâmetros de entrada?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Há duas formas de informar os parâmetros de entrada diretamente na linha de comando:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Por meio da flag STDIN; &lt;em&gt;&lt;strong&gt;(será depreciado no início de 2021)&lt;/strong&gt;&lt;/em&gt;;&lt;/li&gt;
+&lt;li&gt;Por meio de Input flags.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Para mais informações sobre cada um deles, veja as seguintes seções:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/&#34;&gt;&lt;strong&gt;Input flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.devritchiecli.io/pt-br/flag-stdin/&#34;&gt;&lt;strong&gt;STDIN flags&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Standard Inputs: Input Flags</title>
+      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/input-flag/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+&lt;p&gt;Os &lt;strong&gt;Input flags&lt;/strong&gt; foram desenvolvidos para oferecer mais uma opção para a entrada de valores via comando de linha no Ritchie.&lt;/p&gt;
+&lt;p&gt;Sendo assim, os valores devem ser informados no seguinte padrão:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;RIT (GROUP) VERB NOUN --input_name=&amp;#34;input_value&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Para mais informações sobre &lt;strong&gt;Inputs flags&lt;/strong&gt;, veja a seção &lt;a href=&#34;http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/&#34;&gt;&lt;strong&gt;Comandos de fórmulas&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Standard Inputs: Comandos Core</title>
+      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-core/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-core/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;h2 id=&#34;core-commands-com-input-flags&#34;&gt;&lt;strong&gt;Core Commands com input flags&lt;/strong&gt;&lt;/h2&gt;
+
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Estas flags estão disponíveis a partir da versão 2.8 do Ritchie.
+&lt;/div&gt;
+
+&lt;h3 id=&#34;flags-disponíveis&#34;&gt;&lt;strong&gt;Flags disponíveis&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;comando-de-inicialização-do-ritchie&#34;&gt;&lt;strong&gt;Comando de inicialização do Ritchie&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit init&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit init --sendMetrics=&amp;#34;yes&amp;#34; --addCommons=&amp;#34;yes&amp;#34; --runType=&amp;#34;local&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comando-para-criar-fórmula&#34;&gt;&lt;strong&gt;Comando para criar fórmula&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit create formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit create formula --name=&amp;#34;rit group verb noun&amp;#34; --language=&amp;#34;go&amp;#34; --workspace=&amp;#34;Default&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comandos-de-credenciais&#34;&gt;&lt;strong&gt;Comandos de credenciais&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit set credential&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set credential --provider=&amp;#34;github&amp;#34; --fields=&amp;#34;username,token&amp;#34; --values=&amp;#34;Dennis,123456&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit delete credential&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete credential --provider=&amp;#34;github&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comandos-de-ambiente&#34;&gt;&lt;strong&gt;Comandos de Ambiente&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit set env&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set env --env=&amp;#34;prod&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit delete env&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete env --env=&amp;#34;prod&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comandos-de-fórmulas&#34;&gt;&lt;strong&gt;Comandos de Fórmulas&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit set formula-runner&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit set formula-runner --runner=&amp;#34;local&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit list formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list formula --name=&amp;#34;repo_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Se você precisar listar as fórmulas de todos os repositórios adicionados, use a flag &amp;lsquo;&lt;strong&gt;ALL&lt;/strong&gt;&amp;rsquo;.
+&lt;/div&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit list formula --name=&amp;#34;ALL&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit rename formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit rename formula --oldName=&amp;#34;rit group old&amp;#34; --newName=&amp;#34;rit group new&amp;#34; --workspace=&amp;#34;workspace_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+A flag de workspace é obrigatória quando a fórmula é encontrada em mais de um workspace.
+&lt;/div&gt;
+
+&lt;p&gt;rit delete formula&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete formula --workspace=&amp;#34;workspace_name&amp;#34; --formula=&amp;#34;rit group verb noun&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comandos-de-repo&#34;&gt;&lt;strong&gt;Comandos de Repo&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit add repo&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add repo --name=&amp;#34;demo&amp;#34; --provider=&amp;#34;Github&amp;#34; --repoUrl=&amp;#34;https://github.com/ZupIT/ritchie-formulas-demo&amp;#34; --tag=&amp;#34;2.8.9&amp;#34; --token=&amp;#34;1324efg&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-info&#34; role=&#34;alert&#34;&gt;
+
+Quando a flag de versão não é passada, o Ritchie busca automaticamente a última versão.
+A flag de token é obrigatória quando o comando é usado para adicionar um repositório privado.
+&lt;/div&gt;
+
+&lt;p&gt;rit delete repo&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete repo --name=&amp;#34;repo_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit update repo&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update repo --name=&amp;#34;commons&amp;#34; --version=&amp;#34;2.0.0&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comando-de-tutorial&#34;&gt;&lt;strong&gt;Comando de Tutorial&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit tutorial&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit tutorial --enabled=true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;comandos-de-workspace&#34;&gt;&lt;strong&gt;Comandos de workspace&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;rit add workspace&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit add workspace --name=&amp;#34;workspace_name&amp;#34; --path=&amp;#34;path/to/workspace&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit delete workspace&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit delete workspace --name=&amp;#34;workspace_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;rit update workspace&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit update workspace --name=&amp;#34;workspace_name&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Standard Inputs: Comandos de fórmulas</title>
+      <link>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.devritchiecli.io/pt-br/standard-inputs/comandos-de-f%C3%B3rmulas/</guid>
+      <description>
+        
+        
+        &lt;hr&gt;
+&lt;p&gt;As Input flags, com as fórmulas, tem como base os &lt;strong&gt;nomes dos parâmetros de entrada&lt;/strong&gt;. Eles são informados no arquivo &lt;strong&gt;config.json&lt;/strong&gt; no momento de implementar uma fórmula.&lt;/p&gt;
+&lt;h3 id=&#34;exemplo&#34;&gt;&lt;strong&gt;Exemplo&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Comando de fórmula: &lt;strong&gt;&lt;code&gt;rit demo formula&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nomes dos parâmetros de entrada que são perguntados pelo arquivo config.json:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;name&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;surname&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;dateOfBirth&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Execução da fórmula com Input flags:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;rit demo formula --name=&amp;#34;dennis&amp;#34; --surname=&amp;#34;ritchie&amp;#34; --dateOfBirth=&amp;#34;09/09/1941&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&#34;alert alert-danger&#34; role=&#34;alert&#34;&gt;
+
+O comando de fórmula, por meio do input flags, precisa dos parâmetros de entrada colocados no config.json para funcionar corretamente.
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
